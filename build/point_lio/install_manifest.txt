@@ -6,7 +6,6 @@
 /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/unilidar_l1.yaml
 /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/horizon.yaml
 /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/avia.yaml
-/home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/my_navigation.launch.py
 /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_horizon.launch.py
 /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_mid360.launch.py
 /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/gdb_debug_example.launch.py
@@ -17,6 +16,7 @@
 /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_unilidar_l1.launch.py
 /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_ouster64.launch.py
 /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_unilidar_l2.launch.py
+/home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/my_octomap.launch.py
 /home/vertin/ros2_ws/install/point_lio/share/point_lio/rviz_cfg/loam_livox.rviz
 /home/vertin/ros2_ws/install/point_lio/share/ament_index/resource_index/package_run_dependencies/point_lio
 /home/vertin/ros2_ws/install/point_lio/share/ament_index/resource_index/parent_prefix_path/point_lio
