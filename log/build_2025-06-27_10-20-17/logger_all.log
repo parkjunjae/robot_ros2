@@ -1,0 +1,556 @@
+[0.106s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.106s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7bcbe775a7a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bcbe78d7d00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bcbe78d7d00>>)
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.146s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vertin/ros2_ws'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LIO-SAM' with type 'ros.ament_cmake' and name 'lio_sam'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch_test) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch_test) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch_test) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch_test) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch_test) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch_test) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch_test) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch_test) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_launch_test) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_launch_test' with type 'ros.ament_python' and name 'nav2_launch_test'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_map) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tracer_ros2/tracer_base' with type 'ros.ament_cmake' and name 'tracer_base'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tracer_ros2/tracer_msgs' with type 'ros.ament_cmake' and name 'tracer_msgs'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sdk' with type 'ros.catkin' and name 'ugv_sdk'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src/unitree_lidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src/unitree_lidar_ros2) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src/unitree_lidar_ros2) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src/unitree_lidar_ros2) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src/unitree_lidar_ros2) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src/unitree_lidar_ros2) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src/unitree_lidar_ros2) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src/unitree_lidar_ros2) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_ros2/src/unitree_lidar_ros2) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_lidar_ros2/src/unitree_lidar_ros2' with type 'ros.ament_cmake' and name 'unitree_lidar_ros2'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_lidar_sdk) by extension 'python'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_lidar_sdk' with type 'cmake' and name 'unitree_lidar_sdk'
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/vertin/ros2_ws/install
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vertin/my_ws/install
+[0.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 426 installed packages in /opt/ros/humble
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'lio_sam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vertin/ros2_ws/build/lio_sam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vertin/ros2_ws/install/lio_sam', 'merge_install': False, 'path': '/home/vertin/ros2_ws/src/LIO-SAM', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch_test' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch_test' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_launch_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_launch_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vertin/ros2_ws/build/nav2_launch_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vertin/ros2_ws/install/nav2_launch_test', 'merge_install': False, 'path': '/home/vertin/ros2_ws/src/nav2_launch_test', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'tracer_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vertin/ros2_ws/build/tracer_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vertin/ros2_ws/install/tracer_msgs', 'merge_install': False, 'path': '/home/vertin/ros2_ws/src/tracer_ros2/tracer_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vertin/ros2_ws/build/ugv_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vertin/ros2_ws/install/ugv_sdk', 'merge_install': False, 'path': '/home/vertin/ros2_ws/src/ugv_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_lidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vertin/ros2_ws/build/unitree_lidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vertin/ros2_ws/install/unitree_lidar_ros2', 'merge_install': False, 'path': '/home/vertin/ros2_ws/src/unitree_lidar_ros2/src/unitree_lidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'unitree_lidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_lidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vertin/ros2_ws/build/unitree_lidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vertin/ros2_ws/install/unitree_lidar_sdk', 'merge_install': False, 'path': '/home/vertin/ros2_ws/src/unitree_lidar_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'tracer_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vertin/ros2_ws/build/tracer_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vertin/ros2_ws/install/tracer_base', 'merge_install': False, 'path': '/home/vertin/ros2_ws/src/tracer_ros2/tracer_base', 'symlink_install': False, 'test_result_base': None}
+[0.279s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.280s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.280s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vertin/ros2_ws/src/tracer_ros2/tracer_msgs' with build type 'ament_cmake'
+[0.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vertin/ros2_ws/src/tracer_ros2/tracer_msgs'
+[0.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/vertin/ros2_ws/src/ugv_sdk' with build type 'catkin'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vertin/ros2_ws/src/ugv_sdk'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vertin/ros2_ws/src/LIO-SAM' with build type 'ament_cmake'
+[0.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vertin/ros2_ws/src/LIO-SAM'
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vertin/ros2_ws/src/nav2_launch_test' with build type 'ament_python'
+[0.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_launch_test', 'ament_prefix_path')
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/hook/ament_prefix_path.ps1'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/hook/ament_prefix_path.dsv'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/hook/ament_prefix_path.sh'
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vertin/ros2_ws/src/unitree_lidar_ros2/src/unitree_lidar_ros2' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vertin/ros2_ws/src/unitree_lidar_ros2/src/unitree_lidar_ros2'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vertin/ros2_ws/src/unitree_lidar_sdk'
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_msgs -- -j8 -l8
+[0.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/ugv_sdk': /usr/bin/cmake --build /home/vertin/ros2_ws/build/ugv_sdk -- -j8 -l8
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/lio_sam -- -j8 -l8
+[0.766s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vertin/ros2_ws/src/nav2_launch_test'
+[0.767s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.767s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/unitree_lidar_ros2 -- -j8 -l8
+[0.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/unitree_lidar_sdk': /usr/bin/cmake --build /home/vertin/ros2_ws/build/unitree_lidar_sdk -- -j8 -l8
+[0.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/vertin/ros2_ws/build/ugv_sdk -- -j8 -l8
+[0.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/ugv_sdk': /usr/bin/cmake --install /home/vertin/ros2_ws/build/ugv_sdk
+[0.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/vertin/ros2_ws/build/ugv_sdk
+[0.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'ros_package_path')
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.sh'
+[0.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path')
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.ps1'
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.dsv'
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.sh'
+[0.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path_multiarch')
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.ps1'
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.dsv'
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.sh'
+[0.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_sdk)
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/ugv_sdk' for CMake module files
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/ugv_sdk' for CMake config files
+[0.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'cmake_prefix_path')
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.dsv'
+[0.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.sh'
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/ugv_sdk/lib'
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/ugv_sdk/bin'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig/ugv_sdk.pc'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/ugv_sdk/lib/python3.10/site-packages'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/ugv_sdk/bin'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/package.ps1'
+[0.855s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/package.dsv'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/package.sh'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/package.bash'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/ugv_sdk/share/ugv_sdk/package.zsh'
+[0.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/ugv_sdk/share/colcon-core/packages/ugv_sdk)
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake --build /home/vertin/ros2_ws/build/unitree_lidar_sdk -- -j8 -l8
+[0.891s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'unitree_lidar_sdk' because it has no 'install' target
+[0.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_lidar_sdk)
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_sdk' for CMake module files
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_sdk' for CMake config files
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_sdk/bin'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_sdk/lib/pkgconfig/unitree_lidar_sdk.pc'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_sdk/lib/python3.10/site-packages'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_sdk/bin'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_sdk/share/unitree_lidar_sdk/package.ps1'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/unitree_lidar_sdk/share/unitree_lidar_sdk/package.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_sdk/share/unitree_lidar_sdk/package.sh'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_sdk/share/unitree_lidar_sdk/package.bash'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_sdk/share/unitree_lidar_sdk/package.zsh'
+[0.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/unitree_lidar_sdk/share/colcon-core/packages/unitree_lidar_sdk)
+[0.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/unitree_lidar_ros2 -- -j8 -l8
+[0.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/unitree_lidar_ros2
+[0.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_lidar_ros2)
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2' for CMake module files
+[0.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/unitree_lidar_ros2
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2' for CMake config files
+[0.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_lidar_ros2', 'cmake_prefix_path')
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/hook/cmake_prefix_path.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/hook/cmake_prefix_path.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/hook/cmake_prefix_path.sh'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2/lib'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2/bin'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2/lib/pkgconfig/unitree_lidar_ros2.pc'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2/lib/python3.10/site-packages'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2/bin'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.ps1'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.sh'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.bash'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.zsh'
+[0.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/colcon-core/packages/unitree_lidar_ros2)
+[0.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_lidar_ros2)
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2' for CMake module files
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2' for CMake config files
+[0.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_lidar_ros2', 'cmake_prefix_path')
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/hook/cmake_prefix_path.ps1'
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/hook/cmake_prefix_path.dsv'
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/hook/cmake_prefix_path.sh'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2/lib'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2/bin'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2/lib/pkgconfig/unitree_lidar_ros2.pc'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2/lib/python3.10/site-packages'
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/unitree_lidar_ros2/bin'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.ps1'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.sh'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.bash'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.zsh'
+[0.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/unitree_lidar_ros2/share/colcon-core/packages/unitree_lidar_ros2)
+[1.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_msgs -- -j8 -l8
+[1.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_msgs
+[1.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/lio_sam -- -j8 -l8
+[1.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/lio_sam
+[1.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_msgs)
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs' for CMake module files
+[1.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_msgs
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs' for CMake config files
+[1.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_msgs', 'cmake_prefix_path')
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.ps1'
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.dsv'
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.sh'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs/lib'
+[1.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_msgs', 'ld_library_path_lib')
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.sh'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs/bin'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs/lib/pkgconfig/tracer_msgs.pc'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs/lib/python3.10/site-packages'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs/bin'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.sh'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.bash'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.zsh'
+[1.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/tracer_msgs/share/colcon-core/packages/tracer_msgs)
+[1.154s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_msgs)
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs' for CMake module files
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs' for CMake config files
+[1.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_msgs', 'cmake_prefix_path')
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.sh'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs/lib'
+[1.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_msgs', 'ld_library_path_lib')
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.ps1'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.sh'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs/bin'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs/lib/pkgconfig/tracer_msgs.pc'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs/lib/python3.10/site-packages'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_msgs/bin'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.sh'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.bash'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.zsh'
+[1.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/tracer_msgs/share/colcon-core/packages/tracer_msgs)
+[1.164s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vertin/ros2_ws/src/tracer_ros2/tracer_base' with build type 'ament_cmake'
+[1.164s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vertin/ros2_ws/src/tracer_ros2/tracer_base'
+[1.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/tracer_base': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_base -- -j8 -l8
+[1.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam)
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam' for CMake module files
+[1.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/lio_sam
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam' for CMake config files
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'cmake_prefix_path')
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.sh'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam/lib'
+[1.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'ld_library_path_lib')
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.sh'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam/bin'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam/lib/pkgconfig/lio_sam.pc'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam/lib/python3.10/site-packages'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam/bin'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.sh'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.bash'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.zsh'
+[1.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/lio_sam/share/colcon-core/packages/lio_sam)
+[1.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam)
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam' for CMake module files
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam' for CMake config files
+[1.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'cmake_prefix_path')
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.dsv'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.sh'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam/lib'
+[1.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'ld_library_path_lib')
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.ps1'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.sh'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam/bin'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam/lib/pkgconfig/lio_sam.pc'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam/lib/python3.10/site-packages'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/lio_sam/bin'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.ps1'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.dsv'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.sh'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.bash'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.zsh'
+[1.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/lio_sam/share/colcon-core/packages/lio_sam)
+[1.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_base -- -j8 -l8
+[1.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/build/tracer_base': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_base
+[1.279s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_base)
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base' for CMake module files
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_base
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base' for CMake config files
+[1.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_base', 'cmake_prefix_path')
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.ps1'
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.dsv'
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.sh'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base/lib'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base/bin'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base/lib/pkgconfig/tracer_base.pc'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base/lib/python3.10/site-packages'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base/bin'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.ps1'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.dsv'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.sh'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.bash'
+[1.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.zsh'
+[1.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/tracer_base/share/colcon-core/packages/tracer_base)
+[1.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_base)
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base' for CMake module files
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base' for CMake config files
+[1.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_base', 'cmake_prefix_path')
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.ps1'
+[1.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.dsv'
+[1.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.sh'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base/lib'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base/bin'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base/lib/pkgconfig/tracer_base.pc'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base/lib/python3.10/site-packages'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/tracer_base/bin'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.ps1'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.dsv'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.sh'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.bash'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.zsh'
+[1.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/tracer_base/share/colcon-core/packages/tracer_base)
+[1.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vertin/ros2_ws/src/nav2_launch_test': PYTHONPATH=/home/vertin/ros2_ws/build/nav2_launch_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_launch_test build --build-base /home/vertin/ros2_ws/build/nav2_launch_test/build install --record /home/vertin/ros2_ws/build/nav2_launch_test/install.log --single-version-externally-managed install_data
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/nav2_launch_test' for CMake module files
+[1.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vertin/ros2_ws/src/nav2_launch_test' returned '0': PYTHONPATH=/home/vertin/ros2_ws/build/nav2_launch_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_launch_test build --build-base /home/vertin/ros2_ws/build/nav2_launch_test/build install --record /home/vertin/ros2_ws/build/nav2_launch_test/install.log --single-version-externally-managed install_data
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/nav2_launch_test' for CMake config files
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/nav2_launch_test/lib'
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/nav2_launch_test/bin'
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/nav2_launch_test/lib/pkgconfig/nav2_launch_test.pc'
+[1.877s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages'
+[1.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_launch_test', 'pythonpath')
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/hook/pythonpath.ps1'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/hook/pythonpath.dsv'
+[1.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/hook/pythonpath.sh'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/vertin/ros2_ws/install/nav2_launch_test/bin'
+[1.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_launch_test)
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/package.ps1'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/package.dsv'
+[1.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/package.sh'
+[1.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/package.bash'
+[1.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/package.zsh'
+[1.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vertin/ros2_ws/install/nav2_launch_test/share/colcon-core/packages/nav2_launch_test)
+[1.881s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.881s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.881s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.881s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.887s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.887s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.887s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.897s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.897s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vertin/ros2_ws/install/local_setup.ps1'
+[1.899s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vertin/ros2_ws/install/_local_setup_util_ps1.py'
+[1.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vertin/ros2_ws/install/setup.ps1'
+[1.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vertin/ros2_ws/install/local_setup.sh'
+[1.902s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vertin/ros2_ws/install/_local_setup_util_sh.py'
+[1.902s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vertin/ros2_ws/install/setup.sh'
+[1.904s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vertin/ros2_ws/install/local_setup.bash'
+[1.904s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vertin/ros2_ws/install/setup.bash'
+[1.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vertin/ros2_ws/install/local_setup.zsh'
+[1.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vertin/ros2_ws/install/setup.zsh'

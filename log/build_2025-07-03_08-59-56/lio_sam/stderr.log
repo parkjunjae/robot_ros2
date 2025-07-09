@@ -1,0 +1,15 @@
+In file included from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:17[m[K:
+[01m[K/usr/local/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:[m[K In constructor ‘[01m[KTransformFusion::TransformFusion(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[KtfBroadcaster[m[K’ was not declared in this scope
+   78 |         [01;31m[KtfBroadcaster[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(this);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:[m[K In member function ‘[01m[Kvoid TransformFusion::imuOdometryHandler(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:148:9:[m[K [01;31m[Kerror: [m[K‘[01m[KtfBroadcaster[m[K’ was not declared in this scope
+  148 |         [01;31m[KtfBroadcaster[m[K->sendTransform(ts);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/lio_sam_imuPreintegration.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

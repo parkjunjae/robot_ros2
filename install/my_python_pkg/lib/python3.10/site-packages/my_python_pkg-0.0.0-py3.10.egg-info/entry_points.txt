@@ -1,0 +1,3 @@
+[console_scripts]
+autopoint = my_python_pkg.autopoint:main
+maptoodom = my_python_pkg.map_odom:main

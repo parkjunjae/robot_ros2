@@ -1,0 +1,47 @@
+[0.039s] Invoking command in '/home/vertin/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --build /home/vertin/ros2_ws/build/lio_sam -- -j8 -l8
+[0.704s] [  2%] Built target lio_sam__cpp
+[0.704s] [ 10%] Built target lio_sam__rosidl_generator_c
+[0.704s] [ 10%] Built target ament_cmake_python_copy_lio_sam
+[0.705s] [ 19%] Built target lio_sam__rosidl_typesupport_cpp
+[0.705s] [ 27%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.705s] [ 36%] Built target lio_sam__rosidl_typesupport_c
+[0.705s] [ 44%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.705s] [ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.705s] [ 61%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.705s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration[0m
+[0.705s] [ 61%] Built target lio_sam
+[0.706s] [ 63%] Built target lio_sam__py
+[0.706s] [ 70%] Built target lio_sam__rosidl_generator_py
+[0.706s] [ 78%] Built target lio_sam_featureExtraction
+[0.706s] [ 78%] Built target lio_sam_imageProjection
+[0.706s] [ 80%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[0.707s] [ 85%] Built target lio_sam_mapOptimization
+[0.707s] [ 89%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.707s] [ 93%] Built target lio_sam__rosidl_typesupport_c__pyext
+[0.707s] [ 97%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.707s] running egg_info
+[0.708s] writing lio_sam.egg-info/PKG-INFO
+[0.708s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.708s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.708s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.708s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.709s] [ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[3.629s] In file included from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:17[m[K:
+[3.629s] [01m[K/usr/local/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.629s]    17 | #[01;35m[Kwarning[m[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"
+[3.629s]       |  [01;35m[K^~~~~~~[m[K
+[12.605s] [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:[m[K In constructor ‘[01m[KIMUPreintegration::IMUPreintegration(const rclcpp::NodeOptions&)[m[K’:
+[12.605s] [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:261:82:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration> >[m[K’ to ‘[01m[Kgtsam::PreintegratedImuMeasurements*[m[K’ {aka ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>*[m[K’} in assignment
+[12.605s]   261 |         imuIntegratorImu_ = [01;31m[Kstd::make_shared<gtsam::PreintegratedImuMeasurements>(p, prior_imu_bias)[m[K; // setting up the IMU integration for IMU message thread
+[12.605s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[12.605s]       |                                                                                  [01;31m[K|[m[K
+[12.605s]       |                                                                                  [01;31m[Kstd::shared_ptr<gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration> >[m[K
+[12.606s] [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:262:82:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration> >[m[K’ to ‘[01m[Kgtsam::PreintegratedImuMeasurements*[m[K’ {aka ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>*[m[K’} in assignment
+[12.606s]   262 |         imuIntegratorOpt_ = [01;31m[Kstd::make_shared<gtsam::PreintegratedImuMeasurements>(p, prior_imu_bias)[m[K; // setting up the IMU integration for optimization
+[12.606s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[12.606s]       |                                                                                  [01;31m[K|[m[K
+[12.606s]       |                                                                                  [01;31m[Kstd::shared_ptr<gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration> >[m[K
+[24.817s] gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] 오류 1
+[24.817s] gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/lio_sam_imuPreintegration.dir/all] 오류 2
+[24.817s] gmake: *** [Makefile:146: all] 오류 2
+[24.820s] Invoked command in '/home/vertin/ros2_ws/build/lio_sam' returned '2': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --build /home/vertin/ros2_ws/build/lio_sam -- -j8 -l8

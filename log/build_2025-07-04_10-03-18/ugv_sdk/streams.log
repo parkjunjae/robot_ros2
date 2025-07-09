@@ -1,0 +1,59 @@
+[0.112s] Invoking command in '/home/vertin/ros2_ws/build/ugv_sdk': /usr/bin/cmake --build /home/vertin/ros2_ws/build/ugv_sdk -- -j8 -l8
+[1.496s] [ 42%] Built target ugv_sdk
+[1.496s] [ 50%] Built target demo_ranger_robot
+[1.496s] [ 57%] Built target demo_tracer_robot
+[1.496s] [ 64%] Built target demo_protocol_detector
+[1.496s] [ 71%] Built target demo_scout_robot
+[1.496s] [ 78%] Built target demo_bunker_robot
+[1.497s] [ 85%] Built target demo_scout_mini_omni_robot
+[1.497s] [ 92%] Built target demo_hunter_robot
+[1.497s] [100%] Built target demo_robot_version
+[1.507s] Invoked command in '/home/vertin/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/vertin/ros2_ws/build/ugv_sdk -- -j8 -l8
+[1.534s] Invoking command in '/home/vertin/ros2_ws/build/ugv_sdk': /usr/bin/cmake --install /home/vertin/ros2_ws/build/ugv_sdk
+[1.558s] -- Install configuration: "Release"
+[1.559s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/libugv_sdk.a
+[1.559s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk
+[1.559s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/utilities
+[1.559s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[1.560s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details
+[1.560s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+[1.560s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[1.561s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[1.561s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[1.561s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp
+[1.561s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[1.561s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[1.562s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[1.562s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[1.562s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[1.562s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[1.562s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port
+[1.562s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[1.562s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[1.562s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[1.562s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface
+[1.563s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[1.563s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[1.563s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[1.564s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[1.564s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp
+[1.565s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[1.565s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[1.565s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[1.565s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[1.565s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[1.565s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[1.565s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[1.565s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[1.566s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[1.566s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[1.566s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp
+[1.583s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[1.585s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[1.595s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[1.595s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[1.595s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[1.596s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+[1.596s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[1.596s] -- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[1.731s] Invoked command in '/home/vertin/ros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/vertin/ros2_ws/build/ugv_sdk

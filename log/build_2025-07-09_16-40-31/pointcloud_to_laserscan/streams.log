@@ -1,0 +1,50 @@
+[0.711s] Invoking command in '/home/vertin/ros2_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/pointcloud_to_laserscan:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/pointcloud_to_laserscan -- -j8 -l8
+[0.800s] [ 20%] Built target laserscan_to_pointcloud_node
+[0.821s] [ 40%] Built target pointcloud_to_laserscan_node
+[0.822s] [ 60%] Built target laserscan_to_pointcloud
+[0.862s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[12.580s] [ 80%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[13.260s] [ 80%] Built target pointcloud_to_laserscan
+[13.283s] [ 90%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[13.544s] [100%] Built target dummy_pointcloud_publisher
+[13.556s] Invoked command in '/home/vertin/ros2_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/pointcloud_to_laserscan:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/pointcloud_to_laserscan -- -j8 -l8
+[13.558s] Invoking command in '/home/vertin/ros2_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/pointcloud_to_laserscan:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/pointcloud_to_laserscan
+[13.565s] -- Install configuration: ""
+[13.565s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[13.566s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[13.566s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/include
+[13.566s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan
+[13.566s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[13.566s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[13.566s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[13.567s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[13.567s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[13.567s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[13.567s] -- Installing: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[13.575s] -- Set runtime path of "/home/vertin/ros2_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""
+[13.575s] -- Installing: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[13.576s] -- Set runtime path of "/home/vertin/ros2_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher" to ""
+[13.576s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch
+[13.576s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/my_navigation.launch.py
+[13.576s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[13.576s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[13.576s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[13.576s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[13.577s] -- Installing: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[13.577s] -- Up-to-date: /home/vertin/ros2_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[13.579s] Invoked command in '/home/vertin/ros2_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/pointcloud_to_laserscan:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/pointcloud_to_laserscan

@@ -1,0 +1,224 @@
+[0.148s] Invoking command in '/home/vertin/ros2_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_msgs -- -j8 -l8
+[1.749s] [ 11%] Built target tracer_msgs__rosidl_generator_c
+[1.749s] [ 12%] Built target tracer_msgs__cpp
+[1.750s] [ 12%] Built target ament_cmake_python_copy_tracer_msgs
+[1.750s] [ 23%] Built target tracer_msgs__rosidl_typesupport_introspection_c
+[1.750s] [ 34%] Built target tracer_msgs__rosidl_typesupport_cpp
+[1.750s] [ 46%] Built target tracer_msgs__rosidl_typesupport_fastrtps_cpp
+[1.750s] [ 57%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c
+[1.750s] [ 68%] Built target tracer_msgs__rosidl_typesupport_introspection_cpp
+[1.751s] [ 79%] Built target tracer_msgs__rosidl_typesupport_c
+[1.751s] [ 79%] Built target tracer_msgs
+[1.751s] [ 80%] Built target tracer_msgs__py
+[1.751s] [ 90%] Built target tracer_msgs__rosidl_generator_py
+[1.751s] [ 93%] Built target tracer_msgs__rosidl_typesupport_c__pyext
+[1.754s] [ 98%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.755s] [100%] Built target tracer_msgs__rosidl_typesupport_introspection_c__pyext
+[1.756s] running egg_info
+[1.756s] writing tracer_msgs.egg-info/PKG-INFO
+[1.757s] writing dependency_links to tracer_msgs.egg-info/dependency_links.txt
+[1.757s] writing top-level names to tracer_msgs.egg-info/top_level.txt
+[1.757s] reading manifest file 'tracer_msgs.egg-info/SOURCES.txt'
+[1.757s] writing manifest file 'tracer_msgs.egg-info/SOURCES.txt'
+[1.758s] [100%] Built target ament_cmake_python_build_tracer_msgs_egg
+[1.815s] Invoked command in '/home/vertin/ros2_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_msgs -- -j8 -l8
+[1.824s] Invoking command in '/home/vertin/ros2_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_msgs
+[1.895s] -- Install configuration: ""
+[1.896s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/rosidl_interfaces/tracer_msgs
+[1.896s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+[1.946s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+[1.947s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.h
+[1.947s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.h
+[1.947s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.947s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.h
+[1.947s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+[1.947s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.h
+[1.950s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.h
+[1.950s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__functions.h
+[1.950s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.h
+[1.951s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.h
+[1.951s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__functions.h
+[1.951s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__functions.c
+[1.951s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__functions.h
+[1.951s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.h
+[1.953s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__functions.h
+[1.953s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.h
+[1.953s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__functions.c
+[1.953s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__struct.h
+[1.953s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__functions.h
+[1.954s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__functions.c
+[1.954s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__functions.c
+[1.954s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.h
+[1.954s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.h
+[1.955s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__functions.c
+[1.955s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__struct.h
+[1.955s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_actuator_state.h
+[1.955s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_rc_state.h
+[1.960s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.sh
+[1.960s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.dsv
+[1.960s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_c.so
+[1.961s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+[1.961s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+[1.961s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.961s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+[1.962s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_c.h
+[1.962s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_fastrtps_c.h
+[1.962s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_c.h
+[1.962s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_fastrtps_c.h
+[1.963s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_c.h
+[1.963s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_c.so
+[1.963s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+[1.972s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+[1.972s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_actuator_state.hpp
+[1.972s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.hpp
+[1.972s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_rc_state.hpp
+[1.972s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+[1.973s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__traits.hpp
+[1.973s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__traits.hpp
+[1.973s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.hpp
+[1.973s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.hpp
+[1.973s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.hpp
+[1.973s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__builder.hpp
+[1.974s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__builder.hpp
+[1.974s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.hpp
+[1.974s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__builder.hpp
+[1.974s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__builder.hpp
+[1.974s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__struct.hpp
+[1.974s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__traits.hpp
+[1.979s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__traits.hpp
+[1.980s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__struct.hpp
+[1.980s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.hpp
+[1.980s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__builder.hpp
+[1.980s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.hpp
+[1.981s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__traits.hpp
+[1.981s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.hpp
+[1.981s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.hpp
+[1.981s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.hpp
+[1.981s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.hpp
+[1.981s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.982s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+[1.982s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+[1.982s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.982s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+[1.982s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/dds_fastrtps
+[1.982s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.987s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.987s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[1.987s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.987s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.988s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.988s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+[1.988s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+[1.988s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+[1.988s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_c.h
+[1.988s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_c.h
+[1.988s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.c
+[1.989s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.c
+[1.989s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.c
+[1.989s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.c
+[1.989s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_c.h
+[1.989s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_introspection_c.h
+[1.990s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.c
+[1.990s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_introspection_c.h
+[1.990s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.990s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_c.so
+[1.990s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_c.so
+[1.996s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs
+[1.996s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg
+[1.996s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail
+[1.996s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_cpp.hpp
+[1.997s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_cpp.hpp
+[1.997s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.cpp
+[1.997s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.cpp
+[1.997s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_cpp.hpp
+[2.000s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.cpp
+[2.001s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_introspection_cpp.hpp
+[2.001s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_introspection_cpp.hpp
+[2.001s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.cpp
+[2.001s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.cpp
+[2.007s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_cpp.so
+[2.008s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_cpp.so
+[2.008s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.sh
+[2.008s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.dsv
+[2.008s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info
+[2.009s] -- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[2.009s] -- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[2.009s] -- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[2.010s] -- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[2.010s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs
+[2.010s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_c.c
+[2.010s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.011s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/__init__.py
+[2.013s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg
+[2.013s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state_s.c
+[2.013s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status.py
+[2.013s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_actuator_state.py
+[2.014s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/__init__.py
+[2.014s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_actuator_state_s.c
+[2.014s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_rc_state.py
+[2.015s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_rc_state_s.c
+[2.015s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state.py
+[2.015s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd_s.c
+[2.016s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status_s.c
+[2.019s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd.py
+[2.021s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/libtracer_msgs__rosidl_generator_py.so
+[2.022s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.026s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.028s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.029s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.048s] Listing '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs'...
+[2.048s] Listing '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg'...
+[2.048s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.049s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.049s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.049s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_py.so
+[2.049s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerActuatorState.idl
+[2.049s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.idl
+[2.050s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.idl
+[2.050s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerRCState.idl
+[2.050s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.idl
+[2.050s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerActuatorState.msg
+[2.050s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.msg
+[2.050s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.msg
+[2.051s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerRCState.msg
+[2.051s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.msg
+[2.051s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/package_run_dependencies/tracer_msgs
+[2.051s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/parent_prefix_path/tracer_msgs
+[2.051s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/ament_prefix_path.sh
+[2.052s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/ament_prefix_path.dsv
+[2.052s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/path.sh
+[2.052s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/path.dsv
+[2.052s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.bash
+[2.053s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.sh
+[2.053s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.zsh
+[2.053s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.dsv
+[2.053s] -- Installing: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.dsv
+[2.053s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/packages/tracer_msgs
+[2.054s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cExport.cmake
+[2.054s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.054s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.054s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.055s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cppExport.cmake
+[2.055s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.055s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.055s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.055s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.060s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cExport.cmake
+[2.060s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.061s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.061s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.062s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cppExport.cmake
+[2.062s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.062s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_pyExport.cmake
+[2.062s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.063s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake-extras.cmake
+[2.063s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.063s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.064s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.064s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.064s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.065s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.065s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgsConfig.cmake
+[2.065s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgsConfig-version.cmake
+[2.065s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.xml
+[2.099s] Invoked command in '/home/vertin/ros2_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_msgs

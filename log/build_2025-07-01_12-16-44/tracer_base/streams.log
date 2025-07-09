@@ -1,0 +1,27 @@
+[0.032s] Invoking command in '/home/vertin/ros2_ws/build/tracer_base': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_base -- -j8 -l8
+[0.100s] [100%] Built target tracer_base_node
+[0.111s] Invoked command in '/home/vertin/ros2_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_base -- -j8 -l8
+[0.113s] Invoking command in '/home/vertin/ros2_ws/build/tracer_base': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_base
+[0.120s] -- Install configuration: ""
+[0.120s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/lib/tracer_base/tracer_base_node
+[0.120s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch
+[0.120s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch/__pycache__
+[0.120s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch/__pycache__/tracer_base.launch.cpython-310.pyc
+[0.120s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch/tracer_base.launch.py
+[0.121s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch/tracer_mini_base.launch.py
+[0.121s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base
+[0.121s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base
+[0.121s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh
+[0.121s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv
+[0.121s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/path.sh
+[0.121s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/path.dsv
+[0.121s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.bash
+[0.122s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.sh
+[0.122s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.zsh
+[0.122s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.dsv
+[0.122s] -- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.dsv
+[0.122s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/ament_index/resource_index/packages/tracer_base
+[0.122s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake
+[0.122s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake
+[0.122s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.xml
+[0.123s] Invoked command in '/home/vertin/ros2_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_base

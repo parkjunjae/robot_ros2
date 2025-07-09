@@ -1,0 +1,1001 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000389] (tracer_msgs) JobQueued: {'identifier': 'tracer_msgs', 'dependencies': OrderedDict()}
+[0.000448] (ugv_sdk) JobQueued: {'identifier': 'ugv_sdk', 'dependencies': OrderedDict()}
+[0.000467] (unitree_lidar_ros2) JobQueued: {'identifier': 'unitree_lidar_ros2', 'dependencies': OrderedDict()}
+[0.000485] (unitree_lidar_sdk) JobQueued: {'identifier': 'unitree_lidar_sdk', 'dependencies': OrderedDict()}
+[0.000523] (tracer_base) JobQueued: {'identifier': 'tracer_base', 'dependencies': OrderedDict([('tracer_msgs', '/home/vertin/ros2_ws/install/tracer_msgs'), ('ugv_sdk', '/home/vertin/ros2_ws/install/ugv_sdk')])}
+[0.000586] (tracer_msgs) JobStarted: {'identifier': 'tracer_msgs'}
+[0.007683] (ugv_sdk) JobStarted: {'identifier': 'ugv_sdk'}
+[0.012587] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.019781] (unitree_lidar_ros2) JobStarted: {'identifier': 'unitree_lidar_ros2'}
+[0.025868] (unitree_lidar_sdk) JobStarted: {'identifier': 'unitree_lidar_sdk'}
+[0.035175] (tracer_msgs) JobProgress: {'identifier': 'tracer_msgs', 'progress': 'cmake'}
+[0.035972] (tracer_msgs) JobProgress: {'identifier': 'tracer_msgs', 'progress': 'build'}
+[0.036947] (tracer_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/tracer_msgs', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/tracer_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('OLDPWD', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2519,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2519'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/28df2135_1ff3_4914_b12c_0f23ebe91f1f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/tracer_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble')]), 'shell': False}
+[0.040595] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'cmake'}
+[0.041614] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'build'}
+[0.042478] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/ugv_sdk', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('OLDPWD', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2519,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2519'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/28df2135_1ff3_4914_b12c_0f23ebe91f1f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/ugv_sdk'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.047044] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.047790] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[0.049166] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/lio_sam', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('OLDPWD', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2519,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2519'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/28df2135_1ff3_4914_b12c_0f23ebe91f1f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/lio_sam'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble')]), 'shell': False}
+[0.053117] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'cmake'}
+[0.053967] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'build'}
+[0.055829] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/unitree_lidar_ros2', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('OLDPWD', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2519,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2519'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/28df2135_1ff3_4914_b12c_0f23ebe91f1f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/unitree_lidar_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble')]), 'shell': False}
+[0.061520] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'cmake'}
+[0.062126] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'build'}
+[0.062781] (unitree_lidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/unitree_lidar_sdk', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/unitree_lidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('OLDPWD', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2519,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2519'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/28df2135_1ff3_4914_b12c_0f23ebe91f1f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/unitree_lidar_sdk'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099042] (-) TimerEvent: {}
+[0.149723] (tracer_msgs) StdoutLine: {'line': b'[  1%] Built target tracer_msgs__cpp\n'}
+[0.155377] (tracer_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_tracer_msgs\n'}
+[0.155775] (tracer_msgs) StdoutLine: {'line': b'[ 12%] Built target tracer_msgs__rosidl_generator_c\n'}
+[0.187258] (lio_sam) StdoutLine: {'line': b'[  8%] Built target lio_sam__rosidl_generator_c\n'}
+[0.189882] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 25%] Built target unilidar_publisher_udp\n'}
+[0.191076] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 50%] Built target unilidar_subscriber_udp\n'}
+[0.192658] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 75%] Built target example_lidar\n'}
+[0.201388] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target example_lidar_udp\n'}
+[0.201679] (-) TimerEvent: {}
+[0.217916] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target lio_sam__cpp\n'}
+[0.227960] (tracer_msgs) StdoutLine: {'line': b'[ 23%] Built target tracer_msgs__rosidl_typesupport_cpp\n'}
+[0.238082] (unitree_lidar_sdk) CommandEnded: {'returncode': 0}
+[0.239163] (tracer_msgs) StdoutLine: {'line': b'[ 34%] Built target tracer_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.239453] (unitree_lidar_ros2) StdoutLine: {'line': b'[100%] Built target unitree_lidar_ros2_node\n'}
+[0.245590] (ugv_sdk) StdoutLine: {'line': b'[ 42%] Built target ugv_sdk\n'}
+[0.254487] (tracer_msgs) StdoutLine: {'line': b'[ 46%] Built target tracer_msgs__rosidl_typesupport_introspection_c\n'}
+[0.263579] (tracer_msgs) StdoutLine: {'line': b'[ 57%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.272395] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_lio_sam\n'}
+[0.273814] (unitree_lidar_sdk) JobEnded: {'identifier': 'unitree_lidar_sdk', 'rc': 0}
+[0.277560] (tracer_msgs) StdoutLine: {'line': b'[ 68%] Built target tracer_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.280989] (tracer_msgs) StdoutLine: {'line': b'[ 79%] Built target tracer_msgs__rosidl_typesupport_c\n'}
+[0.287578] (lio_sam) StdoutLine: {'line': b'[ 19%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[0.300056] (lio_sam) StdoutLine: {'line': b'[ 27%] Built target lio_sam__rosidl_typesupport_c\n'}
+[0.310492] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[0.311284] (-) TimerEvent: {}
+[0.311540] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'install'}
+[0.317405] (lio_sam) StdoutLine: {'line': b'[ 36%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[0.344151] (lio_sam) StdoutLine: {'line': b'[ 44%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[0.347128] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vertin/ros2_ws/build/unitree_lidar_ros2'], 'cwd': '/home/vertin/ros2_ws/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('OLDPWD', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2519,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2519'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/28df2135_1ff3_4914_b12c_0f23ebe91f1f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/unitree_lidar_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble')]), 'shell': False}
+[0.352773] (lio_sam) StdoutLine: {'line': b'[ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[0.369697] (ugv_sdk) StdoutLine: {'line': b'[ 50%] Built target demo_bunker_robot\n'}
+[0.370015] (ugv_sdk) StdoutLine: {'line': b'[ 57%] Built target demo_scout_robot\n'}
+[0.370339] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[0.371120] (ugv_sdk) StdoutLine: {'line': b'[ 64%] Built target demo_scout_mini_omni_robot\n'}
+[0.376433] (ugv_sdk) StdoutLine: {'line': b'[ 71%] Built target demo_robot_version\n'}
+[0.379807] (tracer_msgs) StdoutLine: {'line': b'[ 79%] Built target tracer_msgs\n'}
+[0.382974] (ugv_sdk) StdoutLine: {'line': b'[ 82%] Built target demo_protocol_detector\n'}
+[0.384441] (ugv_sdk) StdoutLine: {'line': b'[ 85%] Built target demo_ranger_robot\n'}
+[0.387261] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.387683] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node\n'}
+[0.389030] (ugv_sdk) StdoutLine: {'line': b'[ 92%] Built target demo_tracer_robot\n'}
+[0.389398] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz\n'}
+[0.389619] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py\n'}
+[0.389782] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2\n'}
+[0.389962] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2\n'}
+[0.390639] (ugv_sdk) StdoutLine: {'line': b'[100%] Built target demo_hunter_robot\n'}
+[0.390949] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.391614] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.392565] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh\n'}
+[0.394532] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv\n'}
+[0.394777] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash\n'}
+[0.395654] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh\n'}
+[0.395946] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh\n'}
+[0.396169] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv\n'}
+[0.398501] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv\n'}
+[0.399099] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2\n'}
+[0.399333] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake\n'}
+[0.399519] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake\n'}
+[0.399698] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml\n'}
+[0.415493] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[0.416584] (-) TimerEvent: {}
+[0.434816] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam\n'}
+[0.441021] (tracer_msgs) StdoutLine: {'line': b'[ 80%] Built target tracer_msgs__py\n'}
+[0.466592] (unitree_lidar_ros2) JobEnded: {'identifier': 'unitree_lidar_ros2', 'rc': 0}
+[0.468819] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam_featureExtraction\n'}
+[0.480410] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.481142] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'install'}
+[0.481220] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vertin/ros2_ws/build/ugv_sdk'], 'cwd': '/home/vertin/ros2_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('OLDPWD', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2519,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2519'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/28df2135_1ff3_4914_b12c_0f23ebe91f1f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/ugv_sdk'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.482051] (lio_sam) StdoutLine: {'line': b'[ 70%] Built target lio_sam_imuPreintegration\n'}
+[0.483866] (lio_sam) StdoutLine: {'line': b'[ 72%] Built target lio_sam__py\n'}
+[0.493363] (lio_sam) StdoutLine: {'line': b'[ 80%] Built target lio_sam_imageProjection\n'}
+[0.493665] (lio_sam) StdoutLine: {'line': b'[ 80%] Built target lio_sam_mapOptimization\n'}
+[0.495027] (ugv_sdk) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.495290] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/libugv_sdk.a\n'}
+[0.495645] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk\n'}
+[0.495907] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/utilities\n'}
+[0.496094] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp\n'}
+[0.496281] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details\n'}
+[0.497416] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp\n'}
+[0.497765] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2\n'}
+[0.497918] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp\n'}
+[0.498073] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base\n'}
+[0.498227] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp\n'}
+[0.498383] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp\n'}
+[0.498523] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp\n'}
+[0.498671] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp\n'}
+[0.498822] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp\n'}
+[0.498973] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp\n'}
+[0.499117] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp\n'}
+[0.499260] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port\n'}
+[0.499422] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp\n'}
+[0.499588] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp\n'}
+[0.499734] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp\n'}
+[0.499878] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface\n'}
+[0.500022] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h\n'}
+[0.500256] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp\n'}
+[0.500404] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp\n'}
+[0.500490] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp\n'}
+[0.500570] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp\n'}
+[0.500662] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp\n'}
+[0.500808] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h\n'}
+[0.500945] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp\n'}
+[0.501093] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp\n'}
+[0.501256] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1\n'}
+[0.501474] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h\n'}
+[0.501633] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp\n'}
+[0.501812] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp\n'}
+[0.501988] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot\n'}
+[0.502135] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp\n'}
+[0.502280] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp\n'}
+[0.502481] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp\n'}
+[0.502725] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp\n'}
+[0.502816] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp\n'}
+[0.502902] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp\n'}
+[0.502987] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake\n'}
+[0.503073] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake\n'}
+[0.503158] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake\n'}
+[0.503244] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake\n'}
+[0.504221] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.506206] (tracer_msgs) StdoutLine: {'line': b'[ 90%] Built target tracer_msgs__rosidl_generator_py\n'}
+[0.517153] (-) TimerEvent: {}
+[0.537567] (ugv_sdk) JobEnded: {'identifier': 'ugv_sdk', 'rc': 0}
+[0.538458] (lio_sam) StdoutLine: {'line': b'[ 87%] Built target lio_sam__rosidl_generator_py\n'}
+[0.548638] (tracer_msgs) StdoutLine: {'line': b'[ 93%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.555452] (tracer_msgs) StdoutLine: {'line': b'[ 96%] Built target tracer_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.555861] (tracer_msgs) StdoutLine: {'line': b'[100%] Built target tracer_msgs__rosidl_typesupport_c__pyext\n'}
+[0.576534] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[0.582270] (lio_sam) StdoutLine: {'line': b'[ 95%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.585222] (lio_sam) StdoutLine: {'line': b'[100%] Built target lio_sam__rosidl_typesupport_c__pyext\n'}
+[0.617241] (-) TimerEvent: {}
+[0.717611] (-) TimerEvent: {}
+[0.789574] (tracer_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.790614] (tracer_msgs) StdoutLine: {'line': b'writing tracer_msgs.egg-info/PKG-INFO\n'}
+[0.790866] (tracer_msgs) StdoutLine: {'line': b'writing dependency_links to tracer_msgs.egg-info/dependency_links.txt\n'}
+[0.791083] (tracer_msgs) StdoutLine: {'line': b'writing top-level names to tracer_msgs.egg-info/top_level.txt\n'}
+[0.793899] (tracer_msgs) StdoutLine: {'line': b"reading manifest file 'tracer_msgs.egg-info/SOURCES.txt'\n"}
+[0.794948] (tracer_msgs) StdoutLine: {'line': b"writing manifest file 'tracer_msgs.egg-info/SOURCES.txt'\n"}
+[0.805701] (lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[0.806799] (lio_sam) StdoutLine: {'line': b'writing lio_sam.egg-info/PKG-INFO\n'}
+[0.807140] (lio_sam) StdoutLine: {'line': b'writing dependency_links to lio_sam.egg-info/dependency_links.txt\n'}
+[0.807510] (lio_sam) StdoutLine: {'line': b'writing top-level names to lio_sam.egg-info/top_level.txt\n'}
+[0.810598] (lio_sam) StdoutLine: {'line': b"reading manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.811345] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.817727] (-) TimerEvent: {}
+[0.827887] (tracer_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tracer_msgs_egg\n'}
+[0.841581] (tracer_msgs) CommandEnded: {'returncode': 0}
+[0.842301] (tracer_msgs) JobProgress: {'identifier': 'tracer_msgs', 'progress': 'install'}
+[0.844153] (tracer_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vertin/ros2_ws/build/tracer_msgs'], 'cwd': '/home/vertin/ros2_ws/build/tracer_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('OLDPWD', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2519,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2519'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/28df2135_1ff3_4914_b12c_0f23ebe91f1f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/tracer_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble')]), 'shell': False}
+[0.845325] (lio_sam) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_lio_sam_egg\n'}
+[0.853214] (tracer_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.853569] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/rosidl_interfaces/tracer_msgs\n'}
+[0.853841] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[0.854134] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[0.854391] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.h\n'}
+[0.855002] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.h\n'}
+[0.855200] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.855460] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.h\n'}
+[0.855551] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[0.855635] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.h\n'}
+[0.855743] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.h\n'}
+[0.855823] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__functions.h\n'}
+[0.855906] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.h\n'}
+[0.855989] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.h\n'}
+[0.856242] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__functions.h\n'}
+[0.856417] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__functions.c\n'}
+[0.856558] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__functions.h\n'}
+[0.856725] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.h\n'}
+[0.856819] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__functions.h\n'}
+[0.856900] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.h\n'}
+[0.856984] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__functions.c\n'}
+[0.857067] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__struct.h\n'}
+[0.857150] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__functions.h\n'}
+[0.857234] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__functions.c\n'}
+[0.857357] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__functions.c\n'}
+[0.857826] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.h\n'}
+[0.857924] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.h\n'}
+[0.858015] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__functions.c\n'}
+[0.858152] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__struct.h\n'}
+[0.858366] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_actuator_state.h\n'}
+[0.858565] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_rc_state.h\n'}
+[0.858652] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.sh\n'}
+[0.858733] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.dsv\n'}
+[0.858835] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_c.so\n'}
+[0.858926] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[0.859015] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[0.859176] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.859346] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[0.859477] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.859569] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.859658] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.859747] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.859836] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.859923] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.860010] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[0.860096] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[0.860181] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_actuator_state.hpp\n'}
+[0.860268] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.hpp\n'}
+[0.860465] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_rc_state.hpp\n'}
+[0.860557] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[0.860644] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__traits.hpp\n'}
+[0.860731] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__traits.hpp\n'}
+[0.860818] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.hpp\n'}
+[0.860905] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.hpp\n'}
+[0.860992] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.hpp\n'}
+[0.861078] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__builder.hpp\n'}
+[0.861164] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__builder.hpp\n'}
+[0.861270] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.hpp\n'}
+[0.861392] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__builder.hpp\n'}
+[0.861487] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__builder.hpp\n'}
+[0.861567] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__struct.hpp\n'}
+[0.861645] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__traits.hpp\n'}
+[0.861779] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__traits.hpp\n'}
+[0.861895] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__struct.hpp\n'}
+[0.862006] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.hpp\n'}
+[0.862278] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__builder.hpp\n'}
+[0.862605] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.hpp\n'}
+[0.862794] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__traits.hpp\n'}
+[0.863117] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.hpp\n'}
+[0.863270] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.hpp\n'}
+[0.863410] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.hpp\n'}
+[0.863583] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.hpp\n'}
+[0.863748] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.863907] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[0.864067] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[0.864226] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.864390] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[0.864697] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/dds_fastrtps\n'}
+[0.865038] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.865340] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.865618] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.865812] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.865992] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.866169] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.866354] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[0.866543] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[0.866719] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[0.866893] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_c.h\n'}
+[0.867067] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_c.h\n'}
+[0.867240] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.c\n'}
+[0.867751] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.c\n'}
+[0.868005] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.c\n'}
+[0.868186] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.c\n'}
+[0.868376] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_c.h\n'}
+[0.868592] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_introspection_c.h\n'}
+[0.868772] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.c\n'}
+[0.868950] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_introspection_c.h\n'}
+[0.869127] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.869301] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.869499] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_c.so\n'}
+[0.869675] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[0.869846] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[0.870019] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[0.870210] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.870391] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.870600] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.cpp\n'}
+[0.870774] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.cpp\n'}
+[0.870949] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.871115] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.cpp\n'}
+[0.871266] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.871439] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.871595] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.cpp\n'}
+[0.871744] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.cpp\n'}
+[0.871894] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.872062] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_cpp.so\n'}
+[0.872213] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.sh\n'}
+[0.872480] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.dsv\n'}
+[0.872621] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info\n'}
+[0.872757] (tracer_msgs) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.872928] (tracer_msgs) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[0.873032] (tracer_msgs) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.873211] (tracer_msgs) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[0.873483] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs\n'}
+[0.873657] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.873881] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.874206] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/__init__.py\n'}
+[0.874491] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg\n'}
+[0.874795] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state_s.c\n'}
+[0.875013] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status.py\n'}
+[0.875265] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_actuator_state.py\n'}
+[0.875572] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/__init__.py\n'}
+[0.875957] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_actuator_state_s.c\n'}
+[0.876244] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_rc_state.py\n'}
+[0.876496] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_rc_state_s.c\n'}
+[0.876700] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state.py\n'}
+[0.876902] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd_s.c\n'}
+[0.877074] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status_s.c\n'}
+[0.877246] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd.py\n'}
+[0.877562] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/libtracer_msgs__rosidl_generator_py.so\n'}
+[0.877749] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.877923] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.878097] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.878271] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.878480] (lio_sam) CommandEnded: {'returncode': 0}
+[0.879575] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'install'}
+[0.881104] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vertin/ros2_ws/build/lio_sam'], 'cwd': '/home/vertin/ros2_ws/build/lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('OLDPWD', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2519,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2519'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/28df2135_1ff3_4914_b12c_0f23ebe91f1f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/lio_sam'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble')]), 'shell': False}
+[0.892680] (lio_sam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.892996] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam\n'}
+[0.893137] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam\n'}
+[0.893239] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[0.893586] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h\n'}
+[0.893788] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.894053] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[0.894205] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h\n'}
+[0.894377] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h\n'}
+[0.894534] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.c\n'}
+[0.894684] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h\n'}
+[0.894834] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[0.894984] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h\n'}
+[0.895138] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[0.895287] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.c\n'}
+[0.895408] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h\n'}
+[0.895503] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h\n'}
+[0.895827] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h\n'}
+[0.895954] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/library_path.sh\n'}
+[0.896109] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/library_path.dsv\n'}
+[0.896203] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so\n'}
+[0.896292] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam\n'}
+[0.896416] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[0.896511] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.896601] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[0.896690] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.896779] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[0.896869] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[0.896956] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[0.897195] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so\n'}
+[0.897279] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam\n'}
+[0.897393] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[0.897480] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[0.897604] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.c\n'}
+[0.897685] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[0.897766] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.897866] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[0.898005] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[0.898098] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[0.898189] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.c\n'}
+[0.898278] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so\n'}
+[0.898607] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so\n'}
+[0.898765] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam\n'}
+[0.898864] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[0.898955] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp\n'}
+[0.899044] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[0.899133] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp\n'}
+[0.899222] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp\n'}
+[0.899319] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp\n'}
+[0.899420] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp\n'}
+[0.899511] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.899604] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[0.899692] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp\n'}
+[0.899852] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[0.900008] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp\n'}
+[0.900181] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp\n'}
+[0.900700] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp\n'}
+[0.900857] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp\n'}
+[0.901014] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam\n'}
+[0.901164] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[0.901354] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.901518] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[0.901629] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/dds_fastrtps\n'}
+[0.901839] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.901931] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[0.902029] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[0.902186] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/dds_fastrtps\n'}
+[0.902350] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.902515] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.902813] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam\n'}
+[0.902960] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[0.903108] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[0.903256] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.cpp\n'}
+[0.903397] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.903493] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[0.903623] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[0.903775] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.903870] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.cpp\n'}
+[0.903960] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so\n'}
+[0.904048] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so\n'}
+[0.904137] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/pythonpath.sh\n'}
+[0.904230] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/pythonpath.dsv\n'}
+[0.904335] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info\n'}
+[0.904483] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.904573] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.904660] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.904748] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.904931] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam\n'}
+[0.905017] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/liblio_sam__rosidl_generator_py.so\n'}
+[0.905099] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c\n'}
+[0.905180] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py\n'}
+[0.905267] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.905374] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg\n'}
+[0.905459] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py\n'}
+[0.905539] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info_s.c\n'}
+[0.905618] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py\n'}
+[0.905697] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.905777] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv\n'}
+[0.905855] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py\n'}
+[0.905934] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map_s.c\n'}
+[0.906012] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py\n'}
+[0.906091] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.906171] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.906250] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.917808] (-) TimerEvent: {}
+[0.918167] (tracer_msgs) StdoutLine: {'line': b"Listing '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs'...\n"}
+[0.918343] (tracer_msgs) StdoutLine: {'line': b"Listing '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg'...\n"}
+[0.925709] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.926328] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.927005] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.927608] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_py.so\n'}
+[0.927955] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerActuatorState.idl\n'}
+[0.928235] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.idl\n'}
+[0.928622] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.idl\n'}
+[0.928890] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerRCState.idl\n'}
+[0.929145] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.idl\n'}
+[0.929381] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerActuatorState.msg\n'}
+[0.929697] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.msg\n'}
+[0.929945] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.msg\n'}
+[0.930231] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerRCState.msg\n'}
+[0.930460] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.msg\n'}
+[0.930658] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/package_run_dependencies/tracer_msgs\n'}
+[0.930860] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/parent_prefix_path/tracer_msgs\n'}
+[0.931063] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/ament_prefix_path.sh\n'}
+[0.931268] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/ament_prefix_path.dsv\n'}
+[0.931481] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/path.sh\n'}
+[0.931811] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/path.dsv\n'}
+[0.932021] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.bash\n'}
+[0.932220] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.sh\n'}
+[0.932503] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.zsh\n'}
+[0.932710] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.dsv\n'}
+[0.932909] (tracer_msgs) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.dsv\n'}
+[0.933207] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/packages/tracer_msgs\n'}
+[0.933435] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cExport.cmake\n'}
+[0.933693] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.933893] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.934193] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.934521] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.934762] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.934929] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.935137] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.935321] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.935504] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.935667] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.935854] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.936026] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.936209] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.936418] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.936617] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.936833] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.937042] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.937240] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.937474] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.937653] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.937749] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.937849] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.937936] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.938033] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgsConfig.cmake\n'}
+[0.938202] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgsConfig-version.cmake\n'}
+[0.938360] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.xml\n'}
+[0.939427] (tracer_msgs) CommandEnded: {'returncode': 0}
+[0.959234] (lio_sam) StdoutLine: {'line': b"Listing '/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam'...\n"}
+[0.959659] (lio_sam) StdoutLine: {'line': b"Listing '/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg'...\n"}
+[0.959984] (lio_sam) StdoutLine: {'line': b"Listing '/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv'...\n"}
+[0.968161] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.968979] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.969749] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.970197] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so\n'}
+[0.970917] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.idl\n'}
+[0.971208] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.idl\n'}
+[0.971409] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.msg\n'}
+[0.971591] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.srv\n'}
+[0.971924] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg\n'}
+[0.972124] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg\n'}
+[0.972322] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//launch\n'}
+[0.972528] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//launch/run.launch.py\n'}
+[0.972716] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config\n'}
+[0.972943] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/params.yaml\n'}
+[0.973130] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/robot.urdf.xacro\n'}
+[0.973335] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc\n'}
+[0.973689] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-map.png\n'}
+[0.973885] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/system.png\n'}
+[0.974058] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif\n'}
+[0.974304] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/imu-transform.png\n'}
+[0.974506] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif\n'}
+[0.974678] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg\n'}
+[0.974863] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif\n'}
+[0.975034] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-jackal.png\n'}
+[0.975204] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif\n'}
+[0.975379] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-boat.png\n'}
+[0.975528] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif\n'}
+[0.975632] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png\n'}
+[0.975734] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif\n'}
+[0.975903] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/demo.gif\n'}
+[0.976014] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag\n'}
+[0.976116] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py\n'}
+[0.976216] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md\n'}
+[0.976336] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand.png\n'}
+[0.976524] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/paper.pdf\n'}
+[0.976626] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/rviz2.rviz\n'}
+[0.976727] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_imageProjection\n'}
+[0.976873] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration\n'}
+[0.976974] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction\n'}
+[0.979170] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization\n'}
+[0.979496] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include\n'}
+[0.979752] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam\n'}
+[0.979864] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/utility.hpp\n'}
+[0.979969] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam\n'}
+[0.980073] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam\n'}
+[0.980174] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh\n'}
+[0.980274] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv\n'}
+[0.980793] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/path.sh\n'}
+[0.981047] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/path.dsv\n'}
+[0.981151] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/local_setup.bash\n'}
+[0.981343] (tracer_msgs) JobEnded: {'identifier': 'tracer_msgs', 'rc': 0}
+[0.982097] (tracer_base) JobStarted: {'identifier': 'tracer_base'}
+[0.982261] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/local_setup.sh\n'}
+[0.982631] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/local_setup.zsh\n'}
+[0.982844] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/local_setup.dsv\n'}
+[0.983046] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.dsv\n'}
+[0.983247] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/ament_index/resource_index/packages/lio_sam\n'}
+[0.983633] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake\n'}
+[0.983842] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake\n'}
+[0.984085] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.984266] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[0.984964] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.985149] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[0.985336] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake\n'}
+[0.985522] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake\n'}
+[0.985697] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake\n'}
+[0.985868] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.986040] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[0.986211] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.986374] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[0.986541] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake\n'}
+[0.986644] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake\n'}
+[0.986746] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake\n'}
+[0.986846] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake\n'}
+[0.986947] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake\n'}
+[0.987149] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.987361] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.987548] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.987728] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.987850] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.988016] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.988120] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake\n'}
+[0.988222] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake\n'}
+[0.988341] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.xml\n'}
+[0.994899] (lio_sam) CommandEnded: {'returncode': 0}
+[1.018223] (-) TimerEvent: {}
+[1.027687] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 0}
+[1.029590] (tracer_base) JobProgress: {'identifier': 'tracer_base', 'progress': 'cmake'}
+[1.030619] (tracer_base) JobProgress: {'identifier': 'tracer_base', 'progress': 'build'}
+[1.031361] (tracer_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/tracer_base', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/tracer_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('OLDPWD', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '2546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2519,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2519'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/28df2135_1ff3_4914_b12c_0f23ebe91f1f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/tracer_base'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs')]), 'shell': False}
+[1.071198] (tracer_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.118387] (-) TimerEvent: {}
+[1.218778] (-) TimerEvent: {}
+[1.231924] (tracer_base) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.267784] (tracer_base) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.270961] (tracer_base) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.278760] (tracer_base) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.290958] (tracer_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.305531] (tracer_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.318884] (-) TimerEvent: {}
+[1.340049] (tracer_base) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.341686] (tracer_base) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.419031] (-) TimerEvent: {}
+[1.471192] (tracer_base) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.519161] (-) TimerEvent: {}
+[1.534136] (tracer_base) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.548513] (tracer_base) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.574253] (tracer_base) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.592678] (tracer_base) StdoutLine: {'line': b'-- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.597929] (tracer_base) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.619268] (-) TimerEvent: {}
+[1.697481] (tracer_base) StdoutLine: {'line': b'-- Found tracer_msgs: 0.1.0 (/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake)\n'}
+[1.714690] (tracer_base) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.717962] (tracer_base) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.719366] (tracer_base) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.719492] (-) TimerEvent: {}
+[1.723823] (tracer_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.817179] (tracer_base) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.818767] (tracer_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.819127] (tracer_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include\n'}
+[1.819248] (tracer_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.819571] (-) TimerEvent: {}
+[1.820422] (tracer_base) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.820550] (tracer_base) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.820939] (tracer_base) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.821469] (tracer_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.821932] (tracer_base) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.823047] (tracer_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.823177] (tracer_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.823805] (tracer_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.825474] (tracer_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.843980] (tracer_base) StdoutLine: {'line': b'-- Generating done\n'}
+[1.851469] (tracer_base) StdoutLine: {'line': b'-- Build files have been written to: /home/vertin/ros2_ws/build/tracer_base\n'}
+[1.889916] (tracer_base) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tracer_base_node\x1b[0m\n'}
+[1.913845] (tracer_base) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o\x1b[0m\n'}
+[1.918012] (tracer_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o\x1b[0m\n'}
+[1.919693] (-) TimerEvent: {}
+[2.019959] (-) TimerEvent: {}
+[2.120236] (-) TimerEvent: {}
+[2.220557] (-) TimerEvent: {}
+[2.320969] (-) TimerEvent: {}
+[2.421299] (-) TimerEvent: {}
+[2.521696] (-) TimerEvent: {}
+[2.622045] (-) TimerEvent: {}
+[2.722402] (-) TimerEvent: {}
+[2.822731] (-) TimerEvent: {}
+[2.923071] (-) TimerEvent: {}
+[3.023422] (-) TimerEvent: {}
+[3.123910] (-) TimerEvent: {}
+[3.224237] (-) TimerEvent: {}
+[3.324642] (-) TimerEvent: {}
+[3.424939] (-) TimerEvent: {}
+[3.525347] (-) TimerEvent: {}
+[3.625672] (-) TimerEvent: {}
+[3.725998] (-) TimerEvent: {}
+[3.826318] (-) TimerEvent: {}
+[3.926740] (-) TimerEvent: {}
+[4.027082] (-) TimerEvent: {}
+[4.127498] (-) TimerEvent: {}
+[4.227858] (-) TimerEvent: {}
+[4.328236] (-) TimerEvent: {}
+[4.428683] (-) TimerEvent: {}
+[4.529182] (-) TimerEvent: {}
+[4.629666] (-) TimerEvent: {}
+[4.730042] (-) TimerEvent: {}
+[4.830527] (-) TimerEvent: {}
+[4.930992] (-) TimerEvent: {}
+[5.031438] (-) TimerEvent: {}
+[5.131808] (-) TimerEvent: {}
+[5.232169] (-) TimerEvent: {}
+[5.332536] (-) TimerEvent: {}
+[5.432965] (-) TimerEvent: {}
+[5.533290] (-) TimerEvent: {}
+[5.633646] (-) TimerEvent: {}
+[5.734041] (-) TimerEvent: {}
+[5.834469] (-) TimerEvent: {}
+[5.934807] (-) TimerEvent: {}
+[6.035109] (-) TimerEvent: {}
+[6.135439] (-) TimerEvent: {}
+[6.235800] (-) TimerEvent: {}
+[6.336127] (-) TimerEvent: {}
+[6.436426] (-) TimerEvent: {}
+[6.466968] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerBaseRos::TracerBaseRos(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.467796] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:18:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerBaseRos::declare_parameter(const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.468509] (tracer_base) StderrLine: {'line': b'   18 |   \x1b[01;31m\x1b[Kthis->declare_parameter("port_name")\x1b[m\x1b[K;   //\xe5\xa3\xb0\xe6\x98\x8e\xe5\x8f\x82\xe6\x95\xb0\n'}
+[6.470636] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.470785] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.470921] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.471054] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.471188] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.471327] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.471465] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.471612] (tracer_base) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.471742] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.471878] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.472010] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:18:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.472139] (tracer_base) StderrLine: {'line': b'   18 |   \x1b[01;36m\x1b[Kthis->declare_parameter("port_name")\x1b[m\x1b[K;   //\xe5\xa3\xb0\xe6\x98\x8e\xe5\x8f\x82\xe6\x95\xb0\n'}
+[6.472265] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.472394] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.472472] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.472546] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.472617] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.472687] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.472756] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.472829] (tracer_base) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.472898] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.472966] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.473036] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:18:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.473106] (tracer_base) StderrLine: {'line': b'   18 |   \x1b[01;36m\x1b[Kthis->declare_parameter("port_name")\x1b[m\x1b[K;   //\xe5\xa3\xb0\xe6\x98\x8e\xe5\x8f\x82\xe6\x95\xb0\n'}
+[6.473175] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.473243] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.473321] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.473401] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.473472] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.473544] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.473647] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.473732] (tracer_base) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.473804] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.473880] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.473952] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.474029] (tracer_base) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.474100] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.474169] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.474240] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:20:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerBaseRos::declare_parameter(const char [11])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.474321] (tracer_base) StderrLine: {'line': b'   20 |   \x1b[01;31m\x1b[Kthis->declare_parameter("odom_frame")\x1b[m\x1b[K;\n'}
+[6.474402] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.474472] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.474543] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.474612] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.474681] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.474757] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.474828] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.474899] (tracer_base) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.474967] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.475035] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.475104] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:20:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.475173] (tracer_base) StderrLine: {'line': b'   20 |   \x1b[01;36m\x1b[Kthis->declare_parameter("odom_frame")\x1b[m\x1b[K;\n'}
+[6.475242] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.475322] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.475403] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.475473] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.475542] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.475617] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.475687] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.475758] (tracer_base) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.475826] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.475894] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.475963] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:20:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.476033] (tracer_base) StderrLine: {'line': b'   20 |   \x1b[01;36m\x1b[Kthis->declare_parameter("odom_frame")\x1b[m\x1b[K;\n'}
+[6.476101] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.476169] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.476242] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.476322] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.476406] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.476476] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.476550] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.476651] (tracer_base) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.476735] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.476816] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.476878] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.476941] (tracer_base) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.477001] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.477061] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.477121] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:21:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerBaseRos::declare_parameter(const char [11])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.477189] (tracer_base) StderrLine: {'line': b'   21 |   \x1b[01;31m\x1b[Kthis->declare_parameter("base_frame")\x1b[m\x1b[K;\n'}
+[6.477253] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.477344] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.477431] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.477504] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.477580] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.477642] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.477703] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.477767] (tracer_base) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.477826] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.477885] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.477947] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:21:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.478007] (tracer_base) StderrLine: {'line': b'   21 |   \x1b[01;36m\x1b[Kthis->declare_parameter("base_frame")\x1b[m\x1b[K;\n'}
+[6.478067] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.478127] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.478188] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.478249] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.478345] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.478434] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.478495] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.478583] (tracer_base) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.478698] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.478774] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.478880] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:21:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.479078] (tracer_base) StderrLine: {'line': b'   21 |   \x1b[01;36m\x1b[Kthis->declare_parameter("base_frame")\x1b[m\x1b[K;\n'}
+[6.479197] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.479372] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.479528] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.479643] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.479758] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.479830] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.479896] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.479964] (tracer_base) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.480027] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.480091] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.480155] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.480221] (tracer_base) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.480284] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.480421] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.480488] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:22:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerBaseRos::declare_parameter(const char [16])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.480555] (tracer_base) StderrLine: {'line': b'   22 |   \x1b[01;31m\x1b[Kthis->declare_parameter("odom_topic_name")\x1b[m\x1b[K;\n'}
+[6.480619] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.480682] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.480746] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.480814] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.480877] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.480941] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.481005] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.481071] (tracer_base) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.481134] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.481198] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.481262] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:22:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.481367] (tracer_base) StderrLine: {'line': b'   22 |   \x1b[01;36m\x1b[Kthis->declare_parameter("odom_topic_name")\x1b[m\x1b[K;\n'}
+[6.481466] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.481532] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.481596] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.481661] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.481724] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.481789] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.481853] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.481919] (tracer_base) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.481982] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.482046] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.482116] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:22:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.482183] (tracer_base) StderrLine: {'line': b'   22 |   \x1b[01;36m\x1b[Kthis->declare_parameter("odom_topic_name")\x1b[m\x1b[K;\n'}
+[6.482289] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.482458] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.482538] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.482604] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.482670] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.482735] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.482800] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.482868] (tracer_base) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.482964] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.483037] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.483104] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.483173] (tracer_base) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.483238] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.483303] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.483514] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:24:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerBaseRos::declare_parameter(const char [15])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.483611] (tracer_base) StderrLine: {'line': b'   24 |   \x1b[01;31m\x1b[Kthis->declare_parameter("is_tracer_mini")\x1b[m\x1b[K;\n'}
+[6.483678] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.483744] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.483831] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.483898] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.483966] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.484033] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.484107] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.484181] (tracer_base) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.484247] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.484344] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.484458] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:24:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.484526] (tracer_base) StderrLine: {'line': b'   24 |   \x1b[01;36m\x1b[Kthis->declare_parameter("is_tracer_mini")\x1b[m\x1b[K;\n'}
+[6.484592] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.484659] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.484725] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.484846] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.484993] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.485143] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.485282] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.485417] (tracer_base) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.485513] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.485650] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.485796] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:24:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.485866] (tracer_base) StderrLine: {'line': b'   24 |   \x1b[01;36m\x1b[Kthis->declare_parameter("is_tracer_mini")\x1b[m\x1b[K;\n'}
+[6.485933] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.485999] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.486066] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.486132] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.486198] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.486272] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.486413] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.486487] (tracer_base) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.486555] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.486623] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.486691] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.486760] (tracer_base) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.486856] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.486942] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.487055] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:25:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerBaseRos::declare_parameter(const char [16])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.487206] (tracer_base) StderrLine: {'line': b'   25 |   \x1b[01;31m\x1b[Kthis->declare_parameter("simulated_robot")\x1b[m\x1b[K;\n'}
+[6.487354] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.487449] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.487534] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.487645] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.487794] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.487919] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.488062] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.488224] (tracer_base) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.488377] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.488494] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.488574] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:25:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.488710] (tracer_base) StderrLine: {'line': b'   25 |   \x1b[01;36m\x1b[Kthis->declare_parameter("simulated_robot")\x1b[m\x1b[K;\n'}
+[6.488782] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.488854] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.488918] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.488981] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.489044] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.489106] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.489168] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.489235] (tracer_base) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.489297] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.489413] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.489479] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:25:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.489543] (tracer_base) StderrLine: {'line': b'   25 |   \x1b[01;36m\x1b[Kthis->declare_parameter("simulated_robot")\x1b[m\x1b[K;\n'}
+[6.489604] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.489672] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.489830] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.489900] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.489964] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.490026] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.490089] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.490154] (tracer_base) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.490221] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.490284] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.490423] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.490527] (tracer_base) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.490610] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.490691] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.490756] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:26:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kwestonrobot::TracerBaseRos::declare_parameter(const char [13])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.490823] (tracer_base) StderrLine: {'line': b'   26 |   \x1b[01;31m\x1b[Kthis->declare_parameter("control_rate")\x1b[m\x1b[K;\n'}
+[6.490887] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.490952] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.491050] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.491190] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.491306] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.491448] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.491515] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.491584] (tracer_base) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.491649] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.491721] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.491787] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:26:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.491852] (tracer_base) StderrLine: {'line': b'   26 |   \x1b[01;36m\x1b[Kthis->declare_parameter("control_rate")\x1b[m\x1b[K;\n'}
+[6.491940] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.492016] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.492092] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.492251] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.492487] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.492714] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.492972] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.493171] (tracer_base) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.493284] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.493470] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.493547] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:26:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.493614] (tracer_base) StderrLine: {'line': b'   26 |   \x1b[01;36m\x1b[Kthis->declare_parameter("control_rate")\x1b[m\x1b[K;\n'}
+[6.493678] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.493740] (tracer_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.493810] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.493875] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.493938] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_base_ros.hpp:16\x1b[m\x1b[K,\n'}
+[6.494000] (tracer_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:10\x1b[m\x1b[K:\n'}
+[6.494063] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.494128] (tracer_base) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.494189] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.494250] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.494347] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.494447] (tracer_base) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[6.494509] (tracer_base) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.494570] (tracer_base) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[6.536531] (-) TimerEvent: {}
+[6.636910] (-) TimerEvent: {}
+[6.737241] (-) TimerEvent: {}
+[6.837574] (-) TimerEvent: {}
+[6.937977] (-) TimerEvent: {}
+[7.038357] (-) TimerEvent: {}
+[7.138744] (-) TimerEvent: {}
+[7.239021] (-) TimerEvent: {}
+[7.339383] (-) TimerEvent: {}
+[7.439768] (-) TimerEvent: {}
+[7.540077] (-) TimerEvent: {}
+[7.640406] (-) TimerEvent: {}
+[7.740749] (-) TimerEvent: {}
+[7.841062] (-) TimerEvent: {}
+[7.941449] (-) TimerEvent: {}
+[8.041818] (-) TimerEvent: {}
+[8.142114] (-) TimerEvent: {}
+[8.242499] (-) TimerEvent: {}
+[8.342897] (-) TimerEvent: {}
+[8.443207] (-) TimerEvent: {}
+[8.543602] (-) TimerEvent: {}
+[8.643950] (-) TimerEvent: {}
+[8.744320] (-) TimerEvent: {}
+[8.844705] (-) TimerEvent: {}
+[8.945104] (-) TimerEvent: {}
+[9.045451] (-) TimerEvent: {}
+[9.145763] (-) TimerEvent: {}
+[9.246113] (-) TimerEvent: {}
+[9.346521] (-) TimerEvent: {}
+[9.446931] (-) TimerEvent: {}
+[9.547222] (-) TimerEvent: {}
+[9.647601] (-) TimerEvent: {}
+[9.747908] (-) TimerEvent: {}
+[9.848261] (-) TimerEvent: {}
+[9.948618] (-) TimerEvent: {}
+[10.049126] (-) TimerEvent: {}
+[10.149428] (-) TimerEvent: {}
+[10.249739] (-) TimerEvent: {}
+[10.350045] (-) TimerEvent: {}
+[10.450376] (-) TimerEvent: {}
+[10.550771] (-) TimerEvent: {}
+[10.651129] (-) TimerEvent: {}
+[10.751450] (-) TimerEvent: {}
+[10.851833] (-) TimerEvent: {}
+[10.952172] (-) TimerEvent: {}
+[11.005876] (tracer_base) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tracer_base_node.dir/build.make:76: CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[11.006204] (tracer_base) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tracer_base_node.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[11.006565] (tracer_base) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[11.009480] (tracer_base) CommandEnded: {'returncode': 2}
+[11.015976] (tracer_base) JobEnded: {'identifier': 'tracer_base', 'rc': 2}
+[11.026734] (-) EventReactorShutdown: {}

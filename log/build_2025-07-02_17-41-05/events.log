@@ -1,0 +1,1273 @@
+[0.000000] (-) TimerEvent: {}
+[0.000888] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000944] (my_python_pkg) JobQueued: {'identifier': 'my_python_pkg', 'dependencies': OrderedDict()}
+[0.000962] (nav2_launch_test) JobQueued: {'identifier': 'nav2_launch_test', 'dependencies': OrderedDict()}
+[0.000977] (tracer_msgs) JobQueued: {'identifier': 'tracer_msgs', 'dependencies': OrderedDict()}
+[0.000992] (ugv_sdk) JobQueued: {'identifier': 'ugv_sdk', 'dependencies': OrderedDict()}
+[0.001006] (unitree_lidar_ros2) JobQueued: {'identifier': 'unitree_lidar_ros2', 'dependencies': OrderedDict()}
+[0.001019] (unitree_lidar_sdk) JobQueued: {'identifier': 'unitree_lidar_sdk', 'dependencies': OrderedDict()}
+[0.001032] (tracer_base) JobQueued: {'identifier': 'tracer_base', 'dependencies': OrderedDict([('tracer_msgs', '/home/vertin/ros2_ws/install/tracer_msgs'), ('ugv_sdk', '/home/vertin/ros2_ws/install/ugv_sdk')])}
+[0.001050] (tracer_msgs) JobStarted: {'identifier': 'tracer_msgs'}
+[0.008928] (ugv_sdk) JobStarted: {'identifier': 'ugv_sdk'}
+[0.013184] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.019385] (my_python_pkg) JobStarted: {'identifier': 'my_python_pkg'}
+[0.024838] (nav2_launch_test) JobStarted: {'identifier': 'nav2_launch_test'}
+[0.032001] (unitree_lidar_ros2) JobStarted: {'identifier': 'unitree_lidar_ros2'}
+[0.039147] (unitree_lidar_sdk) JobStarted: {'identifier': 'unitree_lidar_sdk'}
+[0.045359] (tracer_msgs) JobProgress: {'identifier': 'tracer_msgs', 'progress': 'cmake'}
+[0.045889] (tracer_msgs) JobProgress: {'identifier': 'tracer_msgs', 'progress': 'build'}
+[0.046493] (tracer_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/tracer_msgs', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/tracer_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2230'), ('SYSTEMD_EXEC_PID', '2784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4817'), ('COLCON_PREFIX_PATH', '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510'), ('INVOCATION_ID', '29e19a4f1d354fda91be21fc7e9079a1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/tracer_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam')]), 'shell': False}
+[0.051264] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'cmake'}
+[0.052242] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'build'}
+[0.052382] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/ugv_sdk', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2230'), ('SYSTEMD_EXEC_PID', '2784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4817'), ('COLCON_PREFIX_PATH', '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510'), ('INVOCATION_ID', '29e19a4f1d354fda91be21fc7e9079a1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/ugv_sdk'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam')]), 'shell': False}
+[0.054394] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.054878] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[0.055751] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/lio_sam', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/lio_sam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2230'), ('SYSTEMD_EXEC_PID', '2784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4817'), ('COLCON_PREFIX_PATH', '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510'), ('INVOCATION_ID', '29e19a4f1d354fda91be21fc7e9079a1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/lio_sam'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam')]), 'shell': False}
+[0.100006] (-) TimerEvent: {}
+[0.203520] (-) TimerEvent: {}
+[0.303976] (-) TimerEvent: {}
+[0.405776] (-) TimerEvent: {}
+[0.506228] (-) TimerEvent: {}
+[0.606606] (-) TimerEvent: {}
+[0.707143] (-) TimerEvent: {}
+[0.807694] (-) TimerEvent: {}
+[0.828374] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'cmake'}
+[0.829541] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'build'}
+[0.831847] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/unitree_lidar_ros2', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2230'), ('SYSTEMD_EXEC_PID', '2784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4817'), ('COLCON_PREFIX_PATH', '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510'), ('INVOCATION_ID', '29e19a4f1d354fda91be21fc7e9079a1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/unitree_lidar_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam')]), 'shell': False}
+[0.833904] (tracer_msgs) StdoutLine: {'line': b'[  1%] Built target tracer_msgs__cpp\n'}
+[0.834560] (tracer_msgs) StdoutLine: {'line': b'[ 12%] Built target tracer_msgs__rosidl_generator_c\n'}
+[0.834722] (tracer_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_tracer_msgs\n'}
+[0.834856] (tracer_msgs) StdoutLine: {'line': b'[ 23%] Built target tracer_msgs__rosidl_typesupport_cpp\n'}
+[0.834974] (tracer_msgs) StdoutLine: {'line': b'[ 34%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.835092] (tracer_msgs) StdoutLine: {'line': b'[ 46%] Built target tracer_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.835212] (tracer_msgs) StdoutLine: {'line': b'[ 57%] Built target tracer_msgs__rosidl_typesupport_introspection_c\n'}
+[0.835327] (tracer_msgs) StdoutLine: {'line': b'[ 68%] Built target tracer_msgs__rosidl_typesupport_c\n'}
+[0.835459] (tracer_msgs) StdoutLine: {'line': b'[ 79%] Built target tracer_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.835581] (tracer_msgs) StdoutLine: {'line': b'[ 79%] Built target tracer_msgs\n'}
+[0.835714] (tracer_msgs) StdoutLine: {'line': b'[ 80%] Built target tracer_msgs__py\n'}
+[0.835831] (tracer_msgs) StdoutLine: {'line': b'[ 90%] Built target tracer_msgs__rosidl_generator_py\n'}
+[0.835946] (tracer_msgs) StdoutLine: {'line': b'[ 93%] Built target tracer_msgs__rosidl_typesupport_c__pyext\n'}
+[0.836055] (tracer_msgs) StdoutLine: {'line': b'[ 96%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.836170] (tracer_msgs) StdoutLine: {'line': b'[100%] Built target tracer_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.836291] (tracer_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.836404] (tracer_msgs) StdoutLine: {'line': b'writing tracer_msgs.egg-info/PKG-INFO\n'}
+[0.836517] (tracer_msgs) StdoutLine: {'line': b'writing dependency_links to tracer_msgs.egg-info/dependency_links.txt\n'}
+[0.837088] (tracer_msgs) StdoutLine: {'line': b'writing top-level names to tracer_msgs.egg-info/top_level.txt\n'}
+[0.837538] (ugv_sdk) StdoutLine: {'line': b'[ 42%] Built target ugv_sdk\n'}
+[0.837746] (ugv_sdk) StdoutLine: {'line': b'[ 50%] Built target demo_ranger_robot\n'}
+[0.837875] (ugv_sdk) StdoutLine: {'line': b'[ 57%] Built target demo_tracer_robot\n'}
+[0.838012] (ugv_sdk) StdoutLine: {'line': b'[ 64%] Built target demo_bunker_robot\n'}
+[0.838138] (ugv_sdk) StdoutLine: {'line': b'[ 71%] Built target demo_scout_robot\n'}
+[0.838301] (ugv_sdk) StdoutLine: {'line': b'[ 78%] Built target demo_scout_mini_omni_robot\n'}
+[0.838708] (ugv_sdk) StdoutLine: {'line': b'[ 85%] Built target demo_protocol_detector\n'}
+[0.839031] (ugv_sdk) StdoutLine: {'line': b'[ 92%] Built target demo_hunter_robot\n'}
+[0.839146] (ugv_sdk) StdoutLine: {'line': b'[100%] Built target demo_robot_version\n'}
+[0.839265] (lio_sam) StdoutLine: {'line': b'[  8%] Built target lio_sam__rosidl_generator_c\n'}
+[0.840127] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target lio_sam__cpp\n'}
+[0.840289] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_lio_sam\n'}
+[0.840407] (lio_sam) StdoutLine: {'line': b'[ 19%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[0.840521] (lio_sam) StdoutLine: {'line': b'[ 27%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[0.840647] (lio_sam) StdoutLine: {'line': b'[ 36%] Built target lio_sam__rosidl_typesupport_c\n'}
+[0.842072] (lio_sam) StdoutLine: {'line': b'[ 44%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[0.842231] (lio_sam) StdoutLine: {'line': b'[ 53%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[0.842355] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[0.842476] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam\n'}
+[0.844422] (lio_sam) StdoutLine: {'line': b'[ 63%] Built target lio_sam__py\n'}
+[0.844750] (lio_sam) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o\x1b[0m\n'}
+[0.844907] (lio_sam) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o\x1b[0m\n'}
+[0.845034] (lio_sam) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o\x1b[0m\n'}
+[0.845165] (lio_sam) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o\x1b[0m\n'}
+[0.845292] (lio_sam) StdoutLine: {'line': b'[ 78%] Built target lio_sam__rosidl_generator_py\n'}
+[0.845481] (lio_sam) StdoutLine: {'line': b'[ 82%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.845935] (lio_sam) StdoutLine: {'line': b'[ 87%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[0.846062] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_c__pyext\n'}
+[0.846186] (lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[0.846301] (lio_sam) StdoutLine: {'line': b'writing lio_sam.egg-info/PKG-INFO\n'}
+[0.846419] (lio_sam) StdoutLine: {'line': b'writing dependency_links to lio_sam.egg-info/dependency_links.txt\n'}
+[0.846536] (lio_sam) StdoutLine: {'line': b'writing top-level names to lio_sam.egg-info/top_level.txt\n'}
+[0.846677] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'cmake'}
+[0.848989] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'build'}
+[0.849052] (unitree_lidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/unitree_lidar_sdk', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/unitree_lidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2230'), ('SYSTEMD_EXEC_PID', '2784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4817'), ('COLCON_PREFIX_PATH', '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510'), ('INVOCATION_ID', '29e19a4f1d354fda91be21fc7e9079a1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/unitree_lidar_sdk'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam')]), 'shell': False}
+[0.852219] (tracer_msgs) StdoutLine: {'line': b"reading manifest file 'tracer_msgs.egg-info/SOURCES.txt'\n"}
+[0.856820] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.858939] (tracer_msgs) StdoutLine: {'line': b"writing manifest file 'tracer_msgs.egg-info/SOURCES.txt'\n"}
+[0.859287] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'install'}
+[0.860702] (lio_sam) StdoutLine: {'line': b"reading manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.862072] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.875016] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vertin/ros2_ws/build/ugv_sdk'], 'cwd': '/home/vertin/ros2_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2230'), ('SYSTEMD_EXEC_PID', '2784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4817'), ('COLCON_PREFIX_PATH', '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510'), ('INVOCATION_ID', '29e19a4f1d354fda91be21fc7e9079a1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/ugv_sdk'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam')]), 'shell': False}
+[0.891748] (ugv_sdk) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.892152] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/libugv_sdk.a\n'}
+[0.892290] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk\n'}
+[0.892406] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/utilities\n'}
+[0.892709] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp\n'}
+[0.892850] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details\n'}
+[0.892953] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp\n'}
+[0.893086] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2\n'}
+[0.893187] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp\n'}
+[0.895957] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base\n'}
+[0.896136] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp\n'}
+[0.896252] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp\n'}
+[0.896352] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp\n'}
+[0.896449] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp\n'}
+[0.897319] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp\n'}
+[0.897486] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp\n'}
+[0.897587] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp\n'}
+[0.897704] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port\n'}
+[0.897805] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp\n'}
+[0.897900] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp\n'}
+[0.897994] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp\n'}
+[0.898085] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface\n'}
+[0.898173] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h\n'}
+[0.898264] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp\n'}
+[0.898358] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp\n'}
+[0.898448] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp\n'}
+[0.898536] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp\n'}
+[0.898632] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp\n'}
+[0.898738] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h\n'}
+[0.898827] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp\n'}
+[0.898916] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp\n'}
+[0.899004] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1\n'}
+[0.899111] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h\n'}
+[0.899207] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp\n'}
+[0.899298] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp\n'}
+[0.899383] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot\n'}
+[0.899466] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp\n'}
+[0.899551] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp\n'}
+[0.899656] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp\n'}
+[0.899776] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp\n'}
+[0.899873] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp\n'}
+[0.899966] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp\n'}
+[0.900065] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake\n'}
+[0.900162] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake\n'}
+[0.900259] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake\n'}
+[0.900355] (ugv_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake\n'}
+[0.909834] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.910638] (-) TimerEvent: {}
+[0.930022] (tracer_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tracer_msgs_egg\n'}
+[0.942003] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target ament_cmake_python_build_lio_sam_egg\n'}
+[0.959901] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 25%] Built target example_lidar\n'}
+[0.962759] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 50%] Built target unilidar_publisher_udp\n'}
+[0.962951] (ugv_sdk) JobEnded: {'identifier': 'ugv_sdk', 'rc': 0}
+[0.970040] (tracer_msgs) CommandEnded: {'returncode': 0}
+[0.970898] (tracer_msgs) JobProgress: {'identifier': 'tracer_msgs', 'progress': 'install'}
+[0.970955] (tracer_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vertin/ros2_ws/build/tracer_msgs'], 'cwd': '/home/vertin/ros2_ws/build/tracer_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2230'), ('SYSTEMD_EXEC_PID', '2784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4817'), ('COLCON_PREFIX_PATH', '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510'), ('INVOCATION_ID', '29e19a4f1d354fda91be21fc7e9079a1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/tracer_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam')]), 'shell': False}
+[0.971555] (unitree_lidar_sdk) StdoutLine: {'line': b'[ 75%] Built target unilidar_subscriber_udp\n'}
+[0.975728] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target example_lidar_udp\n'}
+[0.980229] (tracer_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.983450] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/rosidl_interfaces/tracer_msgs\n'}
+[0.983591] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[0.983785] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[0.984738] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.h\n'}
+[0.984895] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.h\n'}
+[0.985030] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.985171] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.h\n'}
+[0.985283] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[0.985400] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.h\n'}
+[0.985519] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.h\n'}
+[0.985664] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__functions.h\n'}
+[0.985806] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.h\n'}
+[0.985922] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.h\n'}
+[0.986039] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__functions.h\n'}
+[0.986151] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__functions.c\n'}
+[0.986263] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__functions.h\n'}
+[0.986371] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.h\n'}
+[0.986483] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__functions.h\n'}
+[0.986597] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.h\n'}
+[0.986728] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__functions.c\n'}
+[0.986849] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__struct.h\n'}
+[0.986974] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__functions.h\n'}
+[0.987092] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__functions.c\n'}
+[0.987215] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__functions.c\n'}
+[0.987360] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.h\n'}
+[0.987476] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.h\n'}
+[0.987592] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__functions.c\n'}
+[0.988168] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__struct.h\n'}
+[0.988511] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_actuator_state.h\n'}
+[0.989000] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_rc_state.h\n'}
+[0.989163] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.sh\n'}
+[0.989338] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/library_path.dsv\n'}
+[0.989467] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_c.so\n'}
+[0.989586] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[0.989719] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[0.989837] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.990121] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[0.990452] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.990576] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.990708] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.990843] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.991053] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.991189] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.991443] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[0.991570] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[0.991757] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_actuator_state.hpp\n'}
+[0.991925] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_status.hpp\n'}
+[0.992727] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_rc_state.hpp\n'}
+[0.993136] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[0.993282] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__traits.hpp\n'}
+[0.993447] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__traits.hpp\n'}
+[0.993687] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.hpp\n'}
+[0.993864] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__struct.hpp\n'}
+[0.994004] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.hpp\n'}
+[0.994139] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__builder.hpp\n'}
+[0.994275] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__builder.hpp\n'}
+[0.994415] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.hpp\n'}
+[0.994574] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__builder.hpp\n'}
+[0.994764] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__builder.hpp\n'}
+[0.994924] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__struct.hpp\n'}
+[0.995055] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__traits.hpp\n'}
+[0.995198] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__traits.hpp\n'}
+[0.995343] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__struct.hpp\n'}
+[0.995447] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__struct.hpp\n'}
+[0.995552] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__builder.hpp\n'}
+[0.999968] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.hpp\n'}
+[1.000119] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__traits.hpp\n'}
+[1.000263] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.hpp\n'}
+[1.000380] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__struct.hpp\n'}
+[1.000500] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_state.hpp\n'}
+[1.000623] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/tracer_light_cmd.hpp\n'}
+[1.000758] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.000884] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[1.001006] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[1.001124] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.001238] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[1.001377] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/dds_fastrtps\n'}
+[1.001483] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.001593] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.001757] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.001872] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.001986] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.002108] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.002225] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[1.002340] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[1.002451] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[1.002588] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_c.h\n'}
+[1.002732] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_c.h\n'}
+[1.002860] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.c\n'}
+[1.002975] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.c\n'}
+[1.003100] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.c\n'}
+[1.003218] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.c\n'}
+[1.003329] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_c.h\n'}
+[1.003452] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_introspection_c.h\n'}
+[1.003565] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.c\n'}
+[1.004840] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_introspection_c.h\n'}
+[1.004998] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.005120] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.005239] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_c.so\n'}
+[1.005359] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs\n'}
+[1.005469] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg\n'}
+[1.005592] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail\n'}
+[1.005727] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.005853] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.005972] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_state__type_support.cpp\n'}
+[1.006094] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__type_support.cpp\n'}
+[1.006220] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.006333] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_light_cmd__type_support.cpp\n'}
+[1.006448] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_rc_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.006567] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.006699] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_actuator_state__type_support.cpp\n'}
+[1.006813] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/include/tracer_msgs/tracer_msgs/msg/detail/tracer_status__type_support.cpp\n'}
+[1.006958] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.007076] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_typesupport_cpp.so\n'}
+[1.007191] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.sh\n'}
+[1.007304] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/pythonpath.dsv\n'}
+[1.007424] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info\n'}
+[1.007536] (tracer_msgs) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.008930] (tracer_msgs) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[1.009112] (tracer_msgs) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.009430] (tracer_msgs) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[1.010082] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs\n'}
+[1.010245] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.010355] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.010461] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/__init__.py\n'}
+[1.010567] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg\n'}
+[1.010694] (-) TimerEvent: {}
+[1.010898] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state_s.c\n'}
+[1.011023] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status.py\n'}
+[1.011139] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_actuator_state.py\n'}
+[1.011260] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/__init__.py\n'}
+[1.011384] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_actuator_state_s.c\n'}
+[1.011495] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_rc_state.py\n'}
+[1.011606] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_rc_state_s.c\n'}
+[1.011743] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_state.py\n'}
+[1.011855] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd_s.c\n'}
+[1.011987] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_status_s.c\n'}
+[1.014437] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg/_tracer_light_cmd.py\n'}
+[1.014590] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/libtracer_msgs__rosidl_generator_py.so\n'}
+[1.014721] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.014834] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.014945] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.015054] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/_tracer_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.015163] (unitree_lidar_sdk) CommandEnded: {'returncode': 0}
+[1.016568] (unitree_lidar_ros2) StdoutLine: {'line': b'[100%] Built target unitree_lidar_ros2_node\n'}
+[1.017967] (unitree_lidar_sdk) JobEnded: {'identifier': 'unitree_lidar_sdk', 'rc': 0}
+[1.030266] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[1.030855] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'install'}
+[1.031886] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vertin/ros2_ws/build/unitree_lidar_ros2'], 'cwd': '/home/vertin/ros2_ws/build/unitree_lidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2230'), ('SYSTEMD_EXEC_PID', '2784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4817'), ('COLCON_PREFIX_PATH', '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510'), ('INVOCATION_ID', '29e19a4f1d354fda91be21fc7e9079a1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/unitree_lidar_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam')]), 'shell': False}
+[1.049693] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.050032] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node\n'}
+[1.050316] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz\n'}
+[1.050485] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py\n'}
+[1.050661] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2\n'}
+[1.051191] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2\n'}
+[1.051335] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh\n'}
+[1.051468] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv\n'}
+[1.051595] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh\n'}
+[1.051743] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv\n'}
+[1.051866] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash\n'}
+[1.052029] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh\n'}
+[1.052158] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh\n'}
+[1.052253] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv\n'}
+[1.052345] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv\n'}
+[1.052569] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2\n'}
+[1.052696] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake\n'}
+[1.052794] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake\n'}
+[1.052887] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml\n'}
+[1.061690] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[1.063298] (tracer_msgs) StdoutLine: {'line': b"Listing '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs'...\n"}
+[1.063510] (tracer_msgs) StdoutLine: {'line': b"Listing '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/msg'...\n"}
+[1.069320] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.070456] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.071048] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages/tracer_msgs/tracer_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.071224] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/lib/libtracer_msgs__rosidl_generator_py.so\n'}
+[1.071817] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerActuatorState.idl\n'}
+[1.076328] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.idl\n'}
+[1.076471] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.idl\n'}
+[1.076592] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerRCState.idl\n'}
+[1.076747] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.idl\n'}
+[1.076871] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerActuatorState.msg\n'}
+[1.077089] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightCmd.msg\n'}
+[1.077205] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerLightState.msg\n'}
+[1.077499] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerRCState.msg\n'}
+[1.077618] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/msg/TracerStatus.msg\n'}
+[1.077747] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/package_run_dependencies/tracer_msgs\n'}
+[1.077858] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/parent_prefix_path/tracer_msgs\n'}
+[1.077965] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/ament_prefix_path.sh\n'}
+[1.078074] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/ament_prefix_path.dsv\n'}
+[1.078180] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/path.sh\n'}
+[1.079198] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/environment/path.dsv\n'}
+[1.079330] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.bash\n'}
+[1.079450] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.sh\n'}
+[1.079563] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.zsh\n'}
+[1.079730] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/local_setup.dsv\n'}
+[1.079868] (tracer_msgs) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.dsv\n'}
+[1.079988] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/ament_index/resource_index/packages/tracer_msgs\n'}
+[1.080104] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cExport.cmake\n'}
+[1.080221] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.080337] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.080452] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.081077] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.081213] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.081334] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.081450] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.081570] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.081911] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.082035] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.082148] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.082257] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.082363] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.082468] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.082586] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.082731] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/export_tracer_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.082877] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.082994] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.083116] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.083228] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.083342] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.083472] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.083572] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.083697] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgsConfig.cmake\n'}
+[1.083810] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake/tracer_msgsConfig-version.cmake\n'}
+[1.083919] (tracer_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/package.xml\n'}
+[1.095198] (unitree_lidar_ros2) JobEnded: {'identifier': 'unitree_lidar_ros2', 'rc': 0}
+[1.095715] (tracer_msgs) CommandEnded: {'returncode': 0}
+[1.113120] (-) TimerEvent: {}
+[1.137182] (tracer_msgs) JobEnded: {'identifier': 'tracer_msgs', 'rc': 0}
+[1.141454] (tracer_base) JobStarted: {'identifier': 'tracer_base'}
+[1.153711] (tracer_base) JobProgress: {'identifier': 'tracer_base', 'progress': 'cmake'}
+[1.156271] (tracer_base) JobProgress: {'identifier': 'tracer_base', 'progress': 'build'}
+[1.157821] (tracer_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vertin/ros2_ws/build/tracer_base', '--', '-j8', '-l8'], 'cwd': '/home/vertin/ros2_ws/build/tracer_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2230'), ('SYSTEMD_EXEC_PID', '2784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4817'), ('COLCON_PREFIX_PATH', '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510'), ('INVOCATION_ID', '29e19a4f1d354fda91be21fc7e9079a1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/tracer_base'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/lio_sam')]), 'shell': False}
+[1.213213] (-) TimerEvent: {}
+[1.255369] (tracer_base) StdoutLine: {'line': b'[100%] Built target tracer_base_node\n'}
+[1.269099] (tracer_base) CommandEnded: {'returncode': 0}
+[1.270019] (tracer_base) JobProgress: {'identifier': 'tracer_base', 'progress': 'install'}
+[1.270587] (tracer_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vertin/ros2_ws/build/tracer_base'], 'cwd': '/home/vertin/ros2_ws/build/tracer_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'vertin'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vertin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2230'), ('SYSTEMD_EXEC_PID', '2784'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4817'), ('COLCON_PREFIX_PATH', '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vertin'), ('JOURNAL_STREAM', '8:15106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vertin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510'), ('INVOCATION_ID', '29e19a4f1d354fda91be21fc7e9079a1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vertin/ros2_ws/build/tracer_base'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/lio_sam')]), 'shell': False}
+[1.279633] (tracer_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.279950] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/lib/tracer_base/tracer_base_node\n'}
+[1.280259] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch\n'}
+[1.280477] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch/__pycache__\n'}
+[1.280610] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch/__pycache__/tracer_base.launch.cpython-310.pyc\n'}
+[1.280757] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch/tracer_base.launch.py\n'}
+[1.280889] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch/tracer_mini_base.launch.py\n'}
+[1.281119] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base\n'}
+[1.281264] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base\n'}
+[1.281396] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh\n'}
+[1.281511] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv\n'}
+[1.281713] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/path.sh\n'}
+[1.281798] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/path.dsv\n'}
+[1.281858] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.bash\n'}
+[1.281918] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.sh\n'}
+[1.281994] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.zsh\n'}
+[1.282085] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.dsv\n'}
+[1.282232] (tracer_base) StdoutLine: {'line': b'-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.dsv\n'}
+[1.282327] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/ament_index/resource_index/packages/tracer_base\n'}
+[1.282473] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake\n'}
+[1.282695] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake\n'}
+[1.282850] (tracer_base) StdoutLine: {'line': b'-- Up-to-date: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.xml\n'}
+[1.284389] (tracer_base) CommandEnded: {'returncode': 0}
+[1.302048] (tracer_base) JobEnded: {'identifier': 'tracer_base', 'rc': 0}
+[1.313359] (-) TimerEvent: {}
+[1.413608] (-) TimerEvent: {}
+[1.513913] (-) TimerEvent: {}
+[1.614218] (-) TimerEvent: {}
+[1.673214] (my_python_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_python_pkg', 'build', '--build-base', '/home/vertin/ros2_ws/build/my_python_pkg/build', 'install', '--record', '/home/vertin/ros2_ws/build/my_python_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vertin/ros2_ws/src/my_python_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en_US:en', 'USER': 'vertin', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_PACKAGE_PATH': '/home/vertin/ros2_ws/install/ugv_sdk/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vertin', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2230', 'SYSTEMD_EXEC_PID': '2784', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4817', 'COLCON_PREFIX_PATH': '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'vertin', 'JOURNAL_STREAM': '8:15106', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vertin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510', 'INVOCATION_ID': '29e19a4f1d354fda91be21fc7e9079a1', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vertin/ros2_ws/build/my_python_pkg', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vertin/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam'}, 'shell': False}
+[1.714376] (-) TimerEvent: {}
+[1.814804] (-) TimerEvent: {}
+[1.836804] (nav2_launch_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/nav2_launch_test', 'build', '--build-base', '/home/vertin/ros2_ws/build/nav2_launch_test/build', 'install', '--record', '/home/vertin/ros2_ws/build/nav2_launch_test/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vertin/ros2_ws/src/nav2_launch_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en_US:en', 'USER': 'vertin', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_PACKAGE_PATH': '/home/vertin/ros2_ws/install/ugv_sdk/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vertin/ros2_ws/install/tracer_msgs/lib:/home/vertin/ros2_ws/install/lio_sam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vertin', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2230', 'SYSTEMD_EXEC_PID': '2784', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4817', 'COLCON_PREFIX_PATH': '/home/vertin/ros2_ws/install:/home/vertin/my_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'vertin', 'JOURNAL_STREAM': '8:15106', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vertin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/vertin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:@/tmp/.ICE-unix/2510,unix/vertin-VivoBook-ASUSLaptop-X412FL-X412FL:/tmp/.ICE-unix/2510', 'INVOCATION_ID': '29e19a4f1d354fda91be21fc7e9079a1', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/ros2_ws/install/lio_sam:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:5515cc41-d5ea-4d5e-8d9b-2f9a1319f052', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vertin/ros2_ws/build/nav2_launch_test', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vertin/ros2_ws/build/nav2_launch_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/vertin/my_ws/install/robot_localizer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam'}, 'shell': False}
+[1.914908] (-) TimerEvent: {}
+[1.916487] (my_python_pkg) StderrLine: {'line': b"/home/vertin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.916804] (my_python_pkg) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.014985] (-) TimerEvent: {}
+[2.056771] (my_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.079890] (my_python_pkg) StdoutLine: {'line': b'writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO\n'}
+[2.080442] (my_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt\n'}
+[2.080746] (my_python_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt\n'}
+[2.081030] (my_python_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt\n'}
+[2.081219] (my_python_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt\n'}
+[2.115078] (-) TimerEvent: {}
+[2.128079] (nav2_launch_test) StderrLine: {'line': b"/home/vertin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.128362] (nav2_launch_test) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.129277] (my_python_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.130886] (my_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.131187] (my_python_pkg) StdoutLine: {'line': b'running build\n'}
+[2.131332] (my_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.131523] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/__init__.py -> /home/vertin/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[2.131736] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/autopoint.py -> /home/vertin/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[2.131966] (my_python_pkg) StdoutLine: {'line': b'running install\n'}
+[2.137545] (my_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.165768] (my_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.166116] (my_python_pkg) StdoutLine: {'line': b'copying resource/my_python_pkg -> /home/vertin/ros2_ws/install/my_python_pkg/share/ament_index/resource_index/packages\n'}
+[2.166339] (my_python_pkg) StdoutLine: {'line': b'copying package.xml -> /home/vertin/ros2_ws/install/my_python_pkg/share/my_python_pkg\n'}
+[2.166723] (my_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.193879] (my_python_pkg) StdoutLine: {'line': b"removing '/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.194180] (my_python_pkg) StdoutLine: {'line': b'Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info\n'}
+[2.195155] (my_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.215180] (-) TimerEvent: {}
+[2.249101] (my_python_pkg) StdoutLine: {'line': b'Installing autopoint script to /home/vertin/ros2_ws/install/my_python_pkg/lib/my_python_pkg\n'}
+[2.249804] (my_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/vertin/ros2_ws/build/my_python_pkg/install.log'\n"}
+[2.282627] (my_python_pkg) CommandEnded: {'returncode': 0}
+[2.283753] (nav2_launch_test) StdoutLine: {'line': b'running egg_info\n'}
+[2.293472] (my_python_pkg) JobEnded: {'identifier': 'my_python_pkg', 'rc': 0}
+[2.312128] (nav2_launch_test) StdoutLine: {'line': b'writing ../../build/nav2_launch_test/nav2_launch_test.egg-info/PKG-INFO\n'}
+[2.312876] (nav2_launch_test) StdoutLine: {'line': b'writing dependency_links to ../../build/nav2_launch_test/nav2_launch_test.egg-info/dependency_links.txt\n'}
+[2.313168] (nav2_launch_test) StdoutLine: {'line': b'writing requirements to ../../build/nav2_launch_test/nav2_launch_test.egg-info/requires.txt\n'}
+[2.313291] (nav2_launch_test) StdoutLine: {'line': b'writing top-level names to ../../build/nav2_launch_test/nav2_launch_test.egg-info/top_level.txt\n'}
+[2.315279] (-) TimerEvent: {}
+[2.368981] (nav2_launch_test) StdoutLine: {'line': b"reading manifest file '../../build/nav2_launch_test/nav2_launch_test.egg-info/SOURCES.txt'\n"}
+[2.370550] (nav2_launch_test) StdoutLine: {'line': b"writing manifest file '../../build/nav2_launch_test/nav2_launch_test.egg-info/SOURCES.txt'\n"}
+[2.370886] (nav2_launch_test) StdoutLine: {'line': b'running build\n'}
+[2.370977] (nav2_launch_test) StdoutLine: {'line': b'running build_py\n'}
+[2.371134] (nav2_launch_test) StdoutLine: {'line': b'copying nav2_launch_test/__init__.py -> /home/vertin/ros2_ws/build/nav2_launch_test/build/lib/nav2_launch_test\n'}
+[2.371515] (nav2_launch_test) StdoutLine: {'line': b'running install\n'}
+[2.376659] (nav2_launch_test) StdoutLine: {'line': b'running install_lib\n'}
+[2.399962] (nav2_launch_test) StdoutLine: {'line': b'running install_data\n'}
+[2.400202] (nav2_launch_test) StdoutLine: {'line': b'copying resource/nav2_launch_test -> /home/vertin/ros2_ws/install/nav2_launch_test/share/ament_index/resource_index/packages\n'}
+[2.400458] (nav2_launch_test) StdoutLine: {'line': b'copying package.xml -> /home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test\n'}
+[2.400818] (nav2_launch_test) StdoutLine: {'line': b'copying launch/nav2_custom_launch.py -> /home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/launch\n'}
+[2.401015] (nav2_launch_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.415404] (-) TimerEvent: {}
+[2.426446] (nav2_launch_test) StdoutLine: {'line': b"removing '/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages/nav2_launch_test-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.426764] (nav2_launch_test) StdoutLine: {'line': b'Copying ../../build/nav2_launch_test/nav2_launch_test.egg-info to /home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages/nav2_launch_test-0.0.0-py3.10.egg-info\n'}
+[2.427599] (nav2_launch_test) StdoutLine: {'line': b'running install_scripts\n'}
+[2.478494] (nav2_launch_test) StdoutLine: {'line': b"writing list of installed files to '/home/vertin/ros2_ws/build/nav2_launch_test/install.log'\n"}
+[2.505270] (nav2_launch_test) CommandEnded: {'returncode': 0}
+[2.512083] (nav2_launch_test) JobEnded: {'identifier': 'nav2_launch_test', 'rc': 0}
+[2.515503] (-) TimerEvent: {}
+[2.615851] (-) TimerEvent: {}
+[2.716183] (-) TimerEvent: {}
+[2.816544] (-) TimerEvent: {}
+[2.916898] (-) TimerEvent: {}
+[3.017231] (-) TimerEvent: {}
+[3.117591] (-) TimerEvent: {}
+[3.217911] (-) TimerEvent: {}
+[3.318248] (-) TimerEvent: {}
+[3.418589] (-) TimerEvent: {}
+[3.518953] (-) TimerEvent: {}
+[3.619313] (-) TimerEvent: {}
+[3.719664] (-) TimerEvent: {}
+[3.820044] (-) TimerEvent: {}
+[3.920417] (-) TimerEvent: {}
+[4.020743] (-) TimerEvent: {}
+[4.121072] (-) TimerEvent: {}
+[4.221447] (-) TimerEvent: {}
+[4.321858] (-) TimerEvent: {}
+[4.422200] (-) TimerEvent: {}
+[4.522570] (-) TimerEvent: {}
+[4.622890] (-) TimerEvent: {}
+[4.723220] (-) TimerEvent: {}
+[4.786153] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:17\x1b[m\x1b[K:\n'}
+[4.786307] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.786404] (lio_sam) StderrLine: {'line': b'   17 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"\n'}
+[4.786496] (lio_sam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.823339] (-) TimerEvent: {}
+[4.923624] (-) TimerEvent: {}
+[5.023934] (-) TimerEvent: {}
+[5.124246] (-) TimerEvent: {}
+[5.224563] (-) TimerEvent: {}
+[5.324920] (-) TimerEvent: {}
+[5.425245] (-) TimerEvent: {}
+[5.525557] (-) TimerEvent: {}
+[5.625895] (-) TimerEvent: {}
+[5.726205] (-) TimerEvent: {}
+[5.826523] (-) TimerEvent: {}
+[5.926875] (-) TimerEvent: {}
+[6.027201] (-) TimerEvent: {}
+[6.127510] (-) TimerEvent: {}
+[6.227854] (-) TimerEvent: {}
+[6.328177] (-) TimerEvent: {}
+[6.428535] (-) TimerEvent: {}
+[6.528879] (-) TimerEvent: {}
+[6.629230] (-) TimerEvent: {}
+[6.729554] (-) TimerEvent: {}
+[6.829882] (-) TimerEvent: {}
+[6.930197] (-) TimerEvent: {}
+[7.030499] (-) TimerEvent: {}
+[7.130816] (-) TimerEvent: {}
+[7.231141] (-) TimerEvent: {}
+[7.331500] (-) TimerEvent: {}
+[7.432011] (-) TimerEvent: {}
+[7.532312] (-) TimerEvent: {}
+[7.632676] (-) TimerEvent: {}
+[7.733021] (-) TimerEvent: {}
+[7.833333] (-) TimerEvent: {}
+[7.933683] (-) TimerEvent: {}
+[8.034019] (-) TimerEvent: {}
+[8.134327] (-) TimerEvent: {}
+[8.234683] (-) TimerEvent: {}
+[8.334998] (-) TimerEvent: {}
+[8.435319] (-) TimerEvent: {}
+[8.535664] (-) TimerEvent: {}
+[8.635978] (-) TimerEvent: {}
+[8.736294] (-) TimerEvent: {}
+[8.836655] (-) TimerEvent: {}
+[8.937081] (-) TimerEvent: {}
+[9.037445] (-) TimerEvent: {}
+[9.137774] (-) TimerEvent: {}
+[9.238103] (-) TimerEvent: {}
+[9.338438] (-) TimerEvent: {}
+[9.438776] (-) TimerEvent: {}
+[9.539105] (-) TimerEvent: {}
+[9.639431] (-) TimerEvent: {}
+[9.739754] (-) TimerEvent: {}
+[9.840059] (-) TimerEvent: {}
+[9.940413] (-) TimerEvent: {}
+[10.040741] (-) TimerEvent: {}
+[10.141086] (-) TimerEvent: {}
+[10.241399] (-) TimerEvent: {}
+[10.341694] (-) TimerEvent: {}
+[10.442034] (-) TimerEvent: {}
+[10.542361] (-) TimerEvent: {}
+[10.642696] (-) TimerEvent: {}
+[10.743076] (-) TimerEvent: {}
+[10.843485] (-) TimerEvent: {}
+[10.943899] (-) TimerEvent: {}
+[11.044261] (-) TimerEvent: {}
+[11.144588] (-) TimerEvent: {}
+[11.244941] (-) TimerEvent: {}
+[11.345262] (-) TimerEvent: {}
+[11.445581] (-) TimerEvent: {}
+[11.545929] (-) TimerEvent: {}
+[11.646244] (-) TimerEvent: {}
+[11.746582] (-) TimerEvent: {}
+[11.846951] (-) TimerEvent: {}
+[11.947278] (-) TimerEvent: {}
+[12.047660] (-) TimerEvent: {}
+[12.148052] (-) TimerEvent: {}
+[12.248371] (-) TimerEvent: {}
+[12.348766] (-) TimerEvent: {}
+[12.449125] (-) TimerEvent: {}
+[12.549458] (-) TimerEvent: {}
+[12.649816] (-) TimerEvent: {}
+[12.750175] (-) TimerEvent: {}
+[12.850566] (-) TimerEvent: {}
+[12.950935] (-) TimerEvent: {}
+[13.051270] (-) TimerEvent: {}
+[13.151600] (-) TimerEvent: {}
+[13.251956] (-) TimerEvent: {}
+[13.352299] (-) TimerEvent: {}
+[13.452690] (-) TimerEvent: {}
+[13.553091] (-) TimerEvent: {}
+[13.653510] (-) TimerEvent: {}
+[13.753938] (-) TimerEvent: {}
+[13.854312] (-) TimerEvent: {}
+[13.954697] (-) TimerEvent: {}
+[14.055064] (-) TimerEvent: {}
+[14.155472] (-) TimerEvent: {}
+[14.255845] (-) TimerEvent: {}
+[14.356379] (-) TimerEvent: {}
+[14.456682] (-) TimerEvent: {}
+[14.556996] (-) TimerEvent: {}
+[14.657311] (-) TimerEvent: {}
+[14.757657] (-) TimerEvent: {}
+[14.857988] (-) TimerEvent: {}
+[14.958323] (-) TimerEvent: {}
+[15.058660] (-) TimerEvent: {}
+[15.158989] (-) TimerEvent: {}
+[15.259343] (-) TimerEvent: {}
+[15.359686] (-) TimerEvent: {}
+[15.459998] (-) TimerEvent: {}
+[15.560336] (-) TimerEvent: {}
+[15.660667] (-) TimerEvent: {}
+[15.761044] (-) TimerEvent: {}
+[15.861414] (-) TimerEvent: {}
+[15.961780] (-) TimerEvent: {}
+[16.062148] (-) TimerEvent: {}
+[16.162467] (-) TimerEvent: {}
+[16.262811] (-) TimerEvent: {}
+[16.363191] (-) TimerEvent: {}
+[16.463516] (-) TimerEvent: {}
+[16.563849] (-) TimerEvent: {}
+[16.648920] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KIMUPreintegration::IMUPreintegration(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.649172] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:248:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 requested\n'}
+[16.649338] (lio_sam) StderrLine: {'line': b'  248 |         boost::shared_ptr<gtsam::PreintegrationParams> p = \x1b[01;31m\x1b[Kgtsam::PreintegrationParams::MakeSharedU(imuGravity)\x1b[m\x1b[K;\n'}
+[16.649466] (lio_sam) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.663959] (-) TimerEvent: {}
+[16.673510] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:261:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(boost::shared_ptr<gtsam::PreintegrationParams>&, gtsam::imuBias::ConstantBias&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.673969] (lio_sam) StderrLine: {'line': b'  261 |         imuIntegratorImu_ = new gtsam::PreintegratedImuMeasurements(p, prior_imu_bias\x1b[01;31m\x1b[K)\x1b[m\x1b[K; // setting up the IMU integration for IMU message thread\n'}
+[16.674127] (lio_sam) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.674246] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:8\x1b[m\x1b[K:\n'}
+[16.674364] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const PreintegrationType&, const Matrix9&) [with PreintegrationType = gtsam::TangentPreintegration; gtsam::Matrix9 = Eigen::Matrix<double, 9, 9, 0, 9, 9>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.674488] (lio_sam) StderrLine: {'line': b'  105 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K(const PreintegrationType& base, const Matrix9& preintMeasCov)\n'}
+[16.674603] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.674744] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst gtsam::TangentPreintegration&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.674878] (lio_sam) StderrLine: {'line': b'  105 |   PreintegratedImuMeasurementsT(\x1b[01;36m\x1b[Kconst PreintegrationType& base\x1b[m\x1b[K, const Matrix9& preintMeasCov)\n'}
+[16.674993] (lio_sam) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[16.675103] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const std::shared_ptr<gtsam::PreintegrationParams>&, const gtsam::imuBias::ConstantBias&) [with PreintegrationType = gtsam::TangentPreintegration]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.675220] (lio_sam) StderrLine: {'line': b'   94 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K(const std::shared_ptr<PreintegrationParams>& p,\n'}
+[16.675342] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.675453] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:78:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<gtsam::PreintegrationParams>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.675573] (lio_sam) StderrLine: {'line': b'   94 |   PreintegratedImuMeasurementsT(\x1b[01;36m\x1b[Kconst std::shared_ptr<PreintegrationParams>& p\x1b[m\x1b[K,\n'}
+[16.675713] (lio_sam) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[16.675829] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT() [with PreintegrationType = gtsam::TangentPreintegration]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.675953] (lio_sam) StderrLine: {'line': b'   85 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K() {\n'}
+[16.676064] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.676176] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[16.676289] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(const gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.676404] (lio_sam) StderrLine: {'line': b'   72 | class GTSAM_EXPORT \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K: public PreintegrationType {\n'}
+[16.676517] (lio_sam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.676641] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[16.676768] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:262:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(boost::shared_ptr<gtsam::PreintegrationParams>&, gtsam::imuBias::ConstantBias&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.676887] (lio_sam) StderrLine: {'line': b'  262 |         imuIntegratorOpt_ = new gtsam::PreintegratedImuMeasurements(p, prior_imu_bias\x1b[01;31m\x1b[K)\x1b[m\x1b[K; // setting up the IMU integration for optimization\n'}
+[16.677008] (lio_sam) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.677127] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:8\x1b[m\x1b[K:\n'}
+[16.677238] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const PreintegrationType&, const Matrix9&) [with PreintegrationType = gtsam::TangentPreintegration; gtsam::Matrix9 = Eigen::Matrix<double, 9, 9, 0, 9, 9>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.677360] (lio_sam) StderrLine: {'line': b'  105 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K(const PreintegrationType& base, const Matrix9& preintMeasCov)\n'}
+[16.677475] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.677577] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst gtsam::TangentPreintegration&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.677710] (lio_sam) StderrLine: {'line': b'  105 |   PreintegratedImuMeasurementsT(\x1b[01;36m\x1b[Kconst PreintegrationType& base\x1b[m\x1b[K, const Matrix9& preintMeasCov)\n'}
+[16.677837] (lio_sam) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[16.677948] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const std::shared_ptr<gtsam::PreintegrationParams>&, const gtsam::imuBias::ConstantBias&) [with PreintegrationType = gtsam::TangentPreintegration]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.678070] (lio_sam) StderrLine: {'line': b'   94 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K(const std::shared_ptr<PreintegrationParams>& p,\n'}
+[16.678181] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.678293] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:78:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<gtsam::PreintegrationParams>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.678409] (lio_sam) StderrLine: {'line': b'   94 |   PreintegratedImuMeasurementsT(\x1b[01;36m\x1b[Kconst std::shared_ptr<PreintegrationParams>& p\x1b[m\x1b[K,\n'}
+[16.678518] (lio_sam) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[16.678656] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT() [with PreintegrationType = gtsam::TangentPreintegration]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.678783] (lio_sam) StderrLine: {'line': b'   85 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K() {\n'}
+[16.678896] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.679014] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[16.679126] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(const gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.679241] (lio_sam) StderrLine: {'line': b'   72 | class GTSAM_EXPORT \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K: public PreintegrationType {\n'}
+[16.679349] (lio_sam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.679460] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[16.764068] (-) TimerEvent: {}
+[16.864385] (-) TimerEvent: {}
+[16.964680] (-) TimerEvent: {}
+[17.065205] (-) TimerEvent: {}
+[17.165676] (-) TimerEvent: {}
+[17.265996] (-) TimerEvent: {}
+[17.366329] (-) TimerEvent: {}
+[17.466668] (-) TimerEvent: {}
+[17.567003] (-) TimerEvent: {}
+[17.667334] (-) TimerEvent: {}
+[17.767673] (-) TimerEvent: {}
+[17.868033] (-) TimerEvent: {}
+[17.968433] (-) TimerEvent: {}
+[18.068875] (-) TimerEvent: {}
+[18.169183] (-) TimerEvent: {}
+[18.269523] (-) TimerEvent: {}
+[18.369855] (-) TimerEvent: {}
+[18.470177] (-) TimerEvent: {}
+[18.570479] (-) TimerEvent: {}
+[18.670819] (-) TimerEvent: {}
+[18.771118] (-) TimerEvent: {}
+[18.871447] (-) TimerEvent: {}
+[18.971981] (-) TimerEvent: {}
+[19.072303] (-) TimerEvent: {}
+[19.172643] (-) TimerEvent: {}
+[19.272958] (-) TimerEvent: {}
+[19.373287] (-) TimerEvent: {}
+[19.473765] (-) TimerEvent: {}
+[19.574132] (-) TimerEvent: {}
+[19.674475] (-) TimerEvent: {}
+[19.774856] (-) TimerEvent: {}
+[19.875204] (-) TimerEvent: {}
+[19.975559] (-) TimerEvent: {}
+[20.075896] (-) TimerEvent: {}
+[20.176224] (-) TimerEvent: {}
+[20.276553] (-) TimerEvent: {}
+[20.376881] (-) TimerEvent: {}
+[20.477215] (-) TimerEvent: {}
+[20.577587] (-) TimerEvent: {}
+[20.677961] (-) TimerEvent: {}
+[20.778322] (-) TimerEvent: {}
+[20.878656] (-) TimerEvent: {}
+[20.978978] (-) TimerEvent: {}
+[21.079349] (-) TimerEvent: {}
+[21.179682] (-) TimerEvent: {}
+[21.280143] (-) TimerEvent: {}
+[21.380553] (-) TimerEvent: {}
+[21.480944] (-) TimerEvent: {}
+[21.581343] (-) TimerEvent: {}
+[21.681750] (-) TimerEvent: {}
+[21.782081] (-) TimerEvent: {}
+[21.882418] (-) TimerEvent: {}
+[21.982859] (-) TimerEvent: {}
+[22.083238] (-) TimerEvent: {}
+[22.183597] (-) TimerEvent: {}
+[22.283998] (-) TimerEvent: {}
+[22.384351] (-) TimerEvent: {}
+[22.484716] (-) TimerEvent: {}
+[22.585117] (-) TimerEvent: {}
+[22.685450] (-) TimerEvent: {}
+[22.785764] (-) TimerEvent: {}
+[22.886107] (-) TimerEvent: {}
+[22.986444] (-) TimerEvent: {}
+[23.086774] (-) TimerEvent: {}
+[23.187113] (-) TimerEvent: {}
+[23.287434] (-) TimerEvent: {}
+[23.387765] (-) TimerEvent: {}
+[23.488232] (-) TimerEvent: {}
+[23.588587] (-) TimerEvent: {}
+[23.688941] (-) TimerEvent: {}
+[23.789250] (-) TimerEvent: {}
+[23.889565] (-) TimerEvent: {}
+[23.989946] (-) TimerEvent: {}
+[24.090269] (-) TimerEvent: {}
+[24.190583] (-) TimerEvent: {}
+[24.290938] (-) TimerEvent: {}
+[24.391284] (-) TimerEvent: {}
+[24.491641] (-) TimerEvent: {}
+[24.591959] (-) TimerEvent: {}
+[24.692306] (-) TimerEvent: {}
+[24.792702] (-) TimerEvent: {}
+[24.893099] (-) TimerEvent: {}
+[24.993485] (-) TimerEvent: {}
+[25.093820] (-) TimerEvent: {}
+[25.194163] (-) TimerEvent: {}
+[25.294556] (-) TimerEvent: {}
+[25.394965] (-) TimerEvent: {}
+[25.495288] (-) TimerEvent: {}
+[25.595599] (-) TimerEvent: {}
+[25.695955] (-) TimerEvent: {}
+[25.796293] (-) TimerEvent: {}
+[25.896612] (-) TimerEvent: {}
+[25.996940] (-) TimerEvent: {}
+[26.097274] (-) TimerEvent: {}
+[26.197586] (-) TimerEvent: {}
+[26.297919] (-) TimerEvent: {}
+[26.398263] (-) TimerEvent: {}
+[26.498603] (-) TimerEvent: {}
+[26.598914] (-) TimerEvent: {}
+[26.699251] (-) TimerEvent: {}
+[26.799561] (-) TimerEvent: {}
+[26.899891] (-) TimerEvent: {}
+[27.000250] (-) TimerEvent: {}
+[27.100577] (-) TimerEvent: {}
+[27.200937] (-) TimerEvent: {}
+[27.301258] (-) TimerEvent: {}
+[27.401573] (-) TimerEvent: {}
+[27.501889] (-) TimerEvent: {}
+[27.602213] (-) TimerEvent: {}
+[27.702562] (-) TimerEvent: {}
+[27.802892] (-) TimerEvent: {}
+[27.903254] (-) TimerEvent: {}
+[28.003645] (-) TimerEvent: {}
+[28.103970] (-) TimerEvent: {}
+[28.204323] (-) TimerEvent: {}
+[28.304678] (-) TimerEvent: {}
+[28.405030] (-) TimerEvent: {}
+[28.505405] (-) TimerEvent: {}
+[28.605777] (-) TimerEvent: {}
+[28.706148] (-) TimerEvent: {}
+[28.806499] (-) TimerEvent: {}
+[28.906864] (-) TimerEvent: {}
+[29.007249] (-) TimerEvent: {}
+[29.107590] (-) TimerEvent: {}
+[29.207949] (-) TimerEvent: {}
+[29.308301] (-) TimerEvent: {}
+[29.408724] (-) TimerEvent: {}
+[29.509151] (-) TimerEvent: {}
+[29.609549] (-) TimerEvent: {}
+[29.709964] (-) TimerEvent: {}
+[29.810384] (-) TimerEvent: {}
+[29.910774] (-) TimerEvent: {}
+[30.011135] (-) TimerEvent: {}
+[30.111506] (-) TimerEvent: {}
+[30.211860] (-) TimerEvent: {}
+[30.312196] (-) TimerEvent: {}
+[30.412555] (-) TimerEvent: {}
+[30.512897] (-) TimerEvent: {}
+[30.613215] (-) TimerEvent: {}
+[30.713564] (-) TimerEvent: {}
+[30.813917] (-) TimerEvent: {}
+[30.914244] (-) TimerEvent: {}
+[31.014597] (-) TimerEvent: {}
+[31.114935] (-) TimerEvent: {}
+[31.215296] (-) TimerEvent: {}
+[31.315643] (-) TimerEvent: {}
+[31.416051] (-) TimerEvent: {}
+[31.516419] (-) TimerEvent: {}
+[31.616776] (-) TimerEvent: {}
+[31.717129] (-) TimerEvent: {}
+[31.817461] (-) TimerEvent: {}
+[31.917820] (-) TimerEvent: {}
+[32.018194] (-) TimerEvent: {}
+[32.118517] (-) TimerEvent: {}
+[32.218887] (-) TimerEvent: {}
+[32.319209] (-) TimerEvent: {}
+[32.419500] (-) TimerEvent: {}
+[32.519840] (-) TimerEvent: {}
+[32.620178] (-) TimerEvent: {}
+[32.720537] (-) TimerEvent: {}
+[32.820942] (-) TimerEvent: {}
+[32.921410] (-) TimerEvent: {}
+[33.021866] (-) TimerEvent: {}
+[33.122223] (-) TimerEvent: {}
+[33.222560] (-) TimerEvent: {}
+[33.322916] (-) TimerEvent: {}
+[33.423271] (-) TimerEvent: {}
+[33.430717] (lio_sam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[33.440494] (lio_sam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/lio_sam_imuPreintegration.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[33.440734] (lio_sam) StderrLine: {'line': b'gmake[1]: *** \xeb\x81\x9d\xeb\x82\x98\xec\xa7\x80 \xec\x95\x8a\xec\x9d\x80 \xec\x9e\x91\xec\x97\x85\xec\x9d\x84 \xea\xb8\xb0\xeb\x8b\xa4\xeb\xa6\xac\xea\xb3\xa0 \xec\x9e\x88\xec\x8a\xb5\xeb\x8b\x88\xeb\x8b\xa4....\n'}
+[33.523771] (-) TimerEvent: {}
+[33.624089] (-) TimerEvent: {}
+[33.724405] (-) TimerEvent: {}
+[33.824684] (-) TimerEvent: {}
+[33.925014] (-) TimerEvent: {}
+[34.025332] (-) TimerEvent: {}
+[34.125649] (-) TimerEvent: {}
+[34.226027] (-) TimerEvent: {}
+[34.326297] (-) TimerEvent: {}
+[34.381216] (lio_sam) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_featureExtraction\x1b[0m\n'}
+[34.426399] (-) TimerEvent: {}
+[34.526705] (-) TimerEvent: {}
+[34.627001] (-) TimerEvent: {}
+[34.727305] (-) TimerEvent: {}
+[34.827592] (-) TimerEvent: {}
+[34.927940] (-) TimerEvent: {}
+[35.028273] (-) TimerEvent: {}
+[35.096113] (lio_sam) StdoutLine: {'line': b'[ 93%] Built target lio_sam_featureExtraction\n'}
+[35.128402] (-) TimerEvent: {}
+[35.228867] (-) TimerEvent: {}
+[35.329163] (-) TimerEvent: {}
+[35.429408] (-) TimerEvent: {}
+[35.529724] (-) TimerEvent: {}
+[35.629980] (-) TimerEvent: {}
+[35.730252] (-) TimerEvent: {}
+[35.830529] (-) TimerEvent: {}
+[35.930814] (-) TimerEvent: {}
+[36.031089] (-) TimerEvent: {}
+[36.131366] (-) TimerEvent: {}
+[36.231690] (-) TimerEvent: {}
+[36.331963] (-) TimerEvent: {}
+[36.432246] (-) TimerEvent: {}
+[36.532539] (-) TimerEvent: {}
+[36.632801] (-) TimerEvent: {}
+[36.733094] (-) TimerEvent: {}
+[36.833406] (-) TimerEvent: {}
+[36.933710] (-) TimerEvent: {}
+[37.033987] (-) TimerEvent: {}
+[37.134236] (-) TimerEvent: {}
+[37.234528] (-) TimerEvent: {}
+[37.334776] (-) TimerEvent: {}
+[37.435022] (-) TimerEvent: {}
+[37.535286] (-) TimerEvent: {}
+[37.635549] (-) TimerEvent: {}
+[37.735812] (-) TimerEvent: {}
+[37.836094] (-) TimerEvent: {}
+[37.936394] (-) TimerEvent: {}
+[38.036736] (-) TimerEvent: {}
+[38.137021] (-) TimerEvent: {}
+[38.237326] (-) TimerEvent: {}
+[38.337633] (-) TimerEvent: {}
+[38.437894] (-) TimerEvent: {}
+[38.538162] (-) TimerEvent: {}
+[38.638428] (-) TimerEvent: {}
+[38.738704] (-) TimerEvent: {}
+[38.838997] (-) TimerEvent: {}
+[38.939282] (-) TimerEvent: {}
+[39.039553] (-) TimerEvent: {}
+[39.139840] (-) TimerEvent: {}
+[39.240120] (-) TimerEvent: {}
+[39.340386] (-) TimerEvent: {}
+[39.440673] (-) TimerEvent: {}
+[39.540963] (-) TimerEvent: {}
+[39.641228] (-) TimerEvent: {}
+[39.741529] (-) TimerEvent: {}
+[39.841847] (-) TimerEvent: {}
+[39.942151] (-) TimerEvent: {}
+[40.042395] (-) TimerEvent: {}
+[40.142674] (-) TimerEvent: {}
+[40.242957] (-) TimerEvent: {}
+[40.343252] (-) TimerEvent: {}
+[40.443551] (-) TimerEvent: {}
+[40.543842] (-) TimerEvent: {}
+[40.644117] (-) TimerEvent: {}
+[40.744417] (-) TimerEvent: {}
+[40.844689] (-) TimerEvent: {}
+[40.944947] (-) TimerEvent: {}
+[41.045231] (-) TimerEvent: {}
+[41.145535] (-) TimerEvent: {}
+[41.245799] (-) TimerEvent: {}
+[41.346075] (-) TimerEvent: {}
+[41.446351] (-) TimerEvent: {}
+[41.546624] (-) TimerEvent: {}
+[41.603301] (lio_sam) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_imageProjection\x1b[0m\n'}
+[41.646705] (-) TimerEvent: {}
+[41.746989] (-) TimerEvent: {}
+[41.847292] (-) TimerEvent: {}
+[41.947592] (-) TimerEvent: {}
+[42.047880] (-) TimerEvent: {}
+[42.148160] (-) TimerEvent: {}
+[42.248463] (-) TimerEvent: {}
+[42.289985] (lio_sam) StdoutLine: {'line': b'[ 95%] Built target lio_sam_imageProjection\n'}
+[42.348591] (-) TimerEvent: {}
+[42.448908] (-) TimerEvent: {}
+[42.549203] (-) TimerEvent: {}
+[42.649477] (-) TimerEvent: {}
+[42.749788] (-) TimerEvent: {}
+[42.850055] (-) TimerEvent: {}
+[42.950371] (-) TimerEvent: {}
+[43.050708] (-) TimerEvent: {}
+[43.151056] (-) TimerEvent: {}
+[43.251389] (-) TimerEvent: {}
+[43.351717] (-) TimerEvent: {}
+[43.452032] (-) TimerEvent: {}
+[43.552356] (-) TimerEvent: {}
+[43.652688] (-) TimerEvent: {}
+[43.752990] (-) TimerEvent: {}
+[43.853298] (-) TimerEvent: {}
+[43.953587] (-) TimerEvent: {}
+[44.053907] (-) TimerEvent: {}
+[44.154186] (-) TimerEvent: {}
+[44.254604] (-) TimerEvent: {}
+[44.354907] (-) TimerEvent: {}
+[44.455194] (-) TimerEvent: {}
+[44.555495] (-) TimerEvent: {}
+[44.655795] (-) TimerEvent: {}
+[44.756082] (-) TimerEvent: {}
+[44.856415] (-) TimerEvent: {}
+[44.956724] (-) TimerEvent: {}
+[45.057037] (-) TimerEvent: {}
+[45.157338] (-) TimerEvent: {}
+[45.257648] (-) TimerEvent: {}
+[45.357927] (-) TimerEvent: {}
+[45.458229] (-) TimerEvent: {}
+[45.558500] (-) TimerEvent: {}
+[45.658754] (-) TimerEvent: {}
+[45.759070] (-) TimerEvent: {}
+[45.859470] (-) TimerEvent: {}
+[45.959709] (-) TimerEvent: {}
+[46.059958] (-) TimerEvent: {}
+[46.160296] (-) TimerEvent: {}
+[46.260588] (-) TimerEvent: {}
+[46.360848] (-) TimerEvent: {}
+[46.461194] (-) TimerEvent: {}
+[46.561506] (-) TimerEvent: {}
+[46.661872] (-) TimerEvent: {}
+[46.762203] (-) TimerEvent: {}
+[46.862589] (-) TimerEvent: {}
+[46.962864] (-) TimerEvent: {}
+[47.063211] (-) TimerEvent: {}
+[47.163508] (-) TimerEvent: {}
+[47.263856] (-) TimerEvent: {}
+[47.364149] (-) TimerEvent: {}
+[47.464518] (-) TimerEvent: {}
+[47.564822] (-) TimerEvent: {}
+[47.665064] (-) TimerEvent: {}
+[47.765337] (-) TimerEvent: {}
+[47.865627] (-) TimerEvent: {}
+[47.965940] (-) TimerEvent: {}
+[48.066227] (-) TimerEvent: {}
+[48.166521] (-) TimerEvent: {}
+[48.266780] (-) TimerEvent: {}
+[48.367083] (-) TimerEvent: {}
+[48.467396] (-) TimerEvent: {}
+[48.567678] (-) TimerEvent: {}
+[48.667975] (-) TimerEvent: {}
+[48.768282] (-) TimerEvent: {}
+[48.868563] (-) TimerEvent: {}
+[48.968845] (-) TimerEvent: {}
+[49.069133] (-) TimerEvent: {}
+[49.169433] (-) TimerEvent: {}
+[49.269711] (-) TimerEvent: {}
+[49.369984] (-) TimerEvent: {}
+[49.470226] (-) TimerEvent: {}
+[49.570513] (-) TimerEvent: {}
+[49.670806] (-) TimerEvent: {}
+[49.771088] (-) TimerEvent: {}
+[49.871382] (-) TimerEvent: {}
+[49.971697] (-) TimerEvent: {}
+[50.071974] (-) TimerEvent: {}
+[50.172251] (-) TimerEvent: {}
+[50.272534] (-) TimerEvent: {}
+[50.372800] (-) TimerEvent: {}
+[50.473319] (-) TimerEvent: {}
+[50.573628] (-) TimerEvent: {}
+[50.673919] (-) TimerEvent: {}
+[50.774164] (-) TimerEvent: {}
+[50.874454] (-) TimerEvent: {}
+[50.974717] (-) TimerEvent: {}
+[51.074973] (-) TimerEvent: {}
+[51.175233] (-) TimerEvent: {}
+[51.275543] (-) TimerEvent: {}
+[51.375831] (-) TimerEvent: {}
+[51.476119] (-) TimerEvent: {}
+[51.576374] (-) TimerEvent: {}
+[51.676673] (-) TimerEvent: {}
+[51.776948] (-) TimerEvent: {}
+[51.877225] (-) TimerEvent: {}
+[51.977514] (-) TimerEvent: {}
+[52.077761] (-) TimerEvent: {}
+[52.178034] (-) TimerEvent: {}
+[52.278314] (-) TimerEvent: {}
+[52.378658] (-) TimerEvent: {}
+[52.478912] (-) TimerEvent: {}
+[52.579200] (-) TimerEvent: {}
+[52.679517] (-) TimerEvent: {}
+[52.779778] (-) TimerEvent: {}
+[52.880056] (-) TimerEvent: {}
+[52.980290] (-) TimerEvent: {}
+[53.080550] (-) TimerEvent: {}
+[53.180797] (-) TimerEvent: {}
+[53.281087] (-) TimerEvent: {}
+[53.381400] (-) TimerEvent: {}
+[53.481678] (-) TimerEvent: {}
+[53.582053] (-) TimerEvent: {}
+[53.682381] (-) TimerEvent: {}
+[53.782681] (-) TimerEvent: {}
+[53.882999] (-) TimerEvent: {}
+[53.983327] (-) TimerEvent: {}
+[54.083601] (-) TimerEvent: {}
+[54.183881] (-) TimerEvent: {}
+[54.284153] (-) TimerEvent: {}
+[54.384453] (-) TimerEvent: {}
+[54.484714] (-) TimerEvent: {}
+[54.584996] (-) TimerEvent: {}
+[54.685359] (-) TimerEvent: {}
+[54.785650] (-) TimerEvent: {}
+[54.885896] (-) TimerEvent: {}
+[54.986308] (-) TimerEvent: {}
+[55.086606] (-) TimerEvent: {}
+[55.186896] (-) TimerEvent: {}
+[55.287205] (-) TimerEvent: {}
+[55.387483] (-) TimerEvent: {}
+[55.487713] (-) TimerEvent: {}
+[55.587986] (-) TimerEvent: {}
+[55.688321] (-) TimerEvent: {}
+[55.788607] (-) TimerEvent: {}
+[55.888881] (-) TimerEvent: {}
+[55.989198] (-) TimerEvent: {}
+[56.089492] (-) TimerEvent: {}
+[56.189713] (-) TimerEvent: {}
+[56.290016] (-) TimerEvent: {}
+[56.390257] (-) TimerEvent: {}
+[56.490514] (-) TimerEvent: {}
+[56.590760] (-) TimerEvent: {}
+[56.691046] (-) TimerEvent: {}
+[56.791326] (-) TimerEvent: {}
+[56.891608] (-) TimerEvent: {}
+[56.991858] (-) TimerEvent: {}
+[57.092154] (-) TimerEvent: {}
+[57.192501] (-) TimerEvent: {}
+[57.292873] (-) TimerEvent: {}
+[57.393139] (-) TimerEvent: {}
+[57.493414] (-) TimerEvent: {}
+[57.593705] (-) TimerEvent: {}
+[57.694026] (-) TimerEvent: {}
+[57.794306] (-) TimerEvent: {}
+[57.894587] (-) TimerEvent: {}
+[57.994877] (-) TimerEvent: {}
+[58.095115] (-) TimerEvent: {}
+[58.195404] (-) TimerEvent: {}
+[58.295710] (-) TimerEvent: {}
+[58.396029] (-) TimerEvent: {}
+[58.496364] (-) TimerEvent: {}
+[58.596748] (-) TimerEvent: {}
+[58.697115] (-) TimerEvent: {}
+[58.797494] (-) TimerEvent: {}
+[58.897883] (-) TimerEvent: {}
+[58.998214] (-) TimerEvent: {}
+[59.098634] (-) TimerEvent: {}
+[59.198981] (-) TimerEvent: {}
+[59.299335] (-) TimerEvent: {}
+[59.399716] (-) TimerEvent: {}
+[59.500069] (-) TimerEvent: {}
+[59.600429] (-) TimerEvent: {}
+[59.700775] (-) TimerEvent: {}
+[59.801085] (-) TimerEvent: {}
+[59.905705] (-) TimerEvent: {}
+[60.005986] (-) TimerEvent: {}
+[60.106279] (-) TimerEvent: {}
+[60.206544] (-) TimerEvent: {}
+[60.306798] (-) TimerEvent: {}
+[60.407116] (-) TimerEvent: {}
+[60.507398] (-) TimerEvent: {}
+[60.607723] (-) TimerEvent: {}
+[60.708034] (-) TimerEvent: {}
+[60.808302] (-) TimerEvent: {}
+[60.908556] (-) TimerEvent: {}
+[61.008850] (-) TimerEvent: {}
+[61.109142] (-) TimerEvent: {}
+[61.209410] (-) TimerEvent: {}
+[61.309686] (-) TimerEvent: {}
+[61.409971] (-) TimerEvent: {}
+[61.510309] (-) TimerEvent: {}
+[61.610596] (-) TimerEvent: {}
+[61.710839] (-) TimerEvent: {}
+[61.811128] (-) TimerEvent: {}
+[61.911412] (-) TimerEvent: {}
+[62.011721] (-) TimerEvent: {}
+[62.112055] (-) TimerEvent: {}
+[62.212344] (-) TimerEvent: {}
+[62.312642] (-) TimerEvent: {}
+[62.412964] (-) TimerEvent: {}
+[62.513216] (-) TimerEvent: {}
+[62.613478] (-) TimerEvent: {}
+[62.713801] (-) TimerEvent: {}
+[62.814080] (-) TimerEvent: {}
+[62.914341] (-) TimerEvent: {}
+[63.014643] (-) TimerEvent: {}
+[63.114969] (-) TimerEvent: {}
+[63.215264] (-) TimerEvent: {}
+[63.315545] (-) TimerEvent: {}
+[63.415845] (-) TimerEvent: {}
+[63.516129] (-) TimerEvent: {}
+[63.616411] (-) TimerEvent: {}
+[63.716721] (-) TimerEvent: {}
+[63.817020] (-) TimerEvent: {}
+[63.917312] (-) TimerEvent: {}
+[64.017560] (-) TimerEvent: {}
+[64.117855] (-) TimerEvent: {}
+[64.218148] (-) TimerEvent: {}
+[64.318434] (-) TimerEvent: {}
+[64.418703] (-) TimerEvent: {}
+[64.518962] (-) TimerEvent: {}
+[64.619253] (-) TimerEvent: {}
+[64.719601] (-) TimerEvent: {}
+[64.819864] (-) TimerEvent: {}
+[64.920150] (-) TimerEvent: {}
+[65.020431] (-) TimerEvent: {}
+[65.120699] (-) TimerEvent: {}
+[65.220976] (-) TimerEvent: {}
+[65.321247] (-) TimerEvent: {}
+[65.421535] (-) TimerEvent: {}
+[65.521792] (-) TimerEvent: {}
+[65.622078] (-) TimerEvent: {}
+[65.722381] (-) TimerEvent: {}
+[65.822672] (-) TimerEvent: {}
+[65.922961] (-) TimerEvent: {}
+[66.023253] (-) TimerEvent: {}
+[66.123581] (-) TimerEvent: {}
+[66.223839] (-) TimerEvent: {}
+[66.324095] (-) TimerEvent: {}
+[66.424458] (-) TimerEvent: {}
+[66.524718] (-) TimerEvent: {}
+[66.625005] (-) TimerEvent: {}
+[66.725297] (-) TimerEvent: {}
+[66.825599] (-) TimerEvent: {}
+[66.925848] (-) TimerEvent: {}
+[67.026142] (-) TimerEvent: {}
+[67.126471] (-) TimerEvent: {}
+[67.226714] (-) TimerEvent: {}
+[67.327000] (-) TimerEvent: {}
+[67.427279] (-) TimerEvent: {}
+[67.527566] (-) TimerEvent: {}
+[67.627827] (-) TimerEvent: {}
+[67.728106] (-) TimerEvent: {}
+[67.828393] (-) TimerEvent: {}
+[67.928679] (-) TimerEvent: {}
+[68.028949] (-) TimerEvent: {}
+[68.129191] (-) TimerEvent: {}
+[68.229437] (-) TimerEvent: {}
+[68.329712] (-) TimerEvent: {}
+[68.429986] (-) TimerEvent: {}
+[68.530324] (-) TimerEvent: {}
+[68.630623] (-) TimerEvent: {}
+[68.730886] (-) TimerEvent: {}
+[68.831172] (-) TimerEvent: {}
+[68.931515] (-) TimerEvent: {}
+[69.031770] (-) TimerEvent: {}
+[69.132083] (-) TimerEvent: {}
+[69.232374] (-) TimerEvent: {}
+[69.332654] (-) TimerEvent: {}
+[69.432897] (-) TimerEvent: {}
+[69.533235] (-) TimerEvent: {}
+[69.633529] (-) TimerEvent: {}
+[69.733782] (-) TimerEvent: {}
+[69.834058] (-) TimerEvent: {}
+[69.934386] (-) TimerEvent: {}
+[70.034669] (-) TimerEvent: {}
+[70.134923] (-) TimerEvent: {}
+[70.235202] (-) TimerEvent: {}
+[70.335500] (-) TimerEvent: {}
+[70.435717] (-) TimerEvent: {}
+[70.535983] (-) TimerEvent: {}
+[70.636279] (-) TimerEvent: {}
+[70.736537] (-) TimerEvent: {}
+[70.836807] (-) TimerEvent: {}
+[70.937125] (-) TimerEvent: {}
+[71.037405] (-) TimerEvent: {}
+[71.137737] (-) TimerEvent: {}
+[71.238063] (-) TimerEvent: {}
+[71.338356] (-) TimerEvent: {}
+[71.438656] (-) TimerEvent: {}
+[71.538932] (-) TimerEvent: {}
+[71.639266] (-) TimerEvent: {}
+[71.739557] (-) TimerEvent: {}
+[71.839832] (-) TimerEvent: {}
+[71.940107] (-) TimerEvent: {}
+[72.040368] (-) TimerEvent: {}
+[72.140677] (-) TimerEvent: {}
+[72.240975] (-) TimerEvent: {}
+[72.341223] (-) TimerEvent: {}
+[72.441521] (-) TimerEvent: {}
+[72.541776] (-) TimerEvent: {}
+[72.642103] (-) TimerEvent: {}
+[72.742390] (-) TimerEvent: {}
+[72.842644] (-) TimerEvent: {}
+[72.942933] (-) TimerEvent: {}
+[73.043183] (-) TimerEvent: {}
+[73.143488] (-) TimerEvent: {}
+[73.243857] (-) TimerEvent: {}
+[73.344158] (-) TimerEvent: {}
+[73.444456] (-) TimerEvent: {}
+[73.544801] (-) TimerEvent: {}
+[73.580590] (lio_sam) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_mapOptimization\x1b[0m\n'}
+[73.644905] (-) TimerEvent: {}
+[73.745229] (-) TimerEvent: {}
+[73.845546] (-) TimerEvent: {}
+[73.945870] (-) TimerEvent: {}
+[74.046228] (-) TimerEvent: {}
+[74.146518] (-) TimerEvent: {}
+[74.246853] (-) TimerEvent: {}
+[74.301875] (lio_sam) StderrLine: {'line': b'/usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12\n'}
+[74.346981] (-) TimerEvent: {}
+[74.447308] (-) TimerEvent: {}
+[74.547582] (-) TimerEvent: {}
+[74.575728] (lio_sam) StdoutLine: {'line': b'[ 97%] Built target lio_sam_mapOptimization\n'}
+[74.578806] (lio_sam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[74.614527] (lio_sam) CommandEnded: {'returncode': 2}
+[74.648363] (-) TimerEvent: {}
+[74.700382] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 2}
+[74.717034] (-) EventReactorShutdown: {}

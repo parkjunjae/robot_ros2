@@ -1,0 +1,93 @@
+[  8%] Built target lio_sam__rosidl_generator_c
+[ 10%] Built target lio_sam__cpp
+[ 10%] Built target ament_cmake_python_copy_lio_sam
+[ 19%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[ 27%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[ 36%] Built target lio_sam__rosidl_typesupport_c
+[ 44%] Built target lio_sam__rosidl_typesupport_cpp
+[ 53%] Built target lio_sam__rosidl_typesupport_introspection_c
+[ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target lio_sam
+[ 63%] Built target lio_sam__py
+[ 65%] [32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[ 78%] Built target lio_sam__rosidl_generator_py
+[ 82%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[ 87%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target lio_sam__rosidl_typesupport_c__pyext
+running egg_info
+writing lio_sam.egg-info/PKG-INFO
+writing dependency_links to lio_sam.egg-info/dependency_links.txt
+writing top-level names to lio_sam.egg-info/top_level.txt
+reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[ 91%] Built target ament_cmake_python_build_lio_sam_egg
+In file included from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:17[m[K:
+[01m[K/usr/local/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:[m[K In constructor ‘[01m[KIMUPreintegration::IMUPreintegration(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:248:100:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ to non-scalar type ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>[m[K’ requested
+  248 |         boost::shared_ptr<gtsam::PreintegrationParams> p = [01;31m[Kgtsam::PreintegrationParams::MakeSharedU(imuGravity)[m[K;
+      |                                                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:261:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(boost::shared_ptr<gtsam::PreintegrationParams>&, gtsam::imuBias::ConstantBias&)[m[K’
+  261 |         imuIntegratorImu_ = new gtsam::PreintegratedImuMeasurements(p, prior_imu_bias[01;31m[K)[m[K; // setting up the IMU integration for IMU message thread
+      |                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:8[m[K:
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const PreintegrationType&, const Matrix9&) [with PreintegrationType = gtsam::TangentPreintegration; gtsam::Matrix9 = Eigen::Matrix<double, 9, 9, 0, 9, 9>][m[K’
+  105 |   [01;36m[KPreintegratedImuMeasurementsT[m[K(const PreintegrationType& base, const Matrix9& preintMeasCov)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kconst gtsam::TangentPreintegration&[m[K’
+  105 |   PreintegratedImuMeasurementsT([01;36m[Kconst PreintegrationType& base[m[K, const Matrix9& preintMeasCov)
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const std::shared_ptr<gtsam::PreintegrationParams>&, const gtsam::imuBias::ConstantBias&) [with PreintegrationType = gtsam::TangentPreintegration][m[K’
+   94 |   [01;36m[KPreintegratedImuMeasurementsT[m[K(const std::shared_ptr<PreintegrationParams>& p,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:78:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kconst std::shared_ptr<gtsam::PreintegrationParams>&[m[K’
+   94 |   PreintegratedImuMeasurementsT([01;36m[Kconst std::shared_ptr<PreintegrationParams>& p[m[K,
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT() [with PreintegrationType = gtsam::TangentPreintegration][m[K’
+   85 |   [01;36m[KPreintegratedImuMeasurementsT[m[K() {
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(const gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>&)[m[K’
+   72 | class GTSAM_EXPORT [01;36m[KPreintegratedImuMeasurementsT[m[K: public PreintegrationType {
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:262:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(boost::shared_ptr<gtsam::PreintegrationParams>&, gtsam::imuBias::ConstantBias&)[m[K’
+  262 |         imuIntegratorOpt_ = new gtsam::PreintegratedImuMeasurements(p, prior_imu_bias[01;31m[K)[m[K; // setting up the IMU integration for optimization
+      |                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:8[m[K:
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const PreintegrationType&, const Matrix9&) [with PreintegrationType = gtsam::TangentPreintegration; gtsam::Matrix9 = Eigen::Matrix<double, 9, 9, 0, 9, 9>][m[K’
+  105 |   [01;36m[KPreintegratedImuMeasurementsT[m[K(const PreintegrationType& base, const Matrix9& preintMeasCov)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kconst gtsam::TangentPreintegration&[m[K’
+  105 |   PreintegratedImuMeasurementsT([01;36m[Kconst PreintegrationType& base[m[K, const Matrix9& preintMeasCov)
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const std::shared_ptr<gtsam::PreintegrationParams>&, const gtsam::imuBias::ConstantBias&) [with PreintegrationType = gtsam::TangentPreintegration][m[K’
+   94 |   [01;36m[KPreintegratedImuMeasurementsT[m[K(const std::shared_ptr<PreintegrationParams>& p,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:78:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kconst std::shared_ptr<gtsam::PreintegrationParams>&[m[K’
+   94 |   PreintegratedImuMeasurementsT([01;36m[Kconst std::shared_ptr<PreintegrationParams>& p[m[K,
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT() [with PreintegrationType = gtsam::TangentPreintegration][m[K’
+   85 |   [01;36m[KPreintegratedImuMeasurementsT[m[K() {
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(const gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>&)[m[K’
+   72 | class GTSAM_EXPORT [01;36m[KPreintegratedImuMeasurementsT[m[K: public PreintegrationType {
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/lio_sam_imuPreintegration.dir/all] 오류 2
+gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[ 93%] [32m[1mLinking CXX executable lio_sam_featureExtraction[0m
+[ 93%] Built target lio_sam_featureExtraction
+[ 95%] [32m[1mLinking CXX executable lio_sam_imageProjection[0m
+[ 95%] Built target lio_sam_imageProjection
+[ 97%] [32m[1mLinking CXX executable lio_sam_mapOptimization[0m
+/usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12
+[ 97%] Built target lio_sam_mapOptimization
+gmake: *** [Makefile:146: all] 오류 2

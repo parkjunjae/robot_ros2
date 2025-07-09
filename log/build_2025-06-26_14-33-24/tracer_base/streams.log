@@ -1,0 +1,13 @@
+[0.019s] Invoking command in '/home/vertin/ros2_ws/build/tracer_base': AMENT_PREFIX_PATH=/home/vertin/ros2_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs LD_LIBRARY_PATH=/home/vertin/ros2_ws/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/vertin/ros2_ws/install/ugv_sdk/share /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_base -- -j8 -l8
+[0.088s] [ 33%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o[0m
+[0.089s] [ 66%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m
+[0.990s] In file included from [01m[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:12[m[K:
+[0.990s] [01m[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_messenger.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp: 그런 파일이나 디렉터리가 없습니다
+[0.990s]    21 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp>[m[K
+[0.990s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.990s] compilation terminated.
+[0.996s] gmake[2]: *** [CMakeFiles/tracer_base_node.dir/build.make:76: CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o] 오류 1
+[0.996s] gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[4.719s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tracer_base_node.dir/all] 오류 2
+[4.719s] gmake: *** [Makefile:146: all] 오류 2
+[4.722s] Invoked command in '/home/vertin/ros2_ws/build/tracer_base' returned '2': AMENT_PREFIX_PATH=/home/vertin/ros2_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs LD_LIBRARY_PATH=/home/vertin/ros2_ws/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/vertin/ros2_ws/install/ugv_sdk/share /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_base -- -j8 -l8

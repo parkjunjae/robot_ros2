@@ -1,0 +1,44 @@
+[0.032s] Invoking command in '/home/vertin/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --build /home/vertin/ros2_ws/build/lio_sam -- -j8 -l8
+[0.694s] [  8%] Built target lio_sam__rosidl_generator_c
+[0.694s] [ 10%] Built target lio_sam__cpp
+[0.694s] [ 10%] Built target ament_cmake_python_copy_lio_sam
+[0.694s] [ 19%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.695s] [ 27%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.695s] [ 40%] Built target lio_sam__rosidl_typesupport_cpp
+[0.695s] [ 53%] Built target lio_sam__rosidl_typesupport_c
+[0.695s] [ 53%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.695s] [ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.695s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration[0m
+[0.695s] [ 65%] Built target lio_sam_imageProjection
+[0.695s] [ 70%] Built target lio_sam_featureExtraction
+[0.695s] [ 74%] Built target lio_sam_mapOptimization
+[0.695s] [ 74%] Built target lio_sam
+[0.696s] [ 76%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[0.696s] [ 78%] Built target lio_sam__py
+[0.696s] [ 85%] Built target lio_sam__rosidl_generator_py
+[0.696s] [ 89%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.697s] [ 93%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.697s] [ 97%] Built target lio_sam__rosidl_typesupport_c__pyext
+[0.697s] running egg_info
+[0.697s] writing lio_sam.egg-info/PKG-INFO
+[0.697s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.697s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.697s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.697s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.698s] [ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[3.132s] In file included from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:17[m[K:
+[3.132s] [01m[K/usr/local/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.132s]    17 | #[01;35m[Kwarning[m[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"
+[3.132s]       |  [01;35m[K^~~~~~~[m[K
+[11.964s] [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:[m[K In constructor ‘[01m[KTransformFusion::TransformFusion(const rclcpp::NodeOptions&)[m[K’:
+[11.964s] [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[KtfBroadcaster[m[K’ was not declared in this scope
+[11.964s]    78 |         [01;31m[KtfBroadcaster[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(this);
+[11.965s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[12.006s] [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:[m[K In member function ‘[01m[Kvoid TransformFusion::imuOdometryHandler(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.006s] [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:148:9:[m[K [01;31m[Kerror: [m[K‘[01m[KtfBroadcaster[m[K’ was not declared in this scope
+[12.006s]   148 |         [01;31m[KtfBroadcaster[m[K->sendTransform(ts);
+[12.006s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[24.418s] gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] 오류 1
+[24.419s] gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/lio_sam_imuPreintegration.dir/all] 오류 2
+[24.419s] gmake: *** [Makefile:146: all] 오류 2
+[24.421s] Invoked command in '/home/vertin/ros2_ws/build/lio_sam' returned '2': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --build /home/vertin/ros2_ws/build/lio_sam -- -j8 -l8

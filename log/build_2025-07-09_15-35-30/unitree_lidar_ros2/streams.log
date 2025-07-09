@@ -1,0 +1,24 @@
+[1.480s] Invoking command in '/home/vertin/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/unitree_lidar_ros2 -- -j8 -l8
+[1.737s] [100%] Built target unitree_lidar_ros2_node
+[2.357s] Invoked command in '/home/vertin/ros2_ws/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/unitree_lidar_ros2 -- -j8 -l8
+[2.377s] Invoking command in '/home/vertin/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/unitree_lidar_ros2
+[2.790s] -- Install configuration: ""
+[2.791s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node
+[2.793s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz
+[2.796s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py
+[2.798s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2
+[2.808s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2
+[2.810s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh
+[2.815s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv
+[2.827s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh
+[2.838s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv
+[2.839s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash
+[2.848s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh
+[2.849s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh
+[2.851s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv
+[2.867s] -- Installing: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv
+[2.906s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2
+[2.907s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake
+[2.912s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake
+[2.917s] -- Up-to-date: /home/vertin/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml
+[3.188s] Invoked command in '/home/vertin/ros2_ws/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/unitree_lidar_ros2

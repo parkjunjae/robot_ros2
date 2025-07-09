@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target tracer_base_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable tracer_base_node[0m
+[100%] Built target tracer_base_node
+-- Install configuration: ""
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/lib/tracer_base/tracer_base_node
+-- Set runtime path of "/home/vertin/ros2_ws/install/tracer_base/lib/tracer_base/tracer_base_node" to ""
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch/tracer_base.launch.py
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base//launch/tracer_mini_base.launch.py
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/path.sh
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/environment/path.dsv
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.bash
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.sh
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.zsh
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/local_setup.dsv
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.dsv
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/ament_index/resource_index/packages/tracer_base
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake
+-- Installing: /home/vertin/ros2_ws/install/tracer_base/share/tracer_base/package.xml

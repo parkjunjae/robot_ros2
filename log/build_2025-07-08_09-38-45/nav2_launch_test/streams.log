@@ -1,0 +1,25 @@
+[1.476s] Invoking command in '/home/vertin/ros2_ws/src/nav2_launch_test': PYTHONPATH=/home/vertin/ros2_ws/build/nav2_launch_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_launch_test build --build-base /home/vertin/ros2_ws/build/nav2_launch_test/build install --record /home/vertin/ros2_ws/build/nav2_launch_test/install.log --single-version-externally-managed install_data
+[1.652s] /home/vertin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.652s]   warnings.warn(msg)
+[1.770s] running egg_info
+[1.789s] writing ../../build/nav2_launch_test/nav2_launch_test.egg-info/PKG-INFO
+[1.790s] writing dependency_links to ../../build/nav2_launch_test/nav2_launch_test.egg-info/dependency_links.txt
+[1.790s] writing requirements to ../../build/nav2_launch_test/nav2_launch_test.egg-info/requires.txt
+[1.790s] writing top-level names to ../../build/nav2_launch_test/nav2_launch_test.egg-info/top_level.txt
+[1.832s] reading manifest file '../../build/nav2_launch_test/nav2_launch_test.egg-info/SOURCES.txt'
+[1.835s] writing manifest file '../../build/nav2_launch_test/nav2_launch_test.egg-info/SOURCES.txt'
+[1.835s] running build
+[1.835s] running build_py
+[1.835s] copying nav2_launch_test/__init__.py -> /home/vertin/ros2_ws/build/nav2_launch_test/build/lib/nav2_launch_test
+[1.835s] running install
+[1.840s] running install_lib
+[1.860s] running install_data
+[1.860s] copying resource/nav2_launch_test -> /home/vertin/ros2_ws/install/nav2_launch_test/share/ament_index/resource_index/packages
+[1.860s] copying package.xml -> /home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test
+[1.860s] copying launch/nav2_custom_launch.py -> /home/vertin/ros2_ws/install/nav2_launch_test/share/nav2_launch_test/launch
+[1.861s] running install_egg_info
+[1.881s] removing '/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages/nav2_launch_test-0.0.0-py3.10.egg-info' (and everything under it)
+[1.881s] Copying ../../build/nav2_launch_test/nav2_launch_test.egg-info to /home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages/nav2_launch_test-0.0.0-py3.10.egg-info
+[1.882s] running install_scripts
+[1.923s] writing list of installed files to '/home/vertin/ros2_ws/build/nav2_launch_test/install.log'
+[1.960s] Invoked command in '/home/vertin/ros2_ws/src/nav2_launch_test' returned '0': PYTHONPATH=/home/vertin/ros2_ws/build/nav2_launch_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vertin/ros2_ws/install/nav2_launch_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_launch_test build --build-base /home/vertin/ros2_ws/build/nav2_launch_test/build install --record /home/vertin/ros2_ws/build/nav2_launch_test/install.log --single-version-externally-managed install_data

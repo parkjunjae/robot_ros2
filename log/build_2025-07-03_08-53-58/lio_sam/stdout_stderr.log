@@ -1,0 +1,357 @@
+[  2%] Built target lio_sam__cpp
+[ 10%] Built target lio_sam__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_lio_sam
+[ 19%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[ 27%] Built target lio_sam__rosidl_typesupport_c
+[ 36%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[ 44%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[ 53%] Built target lio_sam__rosidl_typesupport_introspection_c
+[ 61%] Built target lio_sam__rosidl_typesupport_cpp
+[ 61%] Built target lio_sam
+[35m[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration[0m
+[ 63%] Built target lio_sam__py
+[ 68%] Built target lio_sam_featureExtraction
+[ 72%] Built target lio_sam_imageProjection
+[ 76%] Built target lio_sam_mapOptimization
+[ 82%] Built target lio_sam__rosidl_generator_py
+[ 85%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[ 89%] Built target lio_sam__rosidl_typesupport_c__pyext
+[ 93%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing lio_sam.egg-info/PKG-INFO
+writing dependency_links to lio_sam.egg-info/dependency_links.txt
+writing top-level names to lio_sam.egg-info/top_level.txt
+reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_lio_sam_egg
+In file included from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:17[m[K:
+[01m[K/usr/local/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:[m[K In constructor ‘[01m[KTransformFusion::TransformFusion(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[KtfBroadcaster[m[K’ was not declared in this scope
+   78 |         [01;31m[KtfBroadcaster[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(this);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:[m[K In member function ‘[01m[Kvoid TransformFusion::imuOdometryHandler(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:148:9:[m[K [01;31m[Kerror: [m[K‘[01m[KtfBroadcaster[m[K’ was not declared in this scope
+  148 |         [01;31m[KtfBroadcaster[m[K->sendTransform(ts);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:[m[K In constructor ‘[01m[KIMUPreintegration::IMUPreintegration(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>::shared_ptr(std::shared_ptr<gtsam::PreintegrationParams>&)[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;31m[K)[m[K;
+      |                                                               [01;31m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y> boost::shared_ptr<T>::shared_ptr(boost::shared_ptr<Y>&&, boost::shared_ptr<T>::element_type*) [with Y = Y; T = gtsam::PreintegrationParams][m[K’
+  667 |     [01;36m[Kshared_ptr[m[K( shared_ptr<Y> && r, element_type * p ) BOOST_SP_NOEXCEPT : px( p ), pn()
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ is not derived from ‘[01m[Kboost::shared_ptr<X>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:637:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y> boost::shared_ptr<T>::shared_ptr(boost::shared_ptr<Y>&&, typename boost::detail::sp_enable_if_convertible<Y, T>::type) [with Y = Y; T = gtsam::PreintegrationParams][m[K’
+  637 |     [01;36m[Kshared_ptr[m[K( shared_ptr<Y> && r, typename boost::detail::sp_enable_if_convertible<Y,T>::type = boost::detail::sp_empty() )
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:637:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ is not derived from ‘[01m[Kboost::shared_ptr<X>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:526:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y, class D> boost::shared_ptr<T>::shared_ptr(boost::movelib::unique_ptr<Y, D>) [with Y = Y; D = D; T = gtsam::PreintegrationParams][m[K’
+  526 |     [01;36m[Kshared_ptr[m[K( boost::movelib::unique_ptr< Y, D > r ): px( r.get() ), pn()
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:526:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ is not derived from ‘[01m[Kboost::movelib::unique_ptr<Y, D>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:510:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y, class D> boost::shared_ptr<T>::shared_ptr(std::unique_ptr<_Up, _Ep>&&) [with Y = Y; D = D; T = gtsam::PreintegrationParams][m[K’
+  510 |     [01;36m[Kshared_ptr[m[K( std::unique_ptr< Y, D > && r ): px( r.get() ), pn()
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:510:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:478:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y> boost::shared_ptr<T>::shared_ptr(std::auto_ptr<_Up>&&) [with Y = Y; T = gtsam::PreintegrationParams][m[K’
+  478 |     [01;36m[Kshared_ptr[m[K( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:478:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:465:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y> boost::shared_ptr<T>::shared_ptr(std::auto_ptr<_Up>&) [with Y = Y; T = gtsam::PreintegrationParams][m[K’
+  465 |     explicit [01;36m[Kshared_ptr[m[K( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:458:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y> boost::shared_ptr<T>::shared_ptr(const boost::shared_ptr<Y>&, boost::shared_ptr<T>::element_type*) [with Y = Y; T = gtsam::PreintegrationParams][m[K’
+  458 |     [01;36m[Kshared_ptr[m[K( shared_ptr<Y> const & r, element_type * p ) BOOST_SP_NOEXCEPT : px( p ), pn( r.pn )
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:458:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ is not derived from ‘[01m[Kconst boost::shared_ptr<X>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:444:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y> boost::shared_ptr<T>::shared_ptr(const boost::shared_ptr<Y>&, typename boost::detail::sp_enable_if_convertible<Y, T>::type) [with Y = Y; T = gtsam::PreintegrationParams][m[K’
+  444 |     [01;36m[Kshared_ptr[m[K( shared_ptr<Y> const & r, typename boost::detail::sp_enable_if_convertible<Y,T>::type = boost::detail::sp_empty() )
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:444:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ is not derived from ‘[01m[Kconst boost::shared_ptr<X>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:432:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y> boost::shared_ptr<T>::shared_ptr(const boost::weak_ptr<Y>&, boost::detail::sp_nothrow_tag) [with Y = Y; T = gtsam::PreintegrationParams][m[K’
+  432 |     [01;36m[Kshared_ptr[m[K( weak_ptr<Y> const & r, boost::detail::sp_nothrow_tag )
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:432:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ is not derived from ‘[01m[Kconst boost::weak_ptr<Y>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:423:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y> boost::shared_ptr<T>::shared_ptr(const boost::weak_ptr<Y>&) [with Y = Y; T = gtsam::PreintegrationParams][m[K’
+  423 |     explicit [01;36m[Kshared_ptr[m[K( weak_ptr<Y> const & r ): pn( r.pn ) // may throw
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:423:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ is not derived from ‘[01m[Kconst boost::weak_ptr<Y>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:404:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class D, class A> boost::shared_ptr<T>::shared_ptr(boost::detail::sp_nullptr_t, D, A) [with D = D; A = A; T = gtsam::PreintegrationParams][m[K’
+  404 |     template<class D, class A> [01;36m[Kshared_ptr[m[K( boost::detail::sp_nullptr_t p, D d, A a ): px( p ), pn( p, d, a )
+      |                                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:404:32:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:397:41:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y, class D, class A> boost::shared_ptr<T>::shared_ptr(Y*, D, A) [with Y = Y; D = D; A = A; T = gtsam::PreintegrationParams][m[K’
+  397 |     template<class Y, class D, class A> [01;36m[Kshared_ptr[m[K( Y * p, D d, A a ): px( p ), pn( p, d, a )
+      |                                         [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:397:41:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[KY*[m[K’ and ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:389:23:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class D> boost::shared_ptr<T>::shared_ptr(boost::detail::sp_nullptr_t, D) [with D = D; T = gtsam::PreintegrationParams][m[K’
+  389 |     template<class D> [01;36m[Kshared_ptr[m[K( boost::detail::sp_nullptr_t p, D d ): px( p ), pn( p, d )
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:389:23:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:382:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y, class D> boost::shared_ptr<T>::shared_ptr(Y*, D) [with Y = Y; D = D; T = gtsam::PreintegrationParams][m[K’
+  382 |     template<class Y, class D> [01;36m[Kshared_ptr[m[K( Y * p, D d ): px( p ), pn( p, d )
+      |                                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:382:32:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[KY*[m[K’ and ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:371:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Y> boost::shared_ptr<T>::shared_ptr(Y*) [with Y = Y; T = gtsam::PreintegrationParams][m[K’
+  371 |     explicit [01;36m[Kshared_ptr[m[K( Y * p ): px( p ), pn() // Y must be complete
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:371:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:251:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[KY*[m[K’ and ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’
+  251 |         boost::shared_ptr<gtsam::PreintegrationParams> p(std_p[01;36m[K)[m[K;
+      |                                                               [01;36m[K^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+                 from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/include/lio_sam/utility.hpp:31[m[K,
+                 from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:628:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kboost::shared_ptr<T>::shared_ptr(boost::shared_ptr<T>&&) [with T = gtsam::PreintegrationParams][m[K’
+  628 |     [01;36m[Kshared_ptr[m[K( shared_ptr && r ) BOOST_SP_NOEXCEPT : px( r.px ), pn()
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:628:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>&&[m[K’
+  628 |     shared_ptr( [01;36m[Kshared_ptr && r[m[K ) BOOST_SP_NOEXCEPT : px( r.px ), pn()
+      |                 [01;36m[K~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:416:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kboost::shared_ptr<T>::shared_ptr(const boost::shared_ptr<T>&) [with T = gtsam::PreintegrationParams][m[K’
+  416 |     [01;36m[Kshared_ptr[m[K( shared_ptr const & r ) BOOST_SP_NOEXCEPT : px( r.px ), pn( r.pn )
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:416:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kconst boost::shared_ptr<gtsam::PreintegrationParams>&[m[K’
+  416 |     shared_ptr( [01;36m[Kshared_ptr const & r[m[K ) BOOST_SP_NOEXCEPT : px( r.px ), pn( r.pn )
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:364:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr boost::shared_ptr<T>::shared_ptr(boost::detail::sp_internal_constructor_tag, boost::shared_ptr<T>::element_type*, boost::detail::shared_count&&) [with T = gtsam::PreintegrationParams; boost::shared_ptr<T>::element_type = gtsam::PreintegrationParams][m[K’
+  364 |     BOOST_CONSTEXPR [01;36m[Kshared_ptr[m[K( boost::detail::sp_internal_constructor_tag, element_type * px_, boost::detail::shared_count && pn_ ) BOOST_SP_NOEXCEPT : px( px_ ), pn( std::move( pn_ ) )
+      |                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:364:21:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:358:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr boost::shared_ptr<T>::shared_ptr(boost::detail::sp_internal_constructor_tag, boost::shared_ptr<T>::element_type*, const boost::detail::shared_count&) [with T = gtsam::PreintegrationParams; boost::shared_ptr<T>::element_type = gtsam::PreintegrationParams][m[K’
+  358 |     BOOST_CONSTEXPR [01;36m[Kshared_ptr[m[K( boost::detail::sp_internal_constructor_tag, element_type * px_, boost::detail::shared_count const & pn_ ) BOOST_SP_NOEXCEPT : px( px_ ), pn( pn_ )
+      |                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:358:21:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:352:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr boost::shared_ptr<T>::shared_ptr(boost::detail::sp_nullptr_t) [with T = gtsam::PreintegrationParams; boost::detail::sp_nullptr_t = std::nullptr_t][m[K’
+  352 |     BOOST_CONSTEXPR [01;36m[Kshared_ptr[m[K( boost::detail::sp_nullptr_t ) BOOST_SP_NOEXCEPT : px( 0 ), pn()
+      |                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:352:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kboost::detail::sp_nullptr_t[m[K’ {aka ‘[01m[Kstd::nullptr_t[m[K’}
+  352 |     BOOST_CONSTEXPR shared_ptr( [01;36m[Kboost::detail::sp_nullptr_t[m[K ) BOOST_SP_NOEXCEPT : px( 0 ), pn()
+      |                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:346:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr boost::shared_ptr<T>::shared_ptr() [with T = gtsam::PreintegrationParams][m[K’
+  346 |     BOOST_CONSTEXPR [01;36m[Kshared_ptr[m[K() BOOST_SP_NOEXCEPT : px( 0 ), pn()
+      |                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:346:21:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:264:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(boost::shared_ptr<gtsam::PreintegrationParams>&, gtsam::imuBias::ConstantBias&)[m[K’
+  264 |         imuIntegratorImu_ = new gtsam::PreintegratedImuMeasurements(p, prior_imu_bias[01;31m[K)[m[K; // setting up the IMU integration for IMU message thread
+      |                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:8[m[K:
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const PreintegrationType&, const Matrix9&) [with PreintegrationType = gtsam::TangentPreintegration; gtsam::Matrix9 = Eigen::Matrix<double, 9, 9, 0, 9, 9>][m[K’
+  105 |   [01;36m[KPreintegratedImuMeasurementsT[m[K(const PreintegrationType& base, const Matrix9& preintMeasCov)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kconst gtsam::TangentPreintegration&[m[K’
+  105 |   PreintegratedImuMeasurementsT([01;36m[Kconst PreintegrationType& base[m[K, const Matrix9& preintMeasCov)
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const std::shared_ptr<gtsam::PreintegrationParams>&, const gtsam::imuBias::ConstantBias&) [with PreintegrationType = gtsam::TangentPreintegration][m[K’
+   94 |   [01;36m[KPreintegratedImuMeasurementsT[m[K(const std::shared_ptr<PreintegrationParams>& p,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:78:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kconst std::shared_ptr<gtsam::PreintegrationParams>&[m[K’
+   94 |   PreintegratedImuMeasurementsT([01;36m[Kconst std::shared_ptr<PreintegrationParams>& p[m[K,
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT() [with PreintegrationType = gtsam::TangentPreintegration][m[K’
+   85 |   [01;36m[KPreintegratedImuMeasurementsT[m[K() {
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(const gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>&)[m[K’
+   72 | class GTSAM_EXPORT [01;36m[KPreintegratedImuMeasurementsT[m[K: public PreintegrationType {
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:265:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(boost::shared_ptr<gtsam::PreintegrationParams>&, gtsam::imuBias::ConstantBias&)[m[K’
+  265 |         imuIntegratorOpt_ = new gtsam::PreintegratedImuMeasurements(p, prior_imu_bias[01;31m[K)[m[K; // setting up the IMU integration for optimization
+      |                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:8[m[K:
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const PreintegrationType&, const Matrix9&) [with PreintegrationType = gtsam::TangentPreintegration; gtsam::Matrix9 = Eigen::Matrix<double, 9, 9, 0, 9, 9>][m[K’
+  105 |   [01;36m[KPreintegratedImuMeasurementsT[m[K(const PreintegrationType& base, const Matrix9& preintMeasCov)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:105:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kconst gtsam::TangentPreintegration&[m[K’
+  105 |   PreintegratedImuMeasurementsT([01;36m[Kconst PreintegrationType& base[m[K, const Matrix9& preintMeasCov)
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const std::shared_ptr<gtsam::PreintegrationParams>&, const gtsam::imuBias::ConstantBias&) [with PreintegrationType = gtsam::TangentPreintegration][m[K’
+   94 |   [01;36m[KPreintegratedImuMeasurementsT[m[K(const std::shared_ptr<PreintegrationParams>& p,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:94:78:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kboost::shared_ptr<gtsam::PreintegrationParams>[m[K’ to ‘[01m[Kconst std::shared_ptr<gtsam::PreintegrationParams>&[m[K’
+   94 |   PreintegratedImuMeasurementsT([01;36m[Kconst std::shared_ptr<PreintegrationParams>& p[m[K,
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT() [with PreintegrationType = gtsam::TangentPreintegration][m[K’
+   85 |   [01;36m[KPreintegratedImuMeasurementsT[m[K() {
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:85:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(const gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>&)[m[K’
+   72 | class GTSAM_EXPORT [01;36m[KPreintegratedImuMeasurementsT[m[K: public PreintegrationType {
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:72:20:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/lio_sam_imuPreintegration.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

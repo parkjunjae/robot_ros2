@@ -1,0 +1,69 @@
+[0.014s] Invoking command in '/home/vertin/ros2_ws/build/tracer_base': AMENT_PREFIX_PATH=/home/vertin/ros2_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs LD_LIBRARY_PATH=/home/vertin/ros2_ws/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/vertin/ros2_ws/install/ugv_sdk/share /usr/bin/cmake /home/vertin/ros2_ws/src/tracer_ros2/tracer_base -DCMAKE_INSTALL_PREFIX=/home/vertin/ros2_ws/install/tracer_base
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.215s] -- The CXX compiler identification is GNU 11.4.0
+[0.230s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.388s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.390s] -- Detecting C compile features - done
+[0.396s] -- Detecting CXX compiler ABI info
+[0.539s] -- Detecting CXX compiler ABI info - done
+[0.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.561s] -- Detecting CXX compile features
+[0.562s] -- Detecting CXX compile features - done
+[0.567s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.184s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.516s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.346s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.427s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.563s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.714s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.719s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.904s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.964s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.053s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.071s] -- Looking for pthread.h
+[6.206s] -- Looking for pthread.h - found
+[6.207s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.305s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.306s] -- Found Threads: TRUE  
+[6.423s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.456s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.497s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.527s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[6.544s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.664s] -- Found tracer_msgs: 0.1.0 (/home/vertin/ros2_ws/install/tracer_msgs/share/tracer_msgs/cmake)
+[6.686s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.703s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.704s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.704s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.711s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.812s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.814s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.814s] -- Configured cppcheck include dirs: /home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include
+[6.814s] -- Configured cppcheck exclude dirs and/or files: 
+[6.815s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.815s] -- Configured cpplint exclude dirs and/or files: 
+[6.816s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.816s] -- Added test 'lint_cmake' to check CMake code style
+[6.817s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.818s] -- Added test 'uncrustify' to check C / C++ code style
+[6.818s] -- Configured uncrustify additional arguments: 
+[6.819s] -- Added test 'xmllint' to check XML markup files
+[6.821s] -- Configuring done
+[6.838s] -- Generating done
+[6.844s] -- Build files have been written to: /home/vertin/ros2_ws/build/tracer_base
+[6.857s] Invoked command in '/home/vertin/ros2_ws/build/tracer_base' returned '0': AMENT_PREFIX_PATH=/home/vertin/ros2_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs LD_LIBRARY_PATH=/home/vertin/ros2_ws/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/vertin/ros2_ws/install/ugv_sdk/share /usr/bin/cmake /home/vertin/ros2_ws/src/tracer_ros2/tracer_base -DCMAKE_INSTALL_PREFIX=/home/vertin/ros2_ws/install/tracer_base
+[6.859s] Invoking command in '/home/vertin/ros2_ws/build/tracer_base': AMENT_PREFIX_PATH=/home/vertin/ros2_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs LD_LIBRARY_PATH=/home/vertin/ros2_ws/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/vertin/ros2_ws/install/ugv_sdk/share /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_base -- -j8 -l8
+[6.916s] [ 33%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o[0m
+[7.723s] In file included from [01m[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/src/tracer_base_ros.cpp:12[m[K:
+[7.723s] [01m[K/home/vertin/ros2_ws/src/tracer_ros2/tracer_base/include/tracer_base/tracer_messenger.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: 그런 파일이나 디렉터리가 없습니다
+[7.723s]    21 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.h>[m[K
+[7.723s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.723s] compilation terminated.
+[7.730s] gmake[2]: *** [CMakeFiles/tracer_base_node.dir/build.make:76: CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o] 오류 1
+[7.730s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tracer_base_node.dir/all] 오류 2
+[7.730s] gmake: *** [Makefile:146: all] 오류 2
+[7.733s] Invoked command in '/home/vertin/ros2_ws/build/tracer_base' returned '2': AMENT_PREFIX_PATH=/home/vertin/ros2_ws/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs LD_LIBRARY_PATH=/home/vertin/ros2_ws/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/vertin/ros2_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/vertin/ros2_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/vertin/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/vertin/ros2_ws/install/ugv_sdk/share /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_base -- -j8 -l8

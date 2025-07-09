@@ -1,0 +1,6 @@
+[0.572s] Invoking command in '/home/vertin/ros2_ws/build/unitree_lidar_sdk': /usr/bin/cmake --build /home/vertin/ros2_ws/build/unitree_lidar_sdk -- -j8 -l8
+[0.645s] [ 25%] Built target example_lidar
+[0.654s] [ 50%] Built target example_lidar_udp
+[0.654s] [ 75%] Built target unilidar_publisher_udp
+[0.658s] [100%] Built target unilidar_subscriber_udp
+[0.675s] Invoked command in '/home/vertin/ros2_ws/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake --build /home/vertin/ros2_ws/build/unitree_lidar_sdk -- -j8 -l8

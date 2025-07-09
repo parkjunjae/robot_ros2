@@ -1,0 +1,45 @@
+[1.475s] Invoking command in '/home/vertin/ros2_ws/build/point_lio': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/point_lio -- -j8 -l8
+[1.765s] [100%] Built target pointlio_mapping
+[2.105s] Invoked command in '/home/vertin/ros2_ws/build/point_lio' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/point_lio -- -j8 -l8
+[2.133s] Invoking command in '/home/vertin/ros2_ws/build/point_lio': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/point_lio
+[2.602s] -- Install configuration: ""
+[2.603s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/lib/point_lio/pointlio_mapping
+[2.611s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config
+[2.613s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/unilidar_l2.yaml
+[2.614s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/velody16.yaml
+[2.615s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/mid360.yaml
+[2.626s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/ouster64.yaml
+[2.627s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/unilidar_l1.yaml
+[2.657s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/horizon.yaml
+[2.664s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/avia.yaml
+[2.677s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch
+[2.678s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/my_navigation.launch.py
+[2.680s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_horizon.launch.py
+[2.682s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_mid360.launch.py
+[2.686s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/gdb_debug_example.launch.py
+[2.710s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l2.launch.py
+[2.712s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_velody16.launch.py
+[2.720s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_avia.launch.py
+[2.724s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l1.launch.py
+[2.726s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_unilidar_l1.launch.py
+[2.727s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_ouster64.launch.py
+[2.728s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_unilidar_l2.launch.py
+[2.731s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/rviz_cfg
+[2.733s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/rviz_cfg/loam_livox.rviz
+[2.734s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/ament_index/resource_index/package_run_dependencies/point_lio
+[2.739s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/ament_index/resource_index/parent_prefix_path/point_lio
+[2.740s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/environment/ament_prefix_path.sh
+[2.741s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/environment/ament_prefix_path.dsv
+[2.750s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/environment/path.sh
+[2.756s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/environment/path.dsv
+[2.761s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/local_setup.bash
+[2.763s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/local_setup.sh
+[2.775s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/local_setup.zsh
+[2.779s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/local_setup.dsv
+[2.785s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/package.dsv
+[2.801s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/ament_index/resource_index/packages/point_lio
+[2.802s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.804s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/cmake/point_lioConfig.cmake
+[2.805s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/cmake/point_lioConfig-version.cmake
+[2.806s] -- Up-to-date: /home/vertin/ros2_ws/install/point_lio/share/point_lio/package.xml
+[2.957s] Invoked command in '/home/vertin/ros2_ws/build/point_lio' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/point_lio

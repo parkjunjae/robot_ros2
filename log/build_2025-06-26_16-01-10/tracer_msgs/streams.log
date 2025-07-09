@@ -1,0 +1,23 @@
+[0.043s] Invoking command in '/home/vertin/ros2_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_msgs -- -j8 -l8
+[0.562s] [  1%] Built target tracer_msgs__cpp
+[0.563s] [ 12%] Built target tracer_msgs__rosidl_generator_c
+[0.563s] [ 12%] Built target ament_cmake_python_copy_tracer_msgs
+[0.563s] [ 23%] Built target tracer_msgs__rosidl_typesupport_cpp
+[0.563s] [ 34%] Built target tracer_msgs__rosidl_typesupport_introspection_cpp
+[0.563s] [ 46%] Built target tracer_msgs__rosidl_typesupport_c
+[0.564s] [ 57%] Built target tracer_msgs__rosidl_typesupport_fastrtps_cpp
+[0.564s] [ 68%] Built target tracer_msgs__rosidl_typesupport_introspection_c
+[0.564s] [ 79%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c
+[0.564s] [ 79%] Built target tracer_msgs
+[0.564s] [ 80%] Built target tracer_msgs__py
+[0.564s] [ 90%] Built target tracer_msgs__rosidl_generator_py
+[0.564s] [ 93%] Built target tracer_msgs__rosidl_typesupport_c__pyext
+[0.564s] [ 96%] Built target tracer_msgs__rosidl_typesupport_introspection_c__pyext
+[0.565s] [100%] Built target tracer_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.621s] running egg_info
+[0.622s] writing tracer_msgs.egg-info/PKG-INFO
+[0.622s] writing dependency_links to tracer_msgs.egg-info/dependency_links.txt
+[0.623s] writing top-level names to tracer_msgs.egg-info/top_level.txt
+[0.626s] reading manifest file 'tracer_msgs.egg-info/SOURCES.txt'
+[0.627s] writing manifest file 'tracer_msgs.egg-info/SOURCES.txt'
+[0.667s] [100%] Built target ament_cmake_python_build_tracer_msgs_egg

@@ -1,0 +1,31 @@
+[0.026s] Invoking command in '/home/vertin/ros2_ws/build/unitree_lidar_sdk': /usr/bin/cmake /home/vertin/ros2_ws/src/unitree_lidar_sdk -DCMAKE_INSTALL_PREFIX=/home/vertin/ros2_ws/install/unitree_lidar_sdk
+[0.120s] -- The C compiler identification is GNU 11.4.0
+[0.227s] -- The CXX compiler identification is GNU 11.4.0
+[0.243s] -- Detecting C compiler ABI info
+[0.350s] -- Detecting C compiler ABI info - done
+[0.365s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.366s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.372s] -- Detecting CXX compiler ABI info
+[0.499s] -- Detecting CXX compiler ABI info - done
+[0.520s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.520s] -- Detecting CXX compile features
+[0.521s] -- Detecting CXX compile features - done
+[0.522s] -- Configuring done
+[0.531s] -- Generating done
+[0.535s] -- Build files have been written to: /home/vertin/ros2_ws/build/unitree_lidar_sdk
+[0.540s] Invoked command in '/home/vertin/ros2_ws/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake /home/vertin/ros2_ws/src/unitree_lidar_sdk -DCMAKE_INSTALL_PREFIX=/home/vertin/ros2_ws/install/unitree_lidar_sdk
+[0.543s] Invoking command in '/home/vertin/ros2_ws/build/unitree_lidar_sdk': /usr/bin/cmake --build /home/vertin/ros2_ws/build/unitree_lidar_sdk -- -j8 -l8
+[0.619s] [ 12%] [32mBuilding CXX object CMakeFiles/example_lidar.dir/examples/example_lidar.cpp.o[0m
+[0.621s] [ 25%] [32mBuilding CXX object CMakeFiles/example_lidar_udp.dir/examples/example_lidar_udp.cpp.o[0m
+[0.621s] [ 37%] [32mBuilding CXX object CMakeFiles/unilidar_publisher_udp.dir/examples/unilidar_publisher_udp.cpp.o[0m
+[0.624s] [ 50%] [32mBuilding CXX object CMakeFiles/unilidar_subscriber_udp.dir/examples/unilidar_subscriber_udp.cpp.o[0m
+[3.045s] [ 62%] [32m[1mLinking CXX executable /home/vertin/ros2_ws/src/unitree_lidar_sdk/bin/example_lidar[0m
+[4.292s] [ 75%] [32m[1mLinking CXX executable /home/vertin/ros2_ws/src/unitree_lidar_sdk/bin/unilidar_subscriber_udp[0m
+[4.888s] [ 75%] Built target example_lidar
+[4.889s] [ 87%] [32m[1mLinking CXX executable /home/vertin/ros2_ws/src/unitree_lidar_sdk/bin/example_lidar_udp[0m
+[6.416s] [ 87%] Built target example_lidar_udp
+[6.582s] [100%] [32m[1mLinking CXX executable /home/vertin/ros2_ws/src/unitree_lidar_sdk/bin/unilidar_publisher_udp[0m
+[7.004s] [100%] Built target unilidar_subscriber_udp
+[7.392s] [100%] Built target unilidar_publisher_udp
+[7.437s] Invoked command in '/home/vertin/ros2_ws/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake --build /home/vertin/ros2_ws/build/unitree_lidar_sdk -- -j8 -l8

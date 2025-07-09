@@ -1,0 +1,10 @@
+{
+  "package_name": "tracer_msgs",
+  "non_idl_tuples": [
+    "/home/vertin/ros2_ws/src/tracer_ros2/tracer_msgs:msg/TracerActuatorState.msg",
+    "/home/vertin/ros2_ws/src/tracer_ros2/tracer_msgs:msg/TracerLightCmd.msg",
+    "/home/vertin/ros2_ws/src/tracer_ros2/tracer_msgs:msg/TracerLightState.msg",
+    "/home/vertin/ros2_ws/src/tracer_ros2/tracer_msgs:msg/TracerRCState.msg",
+    "/home/vertin/ros2_ws/src/tracer_ros2/tracer_msgs:msg/TracerStatus.msg"
+  ]
+}

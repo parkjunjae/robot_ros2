@@ -1,0 +1,142 @@
+[0.685s] Invoking command in '/home/vertin/ros2_ws/build/point_lio': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake /home/vertin/ros2_ws/src/point_lio_ros2 -DCMAKE_INSTALL_PREFIX=/home/vertin/ros2_ws/install/point_lio
+[0.826s] -- The C compiler identification is GNU 11.4.0
+[0.967s] -- The CXX compiler identification is GNU 11.4.0
+[0.979s] -- Detecting C compiler ABI info
+[1.066s] -- Detecting C compiler ABI info - done
+[1.075s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.075s] -- Detecting C compile features
+[1.076s] -- Detecting C compile features - done
+[1.079s] -- Detecting CXX compiler ABI info
+[1.164s] -- Detecting CXX compiler ABI info - done
+[1.179s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.179s] -- Detecting CXX compile features
+[1.180s] -- Detecting CXX compile features - done
+[1.181s] -- Current CPU architecture: x86_64
+[1.186s] -- Processor number:  8
+[1.186s] -- core for MP:  3
+[1.190s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.603s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.716s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.774s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.780s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.791s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.808s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.899s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.903s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.996s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.026s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.067s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.078s] -- Looking for pthread.h
+[2.148s] -- Looking for pthread.h - found
+[2.149s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.213s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.214s] -- Found Threads: TRUE  
+[2.280s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[2.281s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.299s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.321s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.343s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.389s] -- Checking for module 'eigen3'
+[2.400s] --   Found eigen3, version 3.4.0
+[2.426s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.426s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.469s] -- Checking for module 'flann'
+[2.480s] --   Found flann, version 1.9.1
+[2.511s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.511s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.396s] -- Checking for module 'libusb-1.0'
+[3.407s] --   Found libusb-1.0, version 1.0.25
+[3.436s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.438s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.483s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.626s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.632s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.638s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.786s] -- Found Qhull version 8.0.2
+[3.930s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.069s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.070s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.071s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.072s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.074s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.074s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.075s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.075s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.076s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.077s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.078s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.079s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.080s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.082s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.083s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.084s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.085s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.086s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.087s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.088s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.089s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.090s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.095s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.096s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.096s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.136s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.137s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.137s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.248s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.578s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[4.670s] -- Configuring done
+[4.733s] -- Generating done
+[4.747s] -- Build files have been written to: /home/vertin/ros2_ws/build/point_lio
+[4.765s] Invoked command in '/home/vertin/ros2_ws/build/point_lio' returned '0': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake /home/vertin/ros2_ws/src/point_lio_ros2 -DCMAKE_INSTALL_PREFIX=/home/vertin/ros2_ws/install/point_lio
+[4.767s] Invoking command in '/home/vertin/ros2_ws/build/point_lio': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --build /home/vertin/ros2_ws/build/point_lio -- -j8 -l8
+[4.814s] [ 16%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[4.815s] [ 33%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/Estimator.cpp.o[0m
+[4.815s] [ 50%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/preprocess.cpp.o[0m
+[4.816s] [ 66%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/laserMapping.cpp.o[0m
+[4.817s] [ 83%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/parameters.cpp.o[0m
+[59.684s] [100%] [32m[1mLinking CXX executable pointlio_mapping[0m
+[60.756s] [100%] Built target pointlio_mapping
+[60.767s] Invoked command in '/home/vertin/ros2_ws/build/point_lio' returned '0': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --build /home/vertin/ros2_ws/build/point_lio -- -j8 -l8
+[60.769s] Invoking command in '/home/vertin/ros2_ws/build/point_lio': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --install /home/vertin/ros2_ws/build/point_lio
+[60.776s] -- Install configuration: ""
+[60.776s] -- Installing: /home/vertin/ros2_ws/install/point_lio/lib/point_lio/pointlio_mapping
+[60.778s] -- Set runtime path of "/home/vertin/ros2_ws/install/point_lio/lib/point_lio/pointlio_mapping" to ""
+[60.778s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config
+[60.778s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/unilidar_l2.yaml
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/velody16.yaml
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/mid360.yaml
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/ouster64.yaml
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/unilidar_l1.yaml
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/horizon.yaml
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/config/avia.yaml
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_horizon.launch.py
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_mid360.launch.py
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/gdb_debug_example.launch.py
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l2.launch.py
+[60.779s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_velody16.launch.py
+[60.780s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_avia.launch.py
+[60.780s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l1.launch.py
+[60.780s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_unilidar_l1.launch.py
+[60.780s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_ouster64.launch.py
+[60.780s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/launch/mapping_unilidar_l2.launch.py
+[60.780s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/rviz_cfg
+[60.780s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/rviz_cfg/loam_livox.rviz
+[60.780s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/ament_index/resource_index/package_run_dependencies/point_lio
+[60.781s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/ament_index/resource_index/parent_prefix_path/point_lio
+[60.781s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/environment/ament_prefix_path.sh
+[60.781s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/environment/ament_prefix_path.dsv
+[60.781s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/environment/path.sh
+[60.781s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/environment/path.dsv
+[60.781s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/local_setup.bash
+[60.781s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/local_setup.sh
+[60.781s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/local_setup.zsh
+[60.781s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/local_setup.dsv
+[60.782s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/package.dsv
+[60.782s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/ament_index/resource_index/packages/point_lio
+[60.782s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.782s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/cmake/point_lioConfig.cmake
+[60.782s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/cmake/point_lioConfig-version.cmake
+[60.782s] -- Installing: /home/vertin/ros2_ws/install/point_lio/share/point_lio/package.xml
+[60.785s] Invoked command in '/home/vertin/ros2_ws/build/point_lio' returned '0': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --install /home/vertin/ros2_ws/build/point_lio

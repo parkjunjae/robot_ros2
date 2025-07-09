@@ -1,0 +1,27 @@
+[1.870s] Invoking command in '/home/vertin/ros2_ws/src/my_python_pkg': PYTHONPATH=/home/vertin/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/vertin/ros2_ws/build/my_python_pkg/build install --record /home/vertin/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed install_data
+[3.877s] /home/vertin/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.878s]   warnings.warn(msg)
+[5.369s] running egg_info
+[5.624s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[5.627s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[5.630s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[5.632s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[5.634s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[6.126s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[6.142s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[6.143s] running build
+[6.145s] running build_py
+[6.146s] copying my_python_pkg/__init__.py -> /home/vertin/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg
+[6.149s] copying my_python_pkg/autopoint.py -> /home/vertin/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg
+[6.152s] running install
+[6.208s] running install_lib
+[6.455s] running install_data
+[6.458s] copying resource/my_python_pkg -> /home/vertin/ros2_ws/install/my_python_pkg/share/ament_index/resource_index/packages
+[6.461s] copying package.xml -> /home/vertin/ros2_ws/install/my_python_pkg/share/my_python_pkg
+[6.463s] running install_egg_info
+[6.623s] removing '/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[6.623s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info
+[6.625s] running install_scripts
+[6.673s] Installing autopoint script to /home/vertin/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[6.673s] writing list of installed files to '/home/vertin/ros2_ws/build/my_python_pkg/install.log'
+[6.707s] Invoked command in '/home/vertin/ros2_ws/src/my_python_pkg' returned '0': PYTHONPATH=/home/vertin/ros2_ws/build/my_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vertin/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/vertin/ros2_ws/build/my_python_pkg/build install --record /home/vertin/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed install_data

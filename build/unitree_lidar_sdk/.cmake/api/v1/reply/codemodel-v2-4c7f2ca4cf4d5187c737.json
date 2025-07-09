@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "unitree_lidar_sdk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_lidar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_lidar-Release-8bc6fdcc4621e8863363.json",
+					"name" : "example_lidar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_lidar_udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_lidar_udp-Release-3ead3bd4f93d98686b4a.json",
+					"name" : "example_lidar_udp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unilidar_publisher_udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unilidar_publisher_udp-Release-656b6a3d9a3a65a3b3af.json",
+					"name" : "unilidar_publisher_udp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unilidar_subscriber_udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unilidar_subscriber_udp-Release-4d9cae047b190954183e.json",
+					"name" : "unilidar_subscriber_udp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vertin/ros2_ws/build/unitree_lidar_sdk",
+		"source" : "/home/vertin/ros2_ws/src/unitree_lidar_sdk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

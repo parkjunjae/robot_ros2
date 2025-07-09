@@ -1,0 +1,27 @@
+[0.037s] Invoking command in '/home/vertin/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/lio_sam -- -j8 -l8
+[0.553s] [  2%] Built target lio_sam__cpp
+[0.553s] [  2%] Built target ament_cmake_python_copy_lio_sam
+[0.553s] [ 10%] Built target lio_sam__rosidl_generator_c
+[0.553s] [ 19%] Built target lio_sam__rosidl_typesupport_cpp
+[0.553s] [ 27%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.553s] [ 36%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.554s] [ 44%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.554s] [ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.554s] [ 61%] Built target lio_sam__rosidl_typesupport_c
+[0.554s] [ 61%] Built target lio_sam
+[0.554s] [ 65%] Built target lio_sam_featureExtraction
+[0.554s] [ 68%] Built target lio_sam__py
+[0.554s] [ 72%] Built target lio_sam_imuPreintegration
+[0.554s] [ 76%] Built target lio_sam_imageProjection
+[0.555s] [ 80%] Built target lio_sam_mapOptimization
+[0.555s] [ 87%] Built target lio_sam__rosidl_generator_py
+[0.555s] [ 91%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.555s] [ 95%] Built target lio_sam__rosidl_typesupport_c__pyext
+[0.555s] [100%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.606s] running egg_info
+[0.607s] writing lio_sam.egg-info/PKG-INFO
+[0.607s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.607s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.609s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.610s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.651s] [100%] Built target ament_cmake_python_build_lio_sam_egg

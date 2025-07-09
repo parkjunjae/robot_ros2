@@ -1,0 +1,47 @@
+[0.709s] Invoking command in '/home/vertin/ros2_ws/build/tracer_description': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/pointcloud_to_laserscan:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_description -- -j8 -l8
+[0.855s] Invoked command in '/home/vertin/ros2_ws/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/pointcloud_to_laserscan:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_description -- -j8 -l8
+[0.858s] Invoking command in '/home/vertin/ros2_ws/build/tracer_description': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/pointcloud_to_laserscan:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_description
+[0.867s] -- Install configuration: ""
+[0.868s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes
+[0.868s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/tracer_base_link.dae
+[0.868s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/tracer_wheel.dae
+[0.868s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/tracer_base_link_no_wheel.dae
+[0.868s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/caster_L.stl
+[0.869s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/caster.stl
+[0.869s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/castor.dae
+[0.869s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/castor_joint.dae
+[0.869s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/launch
+[0.869s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/launch/display_models.launch.py
+[0.869s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/rviz
+[0.869s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/rviz/model_display.rviz
+[0.869s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf
+[0.870s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/tracer.gazebo
+[0.870s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/fl_wheel.xacro
+[0.870s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/rr_wheel.xacro
+[0.871s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/fr_castor.xacro
+[0.871s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/rl_wheel.xacro
+[0.871s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/fl_castor.xacro
+[0.871s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/empty.urdf
+[0.872s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/tracer_wheel.gazebo
+[0.872s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/fr_wheel.xacro
+[0.872s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/tracer_v1.xacro
+[0.872s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/tracer_wheel_2.xacro
+[0.872s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/tracer_wheel_1.xacro
+[0.873s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/rr_castor.xacro
+[0.873s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/rl_castor.xacro
+[0.873s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/ament_index/resource_index/package_run_dependencies/tracer_description
+[0.873s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/ament_index/resource_index/parent_prefix_path/tracer_description
+[0.873s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/environment/ament_prefix_path.sh
+[0.874s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/environment/ament_prefix_path.dsv
+[0.874s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/environment/path.sh
+[0.874s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/environment/path.dsv
+[0.874s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/local_setup.bash
+[0.874s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/local_setup.sh
+[0.875s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/local_setup.zsh
+[0.876s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/local_setup.dsv
+[0.876s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/package.dsv
+[0.876s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/ament_index/resource_index/packages/tracer_description
+[0.877s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/cmake/tracer_descriptionConfig.cmake
+[0.877s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/cmake/tracer_descriptionConfig-version.cmake
+[0.878s] -- Up-to-date: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/package.xml
+[0.930s] Invoked command in '/home/vertin/ros2_ws/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/pointcloud_to_laserscan:/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/point_lio:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_description

@@ -1,0 +1,224 @@
+[0.085s] Invoking command in '/home/vertin/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/lio_sam -- -j8 -l8
+[1.214s] [  2%] Built target lio_sam__cpp
+[1.214s] [ 10%] Built target lio_sam__rosidl_generator_c
+[1.214s] [ 10%] Built target ament_cmake_python_copy_lio_sam
+[1.215s] [ 19%] Built target lio_sam__rosidl_typesupport_cpp
+[1.215s] [ 27%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[1.215s] [ 36%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[1.215s] [ 44%] Built target lio_sam__rosidl_typesupport_c
+[1.215s] [ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[1.216s] [ 61%] Built target lio_sam__rosidl_typesupport_introspection_c
+[1.216s] [ 61%] Built target lio_sam
+[1.216s] [ 65%] Built target lio_sam_imuPreintegration
+[1.216s] [ 68%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[1.216s] [ 72%] Built target lio_sam_featureExtraction
+[1.216s] [ 76%] Built target lio_sam_mapOptimization
+[1.216s] [ 78%] Built target lio_sam__py
+[1.217s] [ 85%] Built target lio_sam__rosidl_generator_py
+[1.217s] [ 89%] Built target lio_sam__rosidl_typesupport_c__pyext
+[1.217s] [ 93%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[1.217s] [ 97%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[1.217s] running egg_info
+[1.217s] writing lio_sam.egg-info/PKG-INFO
+[1.218s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[1.218s] writing top-level names to lio_sam.egg-info/top_level.txt
+[1.218s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[1.218s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[1.218s] [ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[44.333s] [100%] [32m[1mLinking CXX executable lio_sam_imageProjection[0m
+[44.997s] [100%] Built target lio_sam_imageProjection
+[45.011s] Invoked command in '/home/vertin/ros2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --build /home/vertin/ros2_ws/build/lio_sam -- -j8 -l8
+[45.013s] Invoking command in '/home/vertin/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/lio_sam
+[45.020s] -- Install configuration: "Release"
+[45.021s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[45.021s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[45.021s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[45.021s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h
+[45.021s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[45.021s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[45.021s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h
+[45.022s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h
+[45.022s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.c
+[45.022s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h
+[45.022s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[45.022s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h
+[45.022s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[45.023s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.c
+[45.023s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h
+[45.023s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h
+[45.023s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h
+[45.023s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/library_path.sh
+[45.023s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[45.023s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[45.024s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[45.024s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[45.025s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[45.026s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[45.026s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[45.026s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[45.026s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[45.026s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[45.026s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[45.026s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[45.026s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[45.027s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[45.027s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.c
+[45.027s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[45.027s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[45.027s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[45.027s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[45.027s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[45.027s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.c
+[45.027s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[45.028s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[45.028s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[45.028s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[45.028s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp
+[45.028s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[45.028s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp
+[45.028s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp
+[45.029s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp
+[45.030s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp
+[45.030s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[45.030s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[45.030s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp
+[45.031s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[45.031s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp
+[45.031s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp
+[45.031s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp
+[45.031s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp
+[45.031s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[45.031s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[45.031s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[45.032s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[45.032s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/dds_fastrtps
+[45.032s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[45.032s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[45.032s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[45.032s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/dds_fastrtps
+[45.032s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[45.032s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[45.033s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam
+[45.033s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg
+[45.033s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[45.033s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.cpp
+[45.033s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[45.033s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv
+[45.033s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[45.033s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[45.033s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.cpp
+[45.034s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[45.034s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[45.034s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[45.034s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[45.034s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info
+[45.034s] -- Installing: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt
+[45.035s] -- Installing: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/top_level.txt
+[45.035s] -- Installing: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt
+[45.035s] -- Installing: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/PKG-INFO
+[45.035s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam
+[45.035s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/liblio_sam__rosidl_generator_py.so
+[45.035s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c
+[45.035s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py
+[45.035s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[45.035s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info_s.c
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map_s.c
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+[45.036s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[45.085s] Listing '/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam'...
+[45.086s] Listing '/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg'...
+[45.086s] Listing '/home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv'...
+[45.093s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[45.093s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[45.093s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[45.094s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so
+[45.094s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[45.095s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[45.095s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[45.095s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[45.095s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg
+[45.095s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg
+[45.095s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//launch
+[45.095s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//launch/frames_2025-07-02_08.52.58.pdf
+[45.096s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//launch/frames_2025-07-02_08.52.58.gv
+[45.096s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//launch/run.launch.py
+[45.096s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config
+[45.096s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/params.yaml
+[45.096s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[45.096s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc
+[45.096s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[45.097s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/system.png
+[45.097s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[45.097s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[45.097s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[45.097s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[45.097s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[45.097s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[45.097s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[45.097s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[45.098s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[45.098s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[45.098s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[45.098s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[45.098s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag
+[45.098s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[45.098s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[45.098s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[45.099s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[45.099s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[45.099s] -- Installing: /home/vertin/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[45.099s] -- Set runtime path of "/home/vertin/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_imageProjection" to ""
+[45.099s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[45.099s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[45.099s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[45.100s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include
+[45.100s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam
+[45.100s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/include/lio_sam/utility.hpp
+[45.100s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[45.100s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[45.100s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[45.101s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[45.101s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/path.sh
+[45.101s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/environment/path.dsv
+[45.101s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/local_setup.bash
+[45.101s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/local_setup.sh
+[45.101s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/local_setup.zsh
+[45.102s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/local_setup.dsv
+[45.102s] -- Installing: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.dsv
+[45.102s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[45.102s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake
+[45.102s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake
+[45.102s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+[45.102s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+[45.102s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[45.102s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[45.103s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.104s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.104s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[45.104s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[45.104s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[45.104s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[45.104s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[45.104s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[45.104s] -- Up-to-date: /home/vertin/ros2_ws/install/lio_sam/share/lio_sam/package.xml
+[45.106s] Invoked command in '/home/vertin/ros2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/home/vertin/ros2_ws/install/unitree_lidar_ros2:/home/vertin/ros2_ws/install/tracer_base:/home/vertin/ros2_ws/install/nav2_launch_test:/home/vertin/ros2_ws/install/my_python_pkg:/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble:/home/vertin/ros2_ws/install/ugv_sdk:/home/vertin/ros2_ws/install/tracer_msgs:/home/vertin/ros2_ws/install/tracer_description:/home/vertin/ros2_ws/install/lio_sam /usr/bin/cmake --install /home/vertin/ros2_ws/build/lio_sam

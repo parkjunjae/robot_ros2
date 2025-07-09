@@ -1,0 +1,10 @@
+/home/vertin/ros2_ws/build/tracer_base/CMakeFiles/uninstall.dir
+/home/vertin/ros2_ws/build/tracer_base/CMakeFiles/tracer_base_uninstall.dir
+/home/vertin/ros2_ws/build/tracer_base/CMakeFiles/tracer_base_node.dir
+/home/vertin/ros2_ws/build/tracer_base/CMakeFiles/test.dir
+/home/vertin/ros2_ws/build/tracer_base/CMakeFiles/edit_cache.dir
+/home/vertin/ros2_ws/build/tracer_base/CMakeFiles/rebuild_cache.dir
+/home/vertin/ros2_ws/build/tracer_base/CMakeFiles/list_install_components.dir
+/home/vertin/ros2_ws/build/tracer_base/CMakeFiles/install.dir
+/home/vertin/ros2_ws/build/tracer_base/CMakeFiles/install/local.dir
+/home/vertin/ros2_ws/build/tracer_base/CMakeFiles/install/strip.dir

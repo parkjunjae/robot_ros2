@@ -1,0 +1,74 @@
+[1.418s] Invoking command in '/home/vertin/ros2_ws/build/tracer_description': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake /home/vertin/ros2_ws/src/tracer_ros2/tracer_description -DCMAKE_INSTALL_PREFIX=/home/vertin/ros2_ws/install/tracer_description
+[1.729s] -- The C compiler identification is GNU 11.4.0
+[1.876s] -- The CXX compiler identification is GNU 11.4.0
+[1.910s] -- Detecting C compiler ABI info
+[2.101s] -- Detecting C compiler ABI info - done
+[2.126s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.133s] -- Detecting C compile features
+[2.142s] -- Detecting C compile features - done
+[2.148s] -- Detecting CXX compiler ABI info
+[2.318s] -- Detecting CXX compiler ABI info - done
+[2.338s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.338s] -- Detecting CXX compile features
+[2.340s] -- Detecting CXX compile features - done
+[2.357s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.256s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.532s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[3.655s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[3.659s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.926s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.932s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.934s] -- Added test 'lint_cmake' to check CMake code style
+[3.935s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.941s] -- Added test 'xmllint' to check XML markup files
+[3.944s] -- Configuring done
+[3.955s] -- Generating done
+[3.960s] -- Build files have been written to: /home/vertin/ros2_ws/build/tracer_description
+[3.972s] Invoked command in '/home/vertin/ros2_ws/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake /home/vertin/ros2_ws/src/tracer_ros2/tracer_description -DCMAKE_INSTALL_PREFIX=/home/vertin/ros2_ws/install/tracer_description
+[3.975s] Invoking command in '/home/vertin/ros2_ws/build/tracer_description': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_description -- -j8 -l8
+[4.044s] Invoked command in '/home/vertin/ros2_ws/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --build /home/vertin/ros2_ws/build/tracer_description -- -j8 -l8
+[4.046s] Invoking command in '/home/vertin/ros2_ws/build/tracer_description': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_description
+[4.066s] -- Install configuration: ""
+[4.066s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes
+[4.066s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/tracer_base_link.dae
+[4.099s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/tracer_wheel.dae
+[4.102s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/tracer_base_link_no_wheel.dae
+[4.125s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/caster_L.stl
+[4.125s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/caster.stl
+[4.126s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/castor.dae
+[4.126s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/meshes/castor_joint.dae
+[4.127s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/launch
+[4.127s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/launch/display_models.launch.py
+[4.128s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/rviz
+[4.128s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/rviz/model_display.rviz
+[4.128s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf
+[4.128s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/tracer.gazebo
+[4.128s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/fl_wheel.xacro
+[4.129s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/rr_wheel.xacro
+[4.129s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/fr_castor.xacro
+[4.129s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/rl_wheel.xacro
+[4.129s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/fl_castor.xacro
+[4.130s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/empty.urdf
+[4.130s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/tracer_wheel.gazebo
+[4.130s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/fr_wheel.xacro
+[4.130s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/tracer_v1.xacro
+[4.131s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/tracer_wheel_2.xacro
+[4.131s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/tracer_wheel_1.xacro
+[4.133s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/rr_castor.xacro
+[4.135s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/urdf/rl_castor.xacro
+[4.136s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/ament_index/resource_index/package_run_dependencies/tracer_description
+[4.137s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/ament_index/resource_index/parent_prefix_path/tracer_description
+[4.137s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/environment/ament_prefix_path.sh
+[4.137s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/environment/ament_prefix_path.dsv
+[4.138s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/environment/path.sh
+[4.138s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/environment/path.dsv
+[4.138s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/local_setup.bash
+[4.140s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/local_setup.sh
+[4.140s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/local_setup.zsh
+[4.140s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/local_setup.dsv
+[4.141s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/package.dsv
+[4.143s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/ament_index/resource_index/packages/tracer_description
+[4.144s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/cmake/tracer_descriptionConfig.cmake
+[4.144s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/cmake/tracer_descriptionConfig-version.cmake
+[4.144s] -- Installing: /home/vertin/ros2_ws/install/tracer_description/share/tracer_description/package.xml
+[4.152s] Invoked command in '/home/vertin/ros2_ws/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=/home/vertin/my_ws/install/robot_localizer:/opt/ros/humble /usr/bin/cmake --install /home/vertin/ros2_ws/build/tracer_description

@@ -1,0 +1,45 @@
+[  2%] Built target lio_sam__cpp
+[ 10%] Built target lio_sam__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_lio_sam
+[ 19%] Built target lio_sam__rosidl_typesupport_cpp
+[ 27%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[ 36%] Built target lio_sam__rosidl_typesupport_c
+[ 44%] Built target lio_sam__rosidl_typesupport_introspection_c
+[ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration[0m
+[ 61%] Built target lio_sam
+[ 63%] Built target lio_sam__py
+[ 70%] Built target lio_sam__rosidl_generator_py
+[ 78%] Built target lio_sam_featureExtraction
+[ 78%] Built target lio_sam_imageProjection
+[ 80%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[ 85%] Built target lio_sam_mapOptimization
+[ 89%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target lio_sam__rosidl_typesupport_c__pyext
+[ 97%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing lio_sam.egg-info/PKG-INFO
+writing dependency_links to lio_sam.egg-info/dependency_links.txt
+writing top-level names to lio_sam.egg-info/top_level.txt
+reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_lio_sam_egg
+In file included from [01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:17[m[K:
+[01m[K/usr/local/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:[m[K In constructor ‘[01m[KIMUPreintegration::IMUPreintegration(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:261:82:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration> >[m[K’ to ‘[01m[Kgtsam::PreintegratedImuMeasurements*[m[K’ {aka ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>*[m[K’} in assignment
+  261 |         imuIntegratorImu_ = [01;31m[Kstd::make_shared<gtsam::PreintegratedImuMeasurements>(p, prior_imu_bias)[m[K; // setting up the IMU integration for IMU message thread
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                  [01;31m[K|[m[K
+      |                                                                                  [01;31m[Kstd::shared_ptr<gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration> >[m[K
+[01m[K/home/vertin/ros2_ws/src/LIO-SAM/src/imuPreintegration.cpp:262:82:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration> >[m[K’ to ‘[01m[Kgtsam::PreintegratedImuMeasurements*[m[K’ {aka ‘[01m[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>*[m[K’} in assignment
+  262 |         imuIntegratorOpt_ = [01;31m[Kstd::make_shared<gtsam::PreintegratedImuMeasurements>(p, prior_imu_bias)[m[K; // setting up the IMU integration for optimization
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                  [01;31m[K|[m[K
+      |                                                                                  [01;31m[Kstd::shared_ptr<gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration> >[m[K
+gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/lio_sam_imuPreintegration.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2
