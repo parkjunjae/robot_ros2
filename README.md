@@ -1,3 +1,2 @@
-<img src="https://capsule-render.vercel.app/api?type=모양&color=색상코드&height=높이&section=header&text=텍스트&fontSize=텍스트크기" />
-
-<img src="https://capsule-render.vercel.app/api?type=모양&color=색상코드&height=높이&section=footer&text=텍스트&fontSize=텍스트크기" />
+-- 2025/08/11 트레이서 자율주행 goal point 까지 움직임 성공
+-- 자연스러운 움직임과 장애물 회피 능력 상승 필요
