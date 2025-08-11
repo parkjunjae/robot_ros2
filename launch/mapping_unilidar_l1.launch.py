@@ -42,6 +42,23 @@ def generate_launch_description():
         # prefix='gdb -ex run --args'
     )
 
+    static_tf_lidar_node = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_tf_base_to_lidar',
+        arguments=['0', '0', '0.01', '0', '0', '0', 'base_link', 'unilidar_lidar'],
+        output='screen'
+    )
+    
+    
+    static_tf_imu_node = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_tf_base_to_imu',
+        arguments=['0', '0', '0.01', '0', '0', '0', 'base_link', 'unilidar_imu'],
+        output='screen'
+    )
+
     # Conditional RViz node launch
     rviz_node = Node(
         package='rviz2',
@@ -58,6 +75,8 @@ def generate_launch_description():
     # Assemble the launch description
     ld = LaunchDescription([
         rviz_arg,
+        static_tf_imu_node,
+        static_tf_lidar_node,
         laser_mapping_node,
         GroupAction(
             actions=[rviz_node],

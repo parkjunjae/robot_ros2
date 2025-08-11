@@ -94,6 +94,7 @@ void readParameters(shared_ptr<rclcpp::Node> &nh)
     nh->declare_parameter<bool>("runtime_pos_log_enable", false);
     nh->declare_parameter<bool>("pcd_save.pcd_save_en", false);
     nh->declare_parameter<int>("pcd_save.interval", -1);
+    nh->declare_parameter<bool>("use_sim_time", false);
 
     // 使用get_parameter方法获取参数值
     nh->get_parameter("odom_only", odom_only);

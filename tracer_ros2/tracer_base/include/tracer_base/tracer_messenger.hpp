@@ -29,6 +29,8 @@
 #include <cmath>
 #include <tf2/LinearMath/Quaternion.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
+#include <tf2/transform_datatypes.hpp>
+#include <tf2/utils.h>
 
 namespace westonrobot
 {
@@ -37,7 +39,13 @@ namespace westonrobot
   {
   public:
     TracerMessenger(std::shared_ptr<TracerType> tracer, rclcpp::Node *node)
-        : tracer_(tracer), node_(node) {}
+        : tracer_(tracer), node_(node)
+    {
+
+      position_x_ = 0.0;
+      position_y_ = 0.0;
+      theta_ = 0.0;
+    }
 
     void SetOdometryFrame(std::string frame) { odom_frame_ = frame; }
     void SetBaseFrame(std::string frame) { base_frame_ = frame; }
@@ -59,6 +67,11 @@ namespace westonrobot
       rc_status_pub_ = node_->create_publisher<tracer_msgs::msg::TracerRCState>(
           "/tracer_rc_status", 10);
 
+      // slam에서 값 가져오기
+      slam_odom_sub_ = node_->create_subscription<nav_msgs::msg::Odometry>(
+          "/aft_mapped_to_init", 10,
+          std::bind(&TracerMessenger::SlamOdomCallback, this, std::placeholders::_1));
+
       // cmd subscriber
       motion_cmd_sub_ = node_->create_subscription<geometry_msgs::msg::Twist>(
           "/cmd_vel", 5,
@@ -70,6 +83,21 @@ namespace westonrobot
                     std::placeholders::_1));
 
       tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(node_);
+    }
+
+    void SlamOdomCallback(const nav_msgs::msg::Odometry::SharedPtr msg)
+    {
+      if (!slam_heading_initialized_)
+      {
+        double YAW_OFFSET = 0.1;
+        double yaw = tf2::getYaw(msg->pose.pose.orientation);
+        theta_ = yaw + YAW_OFFSET;
+        position_x_ = msg->pose.pose.position.x; // <- SLAM 위치로 맞추기!
+        position_y_ = msg->pose.pose.position.y; // <- SLAM 위치로 맞추기!
+        slam_init_theta_ = yaw;
+        slam_heading_initialized_ = true;
+        RCLCPP_INFO(node_->get_logger(), "[TracerMessenger] theta_ initialized from SLAM odom: %.3f", yaw);
+      }
     }
 
     void PublishStateToROS()
@@ -86,6 +114,10 @@ namespace westonrobot
       double dt = (current_time_ - last_time_).seconds();
 
       auto state = tracer_->GetRobotState();
+      RCLCPP_INFO(node_->get_logger(),
+                  "[STATE] linear_vel: %.3f, angular_vel: %.3f",
+                  state.motion_state.linear_velocity,
+                  state.motion_state.angular_velocity);
 
       // publish tracer state message
       tracer_msgs::msg::TracerStatus status_msg;
@@ -167,6 +199,9 @@ namespace westonrobot
 
     bool simulated_robot_ = false;
     int sim_control_rate_ = 50;
+    bool slam_heading_initialized_ = true;
+    double slam_init_theta_ = 0.0;
+    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr slam_odom_sub_;
 
     std::mutex twist_mutex_;
     geometry_msgs::msg::Twist current_twist_;
@@ -292,18 +327,26 @@ namespace westonrobot
       //   lateral_speed = 0;
       // }
 
-      double YAW_OFFSET = 0.60;
-
       double d_x = linear_speed * std::cos(theta_) * dt;
       double d_y = linear_speed * std::sin(theta_) * dt;
       double d_theta = angular_speed * dt;
+
+      // RCLCPP_INFO(node_->get_logger(),
+      //             "[ODOM] dt: %.3f, theta_: %.3f, d_x: %.3f, d_y: %.3f, linear_speed: %.3f, angular_speed: %.3f",
+      //             dt, theta_, d_x, d_y, linear_speed, angular_speed);
+
+      if (!slam_heading_initialized_)
+      {
+        // SLAM 초기 yaw 동기화 전까지는 오도메트리 누적 계산 보류
+        return;
+      }
 
       position_x_ += d_x;
       position_y_ += d_y;
       theta_ += d_theta;
 
       geometry_msgs::msg::Quaternion odom_quat =
-          createQuaternionMsgFromYaw(theta_ + YAW_OFFSET);
+          createQuaternionMsgFromYaw(theta_);
 
       // publish tf transformation
       geometry_msgs::msg::TransformStamped tf_msg;
