@@ -12,7 +12,7 @@ def generate_launch_description():
             name='octomap_server',
             output='screen',
             parameters=[{
-                'frame_id': 'odom',   # 출력 맵 프레임
+                'frame_id': 'map',   # 출력 맵 프레임
                 'resolution': 0.03,
                 'publish_2d_map': True,
                 'publish_2d_map_period_sec': 1.0,

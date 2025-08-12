@@ -23,7 +23,7 @@ controller_server:
       plugin: "nav2_controller::SimpleProgressChecker"
       required_movement_radius: 0.10 # 기본 0.5 -> 완화
       movement_time_allowance: 20.0 # 기본 10.0 -> 완화
-    odom_topic: /odom
+    odom_topic: /Odometry
     controller_frequency: 10.0
     controller_plugins: ["FollowPath"]
     FollowPath:
@@ -63,7 +63,7 @@ controller_server:
 global_costmap:
   global_costmap:
     ros__parameters:
-      global_frame: odom
+      global_frame: map
       robot_base_frame: base_link
       update_frequency: 2.0
       publish_frequency: 1.0
@@ -147,7 +147,7 @@ bt_navigator:
 
 velocity_smoother:
   ros__parameters:
-    odom_topic: /odom
+    odom_topic: /Odometry
     smoothing_frequency: 20.0
     scale_velocities: false
     feedback: "OPEN_LOOP" # odom이 매끄럽지 않으면 OPEN_LOOP가 편함
