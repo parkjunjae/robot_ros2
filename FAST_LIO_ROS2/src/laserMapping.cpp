@@ -994,13 +994,23 @@ private:
         try
         {
             T_odom_base = tf_buffer_->lookupTransform(
-                "odom", "base_link", stamp, rclcpp::Duration::from_seconds(0.05));
+                "odom", "base_link", stamp, rclcpp::Duration::from_seconds(0.2));
         }
         catch (const tf2::TransformException &ex)
         {
             RCLCPP_WARN_THROTTLE(this->get_logger(), *this->get_clock(), 2000,
                                  "lookup odom->base_link failed: %s", ex.what());
-            return;
+            try
+            {
+                T_odom_base = tf_buffer_->lookupTransform(
+                    "odom", "base_link", rclcpp::Time(0), rclcpp::Duration::from_seconds(0.2));
+            }
+            catch (const tf2::TransformException &ex2)
+            {
+                RCLCPP_WARN_THROTTLE(this->get_logger(), *this->get_clock(), 2000,
+                                     "lookup odom->base_link@latest also failed: %s", ex2.what());
+                return; // 최신도 없으면 그때만 포기
+            }
         }
 
         tf2::Transform map_base_tf, odom_base_tf;
@@ -1009,7 +1019,7 @@ private:
         tf2::Transform map_odom_tf = map_base_tf * odom_base_tf.inverse();
 
         geometry_msgs::msg::TransformStamped T_map_odom;
-        T_map_odom.header.stamp = stamp;
+        T_map_odom.header.stamp = T_odom_base.header.stamp;
         T_map_odom.header.frame_id = "map";
         T_map_odom.child_frame_id = "odom";
         T_map_odom.transform = tf2::toMsg(map_odom_tf);
