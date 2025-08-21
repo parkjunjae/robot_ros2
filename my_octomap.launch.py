@@ -13,23 +13,25 @@ def generate_launch_description():
             output='screen',
             parameters=[{
                 'frame_id': 'map',   # 출력 맵 프레임
-                'resolution': 0.03,
+                'base_frame_id': 'base_link',
+                'resolution': 0.05,
                 'publish_2d_map': True,
-                'publish_2d_map_period_sec': 1.0,
-                'occupancy_min_z': 1.0,
+                'publish_2d_map_period_sec': 0.2,
+                'occupancy_min_z': 0.10,
                 'occupancy_max_z': 1.2,
-                'pointcloud_min_z': 0.5,
+                'pointcloud_min_z':-0.10,
                 'pointcloud_max_z': 1.2,
-                'sensor_model.max_range': 10.0,
-                'sensor_model.min_range': 1.0,
-                'sensor_model.hit_prob': 0.7,
-                'sensor_model.miss_prob': 0.4,
-                'sensor_model.clamping_thres_min': 0.12,
-                'sensor_model.clamping_thres_max': 0.97,
+                'filter_speckles': True,
+                'sensor_model.max_range': 6.0,
+                'sensor_model.min_range': 0.3,
+                'sensor_model.hit_prob': 0.72,
+                'sensor_model.miss_prob': 0.40,
+                'sensor_model.clamping_thres_min': 0.20,
+                'sensor_model.clamping_thres_max': 0.90,
                 'queue_size': 100
             }],
             remappings=[
-                ('cloud_in', '/Laser_map'),  # 입력 포인트클라우드 토픽
+                ('cloud_in', '/cloud_registered_base'),  # 입력 포인트클라우드 토픽
             ]
         ),
         
@@ -73,7 +75,8 @@ def generate_launch_description():
         # controller
         Node(package='nav2_controller', executable='controller_server',
              name='controller_server', output='screen',
-             parameters=['/home/vertin/ros2_ws/src/your_nav2_pkg/config/nav2_params.yaml']),
+             parameters=['/home/vertin/ros2_ws/src/your_nav2_pkg/config/nav2_params.yaml'],
+             remappings=[('/cmd_vel', '/cmd_vel_nav')]),
         
         Node(package='nav2_smoother', executable='smoother_server',
              name='smoother_server', output='screen',
