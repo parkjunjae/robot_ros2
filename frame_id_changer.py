@@ -137,7 +137,7 @@ class ReframeCloudNode(Node):
             # ★ 핵심: latest TF를 썼다면 출력 메시지 stamp도 latest로 맞춘다.
             if used_latest:
                 # TF가 가진 정확한 최신 시각으로 맞춘다.
-                out.header.stamp = self.get_clock().now().to_msg()
+                out.header.stamp = tf.header.stamp
                 # 대안) now 사용: out.header.stamp = self.get_clock().now().to_msg()
             else:
                 # 요청 시각으로 변환했으니 원래 시각 유지
